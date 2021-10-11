@@ -1,0 +1,785 @@
+% Encoding: UTF-8
+
+@InProceedings{Bertin2021,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{The Place of Preprint Citations in the IMRaD Structure: a Study of PLOS Journals}},
+  booktitle = {18\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2021)},
+  year      = {2021},
+  address   = {Leuven, Belgium},
+}
+
+@InProceedings{Domenget2020,
+  author    = {Domenget, Jean-Claude and Sagot, Sylvain and Atanassova, Iana},
+  title     = {{Concevoir un dispositif innovant pour professionnaliser la formation au référencement web : le projet SEO-ELP}},
+  booktitle = {Congrès ACFAS},
+  year      = {2020},
+  address   = {Sherbrooke, Canada},
+}
+
+@InCollection{Atanassova2020,
+  title     = {Mining Scientific Papers Volume II: Knowledge Discovery and Data Exploitation},
+  booktitle = {Frontiers in Research Metrics and Analytics},
+  year      = {2020},
+  editor    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+}
+
+@InProceedings{at22019,
+  author    = {Atanassova, Iana},
+  title     = {Beyond Metadata: the New Challenges in Mining Scientific Papers (Keynote talk)},
+  booktitle = {8\textsuperscript{th} International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2019) co-located with 41\textsuperscript{st} European Conference on Information Retrieval (ECIR 2019)},
+  year      = {2019},
+  address   = {Cologne, Germany},
+  month     = apr,
+}
+
+@Article{atanassova2019i2D,
+  author  = {Atanassova, Iana and Bertin, Marc and Le Béchec, Mariannig},
+  title   = {Sécuriser le traitement des traces numériques dans le cadre du Règlement général sur la protection des données (RGPD) : anonymisation et pseudonymisation},
+  journal = {I2D – Information, données \& documents},
+  year    = {2019},
+  pages   = {55--58},
+  issn    = {2428-2111},
+}
+
+@Article{atanassova2019frontiers,
+  author   = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  title    = {Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics},
+  journal  = {Frontiers in Research Metrics and Analytics},
+  year     = {2019},
+  volume   = {4},
+  pages    = {2},
+  issn     = {2504-0537},
+  date     = {2019-04-30},
+  doi      = {10.3389/frma.2019.00002},
+  editor   = {Chaomei Chen},
+  keywords = {Data mining ; Text Mining ; Semantic publishing ; Scientific papers ; Bibliometrics ; Scientometrics ; Natural Language Processing ; Computational Linguistics ; Citation Content Analysis ; Academic Search},
+}
+
+@InProceedings{at2019,
+  author    = {Atanassova, Iana and Gan Jin and Ibrahim Soumana and Peter Greenfield and Cardey-Greenfield, Sylviane},
+  title     = {{Semantically-driven Competitive Intelligence Information Extraction: linguistic model and application}},
+  booktitle = {The Eleventh International Conference on Creative Content Technologies (CONTENT 2019)},
+  year      = {2019},
+  address   = {Venice, Italy},
+}
+
+@InProceedings{bertin2019birndl,
+  author    = {Bertin, Marc and Jonin, Pierre and Armetta, Fr{\'e}d{\'e}ric and Atanassova, Iana},
+  title     = {{Identifying the Conceptual Space of Citation Contexts using Coreferences}},
+  booktitle = {{4\textsuperscript{th} Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural Language Processing for Digital Libraries (BIRNDL 2019) at the 42\textsuperscript{nd} International ACM SIGIR Conference)}},
+  year      = {2019},
+  editor    = {Muthu Kumar Chandrasekaran and Mayr, Philipp},
+  volume    = {Vol-2414},
+  pages     = {138--144},
+  address   = {Paris, France},
+  month     = {7},
+  keywords  = {Deep learning ; Citation contexts ; Coreference Resolution},
+}
+
+@InProceedings{bertin2019ISSI,
+  author    = {Bertin, Marc and Jonin, Pierre and Armetta, Frederic and Atanassova, Iana},
+  title     = {Determining Citation Blocks using End-to-end Neural Coreference Resolution Model},
+  booktitle = {17\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2019)},
+  year      = {2019},
+  address   = {Rome, Italie},
+  month     = {9},
+}
+
+@InProceedings{Morsi2019,
+  author    = {Morsi, Youcef Ihab and Atanassova, Iana},
+  title     = {{Analyse morphosyntaxique de l'arabe par une approche linguistique}},
+  booktitle = {{Terminology \& Ontology: Th\'eories and applications (TOTh 2019)}},
+  year      = {2019},
+  address   = {Chamb{\'e}ry, France},
+  month     = Jun,
+}
+
+@InProceedings{periercamby2019bir,
+  author    = {Perier-Camby, Julien and Bertin, Marc and Atanassova, Iana and Armetta, Fr{\'e}d{\'e}ric},
+  title     = {{A preliminary study to compare deep learning with rule-based approaches for citation classification}},
+  booktitle = {{8\textsuperscript{th} International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2019) co-located with the 41\textsuperscript{st} European Conference on Information Retrieval (ECIR 2019)}},
+  year      = {2019},
+  volume    = {2345},
+  pages     = {125--131},
+  address   = {Cologne, Germany},
+  month     = {4},
+}
+
+@InCollection{atanassova2019frontiersb,
+  title     = {Mining Scientific Papers: NLP-enhanced Bibliometrics},
+  booktitle = {Frontiers in Research Metrics and Analytics},
+  year      = {2019},
+  editor    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  date      = {2019-04-30},
+  doi       = {10.3389/frma.2019.00002},
+  issn      = {2504-0537},
+}
+
+@InProceedings{atanassova:hal-01956800,
+  author       = {Atanassova, Iana},
+  title        = {{De l'intuition scientifique au moment de l'illumination : {\'e}tude de "Th{\'e}or{\`e}me vivant'' par C{\'e}dric Villani}},
+  booktitle    = {{Eur{\^e}ka ! Le r{\'e}cit savant de d{\'e}couverte et/ou d'invention}},
+  year         = {2018},
+  address      = {Besan{\c c}on, France},
+  month        = Nov,
+  organization = {{Universit{\'e} de Franche-Comt{\'e} and Centre de Recherches Interdisciplinaires et Transculturelles C.R.I.T. (EA 3224)}},
+}
+
+@InProceedings{atanassova2018wosp,
+  author    = {Atanassova, Iana and Rey, Fran{\c c}ois-C. and Bertin, Marc},
+  title     = {{Studying Uncertainty in Science: a distributional analysis through the IMRaD structure}},
+  booktitle = {{7\textsuperscript{th} International Workshop on Mining Scientific Publications (WOSP 2018) at 11\textsuperscript{th} edition of the Language Resources and Evaluation Conference (LREC 2018)}},
+  year      = {2018},
+  address   = {Miyazaki, Japan},
+  month     = {5},
+}
+
+@InProceedings{bertin2018interec,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{InTeReC: In-text Reference Corpus for Applying Natural Language Processing to Bibliometrics}},
+  booktitle = {{7\textsuperscript{th} International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2018) in conjunction with the 40\textsuperscript{th} European Conference on Information Retrieval (ECIR 2018)}},
+  year      = {2018},
+  address   = {Grenoble, France},
+  month     = {3},
+}
+
+@InProceedings{bertin2018recommending,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{Recommending Scientific Papers: The Role of Citation Contexts}},
+  booktitle = {{1\textsuperscript{st} International Conference on Digital Tools \& Uses Congress}},
+  year      = {2018},
+  pages     = {1--4},
+  address   = {Paris, France},
+  month     = {10},
+  publisher = {{ACM}},
+  doi       = {10.1145/3240117.3240123},
+  keywords  = {Information Retrieval ; Natural Language Processing ; Recommender Systems ; Scientific Papers ; Citation Context Analysis ; Bibliometrics},
+}
+
+@Misc{dataset-interec,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{InTeReC: In-text Reference Corpus - Single References Dataset (Version 1.0.0) [Data set]}},
+  year      = {2018},
+  booktitle = {{Zenodo}},
+  doi       = {10.5281/zenodo.1203737},
+}
+
+@InProceedings{rey2018toth,
+  author    = {Rey, Fran{\c c}ois-C. and Bertin, Marc and Atanassova, Iana},
+  title     = {{Une {\'e}tude de l'incertitude dans les textes scientifiques : vers la construction d'une ontologie}},
+  booktitle = {{Terminology \& Ontology: Theories and applications (TOTh 2018)}},
+  year      = {2018},
+  address   = {Chamb{\'e}ry, France},
+  month     = {6},
+}
+
+@InProceedings{atanassova2017wlv,
+  author       = {Atanassova, Iana},
+  title        = {{What can we learn by processing scientific papers? Looking for the invariants of scientific writing}},
+  booktitle    = {Seminaire},
+  year         = {2017},
+  address      = {Royaume Uni},
+  organization = {Research Group in Computational Linguistics (RGCL), Université de Woverhampton},
+  date         = {2017-02-20},
+}
+
+@InProceedings{atanassova:hal-01956810,
+  author       = {Atanassova, Iana},
+  title        = {{Information retrieval and semantic annotation of scientific corpora (Keynote speech)}},
+  booktitle    = {{6\textsuperscript{th} International Conference The Future of Information Sciences (INFuture) - Integrating ICT in Society}},
+  year         = {2017},
+  address      = {Zagreb, Croatia},
+  month        = Nov,
+  organization = {{Department of Information and Communication Sciences Faculty of Humanities and Social Sciences, University of Zagreb and The Miroslav Krle{\v z}a Institute of Lexicography}},
+}
+
+@InProceedings{bertin2017CLBib,
+  author    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  title     = {{Editorial for the Second Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics (CLBib 2017)}},
+  booktitle = {{Second Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics co-located with 16\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2017)}},
+  year      = {2017},
+  address   = {Wuhan, China},
+  month     = {10},
+}
+
+@Proceedings{bertin2017CLBib2,
+  title     = {{Second Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics (CLBib 2017)}},
+  year      = {2017},
+  editor    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  volume    = {2004},
+  address   = {Wuhan, China},
+  month     = {10},
+  note      = {ISSN: 1613-0073},
+  author    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  booktitle = {{Second Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics co-located with 16\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2017)}},
+  pages     = {1--48},
+}
+
+@InProceedings{atanassova:hal-01956811,
+  author       = {Atanassova, Iana and Hatira, In{\'e}s and El Cadi, Cam{\'e}lia and Cardey-Greenfield, Sylviane},
+  title        = {{Cr{\'e}ation d'une langue contr{\^o}l{\'e}e pour les messages en fran{\c c}ais et en anglais {\`a} destination des pi{\'e}tons pour la mobilit{\'e} urbaine}},
+  booktitle    = {{FUTURMOB-17: Pr{\'e}parer la transition vers la mobilit{\'e} autonome}},
+  year         = {2017},
+  address      = {Montb{\'e}liard, France},
+  month        = Sep,
+  organization = {{Universit{\'e} Bourgogne Franche-Comt{\'e} and Universit{\'e} de Technologie de Belfort Montb{\'e}liard}},
+}
+
+@Proceedings{atanassova:hal-01956808,
+  title        = {{INFuture2017 - Integrating ICT in Society}},
+  year         = {2017},
+  editor       = {Atanassova, Iana and Wajdi Zaghouani and Bruno Kragi{\'c} and Kuldar Aas and Hrvoje Stan{\v c}i{\'c} and Sanja Seljan},
+  address      = {Zagreb, Croatia},
+  month        = Nov,
+  organization = {{Department of Information and Communication Sciences, Faculty of Humanities and Social Sciences, University of Zagreb and The Miroslav Krle{\v z}a Institute of Lexicography}},
+  note         = {ISSN: 1847-8220},
+  author       = {Atanassova, Iana and Zaghouani, Wajdi and Kragi{\'c}, Bruno and Aas, Kuldar and Stan{\v c}i{\'c}, Hrvoje and Seljan, Sanja},
+  booktitle    = {{6\textsuperscript{th}International Conference The Future of Information Sciences (INFuture)}},
+}
+
+@Article{bertin2017IJDL,
+  author   = {Bertin, Marc and Atanassova, Iana},
+  title    = {The context of multiple in-text references and their signification},
+  journal  = {International Journal on Digital Libraries},
+  year     = {2017},
+  month    = {7},
+  issn     = {1432-1300},
+  abstract = {In this paper, we consider sentences that contain multiple in-text references (MIR) and their position in the rhetorical structure of articles. We carry out the analysis of MIR in a large-scale dataset of about 80,000 research articles published by the Public Library of Science in 7 journals. We analyze two major characteristics of MIR: their positions in the IMRaD structure of articles and the number of in-text references that make up a MIR in the different journals. We show that MIR are rather frequent in all sections of the rhetorical structure. In the Introduction section, sentences containing MIR account for more than half of the sentences with references. We examine the syntactic patterns that are most used in the contexts of both multiple and single in-text references and show that they are composed, for the most part, of noun groups. We point out the specificity of the Methods section in this respect.},
+  day      = {21},
+  doi      = {10.1007/s00799-017-0225-7},
+}
+
+@InProceedings{bertin2017birndl,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{K-means and Hierarchical Clustering Method to Improve our Understanding of Citation Contexts}},
+  booktitle = {{Proceedings of the 2\textsuperscript{nd} Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural Language Processing for Digital Libraries (BIRNDL 2017) co-located with the 40\textsuperscript{th} International ACM SIGIR Conference}},
+  year      = {2017},
+  volume    = {1888},
+  pages     = {107--112},
+  address   = {Tokyo, Japan},
+  month     = {8},
+  keywords  = {In-text References ; Bibliometrics ; Citation Analysis ; IM- RaD Structure ; Text Mining ; K-means ; hierarchical clustering},
+}
+
+@InProceedings{guterhle:hal-01956816,
+  author       = {Guterhl{\'e}, Nicolas and Atanassova, Iana and Cardey-Greenfield, Sylviane},
+  title        = {{Langue contr{\^o}l{\'e}e pour un syst{\`e}me de messages et alertes dans un environnement de mobilit{\'e} : gestion de l'ambigu{\"i}t{\'e} phonologique}},
+  booktitle    = {{FUTURMOB-17: Pr{\'e}parer la transition vers la mobilit{\'e} autonome}},
+  year         = {2017},
+  address      = {Montb{\'e}liard, France},
+  month        = Sep,
+  organization = {{Universit{\'e} Bourgogne Franche-Comt{\'e} and Universit{\'e} de Technologie de Belfort Montb{\'e}liard}},
+}
+
+@InProceedings{jin:hal-01956803,
+  author       = {Jin, Gan and Atanassova, Iana and Soumana, Ibrahim and Cardey-Greenfield, Sylviane},
+  title        = {{Mod{\`e}le pour un syst{\`e}me multilingue d'analyse des opinons et de sentiment}},
+  booktitle    = {{Terminology \& Ontology : Th\'eories and applications (TOTh 2017)}},
+  year         = {2017},
+  address      = {Chamb{\'e}ry, France},
+  month        = Jun,
+  organization = {{University of Savoie}},
+}
+
+@InProceedings{atanassova2016Leiden,
+  author       = {Atanassova, Iana},
+  title        = {{Mining Scientific Papers: Structure, Citations, Semantics}},
+  booktitle    = {Seminaire},
+  year         = {2016},
+  address      = {Leiden, Pays Bas},
+  organization = {Centre for Science and Technology Studies (CWTS)},
+  date         = {2016-10-14},
+}
+
+@InProceedings{atanassova2016openminted,
+  author    = {Atanassova, Iana},
+  title     = {TDM Stories: The Structure of Papers},
+  booktitle = {OpenMidTed Communications},
+  year      = {2016},
+  url       = {http://openminted.eu/tdm-stories-structure-papers/},
+}
+
+@Article{atanassova2016dlibtemporal,
+  author  = {Atanassova, Iana and Bertin, Marc},
+  title   = {Temporal Properties of Recurring In-text References},
+  journal = {D-Lib Magazine},
+  year    = {2016},
+  volume  = {9/10},
+  number  = {22},
+  issn    = {1082-9873},
+  doi     = {10.1045/september2016-atanassova},
+}
+
+@InProceedings{atanassova2016HrTAL,
+  author    = {Atanassova, Iana and Bertin, Marc and Cardey, Sylviane and Greenfield, Peter},
+  title     = {{Interfacing the Domain of Global Security with Natural Language Processing: the Role of Language Modelling}},
+  booktitle = {{The Tenth International Conference on Natural Language Processing (HrTAL 2016)}},
+  year      = {2016},
+  volume    = {42},
+  number    = {82},
+  series    = {Suvremena lingvistika},
+  pages     = {249--252},
+  address   = {Dubrovnik, Croatia},
+  month     = {9},
+}
+
+@Article{atanassova2016JODabstract,
+  author  = {Atanassova, Iana and Bertin, Marc and Larivière, Vincent},
+  title   = {On the composition of scientific abstracts},
+  journal = {Journal of Documentation},
+  year    = {2016},
+  volume  = {72},
+  number  = {4},
+  pages   = {636--647},
+  issn    = {0022-0418},
+  doi     = {10.1108/JDOC-09-2015-0111},
+}
+
+@InProceedings{bertin2016bir,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{Weak Links and Strong Meaning: The Complex Phenomenon of Negational Citations}},
+  booktitle = {{Bibliometric-enhanced Information Retrieval (BIR 2016) co-located with the 38\textsuperscript{th} European Conference on Information Retrieval (ECIR 2016)}},
+  year      = {2016},
+  editor    = {Mayr, Philipp and Ingo Frommholz and Guillaume Cabanac},
+  volume    = {Vol-1567},
+  pages     = {14--25},
+  address   = {Padova, Italy},
+  month     = {3},
+  publisher = {{CEUR Workshop Proceedings}},
+  keywords  = {Citation Context Analysis In-text References ; Bibliometrics ; Semantic Annotation ; IMRaD ; Negative Citations},
+}
+
+@InProceedings{bertin2016birndlmultiple,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{Multiple In-text Reference Phenomenon}},
+  booktitle = {{Workshop on Bibliometric-enhanced Information Retrieval and NLP for Digital Libraries (BIRNDL 2016) co-located with the Joint Conference on Digital Libraries (JCDL 2016)}},
+  year      = {2016},
+  volume    = {19},
+  number    = {2-3},
+  pages     = {14--22},
+  address   = {Newark, NJ, United States},
+  month     = {6},
+  file      = {paper2.pdf:https\://hal.archives-ouvertes.fr/hal-01885074/file/paper2.pdf:PDF},
+  keywords  = {Multiple In-text References ; Citation Analysis ; Bibliometrics ; Content Citation Analysis ; IMRaD structure ; In-text References},
+}
+
+@Article{bertin2016jasist,
+  author   = {Bertin, Marc and Atanassova, Iana and Larivière, Vincent and Gingras, Yves},
+  title    = {The Invariant Distribution of References in Scientific Articles},
+  journal  = {Journal of the Association for Information Science and Technology (JASIST)},
+  year     = {2016},
+  volume   = {67},
+  number   = {1},
+  pages    = {164-177},
+  issn     = {2330-1643},
+  abstract = {The organization of scientific papers typically follows a standardized pattern, the well-known IMRaD structure (Introduction, Methods, Results, and Discussion). Using the full text of 45,000 papers published in the PLoS series of journals as a case study, this paper investigates, from the viewpoint of bibliometrics, how references are distributed along the structure of scientific papers, as well as the age of these cited references. It shows that, once the sections of articles are realigned to follow the IMRaD sequence, the position of cited references along the text of articles is invariant across all PLoS journals, with the introduction and conclusion accounting for most of the references. It also provides evidence that the age of cited references varies quite a lot by section, with older references being found in the methods and more recent ones in the discussion. On the whole, these results provide insight into the different roles citations have in the scholarly communication process.},
+  doi      = {10.1002/asi.23367},
+}
+
+@Article{bertin2016scientometricsngrams,
+  author  = {Bertin, Marc and Atanassova, Iana and Sugimoto, Cassidy R. and Lariviere, Vincent},
+  title   = {The Linguistic Patterns and Rhetorical Structure of Citation Context: an approach using n-grams.},
+  journal = {Scientometrics},
+  year    = {2016},
+  volume  = {3},
+  number  = {109},
+  pages   = {1417--1434},
+  issn    = {0138-9130},
+  doi     = {10.1007/s11192-016-2134-8},
+}
+
+@InProceedings{morsi:hal-01956613,
+  author    = {Morsi, Youcef Ihab and Bordet, Yves and Atanassova, Iana},
+  title     = {{{\'E}tude lexicale de textes arabes pour l'{\'e}valuation automatique de la complexit{\'e} textuelle}},
+  booktitle = {{7\textsuperscript{e} Colloque International en Traductologie et TAL (TRADETAL 2016)}},
+  year      = {2016},
+  address   = {Oran, Algeria},
+  month     = {5},
+}
+
+@InProceedings{rey:hal-01956806,
+  author       = {Rey, Fran{\c c}ois-C. and Thomas, Izabella and Atanassova, Iana},
+  title        = {{G{\'e}n{\'e}ration d'exercices d'apprentissage de langue de sp{\'e}cialit{\'e} par l'exploration du corpus}},
+  booktitle    = {{Atelier Enseignement des langues et TAL (ELTAL)}},
+  year         = {2016},
+  volume       = {9},
+  series       = {Actes de la conf{\'e}rence conjointe JEP-TALN-RECITAL 2016},
+  address      = {Paris, France},
+  month        = Jul,
+  organization = {{Inalco}},
+}
+
+@InProceedings{Atanassova2015c,
+  author    = {Atanassova, Iana},
+  title     = {Fouille textuelle de revues intellectuelles qu\'eb\'ecoises},
+  booktitle = {83\textsuperscript{e} congr\`es de l'ACFAS (Association francophone pour le savoir), "Une plateforme pour la recherche et l'exp\'erimentation"},
+  year      = {2015},
+  address   = {Rimouski, Canada},
+}
+
+@InProceedings{atanassova2015GAST,
+  author    = {Atanassova, Iana and Bertin, Marc and Kauppinen, Tomi},
+  title     = {{Exploitation de donn{\'e}es spatiales provenant d'articles scientifiques pour le suivi des maladies tropicales}},
+  booktitle = {{Gestion et Analyse des donn{\'e}es Spatiales et Temporelles (GAST'2015), 15\textsuperscript{e} conf{\'e}rence internationale sur l'extraction et la gestion des connaissances (EGC 2015)}},
+  year      = {2015},
+  editor    = {Thomas Guyet and {\'E}ric Kergosien},
+  pages     = {21--32},
+  address   = {Luxembourg},
+  month     = {1},
+  keywords  = {Linked Data ; g{\'e}ocodage ; Natural Language Processing ; Spatio-temporal Management and Analysis ; Gestion et Analyse Spatio-temporelles ; Traitement Automatique du Langage Naturel ; PLOS ; geocoding ; Web des donn{\'e}es},
+}
+
+@InProceedings{2015-ISSI-atanassova-survey,
+  author    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  title     = {{Mining Scientific Papers for Bibliometrics: a (very) Brief Survey of Methods and Tools}},
+  booktitle = {{15\textsuperscript{th} International Society of Scientometrics and Informetrics Conference (ISSI 2015)}},
+  year      = {2015},
+  address   = {Istanbul, Turkey},
+  month     = {6},
+}
+
+@InProceedings{atanassova2015clbib,
+  author    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  title     = {{Editorial for the First Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics (CLBib 2015)}},
+  booktitle = {{First Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics co-located with 15\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2015)}},
+  year      = {2015},
+  volume    = {Vol-1384},
+  pages     = {1--4},
+  address   = {Istanbul, Turkey},
+  month     = {6},
+}
+
+@Proceedings{atanassova2015clbib2,
+  title     = {{First Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics (CLBib 2015)}},
+  year      = {2015},
+  editor    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  volume    = {1384},
+  address   = {Istanbul, Turkey},
+  month     = {6},
+  note      = {ISSN: 1613-0073},
+  author    = {Atanassova, Iana and Bertin, Marc and Mayr, Philipp},
+  booktitle = {{First Workshop on Mining Scientific Papers: Computational Linguistics and Bibliometrics co-located with 15\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2015)}},
+  pages     = {1--49},
+}
+
+@InProceedings{2015-relire-atanassova,
+  author    = {Atanassova, Iana and Warren, Jean-Philippe and Bertin, Marc},
+  title     = {{Analyse logom{\'e}trique des revues qu{\'e}b{\'e}coises : traitements et visualisations}},
+  booktitle = {{Colloque: Relire les revues qu{\'e}b{\'e}coises : histoires, formes et pratiques}},
+  year      = {2015},
+  address   = {Montr{\'e}al, Canada},
+  month     = {10},
+}
+
+@InProceedings{2015-BIR-bertin-afc,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{Factorial correspondence analysis applied to citation contexts}},
+  booktitle = {{Conference: 2\textsuperscript{nd} International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2015) at the 37\textsuperscript{th} European Conference on Information Retrieval (ECIR 2015)}},
+  year      = {2015},
+  volume    = {1344},
+  pages     = {22--29},
+  address   = {Vienne, Austria},
+  month     = {3},
+}
+
+@InProceedings{2015-ISSI-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{Characterizing In-text Citations using N-gram Distributions}},
+  booktitle = {{15\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2015)}},
+  year      = {2015},
+  editor    = {Albert Ali Salah et al.},
+  address   = {Istanbul, Turkey},
+  month     = {6},
+}
+
+@Article{bertin2015asist,
+  author  = {Bertin, Marc and Atanassova, Iana and Vincent Larivière and Gingras, Yves},
+  title   = {{Mapping the Linguistic Context of Citations}},
+  journal = {{Bulletin of the Association for Information Science and Technology (ASIST) Featuring the “The Future of Science Mapping”}},
+  year    = {2015},
+  volume  = {41},
+  number  = {2},
+  month   = {1},
+  issn    = {2373-9223},
+  doi     = {10.1002/bult.2015.1720410208},
+}
+
+@InProceedings{2015-AAAS-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana and Larivi{\`e}re, Vincent and Gingras, Yves},
+  title     = {{The Linguistic Context of Citations: a Cartography of the Structure of Scientific Papers}},
+  booktitle = {{American Association for the Advancement of Science (AAAS) Annual Meeting - Innovations, Information, and Imaging}},
+  year      = {2015},
+  address   = {San Jose, California, United States},
+  month     = {2},
+}
+
+@Article{bertin2015acfascarto,
+  author  = {Bertin, Marc and Atanassova, Iana and Larivière, Vincent and Gingras, Yves},
+  title   = {Cartographie linguistique des références citées},
+  journal = {Découvrir, le magazine de l'Association Francophone pour le savoir (ACFAS)},
+  year    = {2015},
+}
+
+@InProceedings{Thomas2015,
+  author    = {Izabella Thomas and Atanassova, Iana},
+  title     = {Towards the Enrichment of Terminological Resources by Scientific Corpora Analysis},
+  booktitle = {Electronic lexicography in the 21\textsuperscript{th} century Conference: Linking lexical data in the digital age (eLex 2015)},
+  year      = {2015},
+  address   = {United Kingdom},
+}
+
+@Proceedings{tasla2015,
+  title    = {Atelier "Traitement Automatique des Langues Slaves" (TASLA)},
+  year     = {2015},
+  date     = {2015-06-22},
+  editor   = {Kostov, Jovan and Thomas, Izabella and Atanassova, Iana},
+  series   = {22\textsuperscript{e} Conférence sur le Traitement Automatique des Langues Naturelles (TALN 2015)},
+  location = {Caen},
+  address  = {Caen},
+}
+
+@InProceedings{2014-ESWC-atanassova,
+  author    = {Atanassova, Iana and Bertin, Marc},
+  title     = {{Faceted Semantic Search for Scientic Papers}},
+  booktitle = {{Semantic Publishing Challenge co-located with 11\textsuperscript{th} European Semantic Web Conference (ESWC 2014)}},
+  year      = {2014},
+  address   = {Anissaras, Greece},
+  month     = {5},
+  keywords  = {Semantic Annotation ; Information Retrieval ; Faceted Search ; Semantic Facets ; Solr},
+}
+
+@InBook{atanassova2014sewebeval,
+  chapter   = {Semantic Facets for Scientific Information Retrieval},
+  pages     = {108--113},
+  title     = {Semantic Web Evaluation Challenge: SemWebEval 2014 at ESWC 2014},
+  publisher = {Springer},
+  year      = {2014},
+  author    = {Atanassova, Iana and Bertin, Marc},
+  editor    = {Valentina Presutti et al.},
+  month     = {5},
+  isbn      = {978-3-319-12024-9},
+  abstract  = {We present an Information Retrieval System for scientific publications that provides the possibility to filter results according to semantic facets. We use sentence-level semantic annotations that identify specific semantic relations in texts, such as methods, definitions, hypotheses, that correspond to common information needs related to scientific literature. The semantic annotations are obtained using a rule-based method that identifies linguistic clues organized into a linguistic ontology. The system is implemented using Solr Search Server and offers efficient search and navigation in scientific papers.},
+  booktitle = {Communications in Computer and Information Science},
+}
+
+@InProceedings{2014-BIR-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{A study of lexical distribution in citation contexts through the IMRaD standard}},
+  booktitle = {{Proceedings of the 1\textsuperscript{st} Workshop on Bibliometric-enhanced Information Retrieval (BIR 2014) co-located with 36\textsuperscript{th} European Conference on Information Retrieval (ECIR 2014)}},
+  year      = {2014},
+  volume    = {1143},
+  pages     = {5--12},
+  address   = {Amsterdam, Netherlands},
+  month     = {4},
+  keywords  = {Content Citation Analysis ; Citation Contexts ; Bibliographic References ; IMRaD ; Citation Acts ; Lexical Distribution},
+}
+
+@InProceedings{2014-ESWC-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{Hybrid Approach for the Semantic Processing of Scientic Papers}},
+  booktitle = {{Semantic Publishing Challenge co-located with 11\textsuperscript{th} European Semantic Web Conference (ESWC 2014)}},
+  year      = {2014},
+  address   = {Anissaras, Crete, Greece},
+  month     = {5},
+  keywords  = {Semantic Annotation ; Citation Acts ; CRF ; RDF graphs},
+}
+
+@InProceedings{bertin2014fouille,
+  author    = {Bertin, Marc and Atanassova, Iana},
+  title     = {{Fouille textuelle, extraction et cat{\'e}gorisation de contextes de citations pour les articles scientifiques}},
+  booktitle = {82\textsuperscript{e} Congr{\`e}s de l'ACFAS (Association francophone pour le savoir), LNISC 2014 Langues Naturelles, Informatique et Sciences Cognitives Colloque 635},
+  year      = {2014},
+  address   = {Montr{\'e}al, Canada},
+  month     = May,
+}
+
+@InBook{bertin2014springersempub6,
+  chapter   = {Extraction and Characterization of Citations in Scientific Papers},
+  pages     = {120--128},
+  title     = {Semantic Web Evaluation Challenge: SemWebEval 2014 at ESWC 2014},
+  publisher = {Springer},
+  year      = {2014},
+  author    = {Bertin, Marc and Atanassova, Iana},
+  editor    = {Valentina Presutti et al.},
+  month     = {5},
+  isbn      = {978-3-319-12024-9},
+  booktitle = {Communications in Computer and Information Science},
+}
+
+@InProceedings{2014-iteration-bertin,
+  author       = {Bertin, Marc and Atanassova, Iana and Larivi{\`e}re, Vincent and Gingras, Yves},
+  title        = {{The Linguistic Context of Citations}},
+  booktitle    = {{10\textsuperscript{th} Iteration (2014): The Future of Science Mapping,'' Places \& Spaces: Mapping Science}},
+  year         = {2014},
+  address      = {Indiana, United States},
+  organization = {{Katy B{\"o}rner and Samuel Mills}},
+  url          = {http://scimaps.org/mapdetail/the_linguistic_conte_177},
+}
+
+@InProceedings{2013-ISSI-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana and Larivi{\`e}re, Vincent and Gingras, Yves},
+  title     = {{The distribution of references in scientific papers: An analysis of the IMRaD structure}},
+  booktitle = {{14\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2013)}},
+  year      = {2013},
+  volume    = {1},
+  pages     = {591--603},
+  address   = {Vienne, Austria},
+  month     = {7},
+}
+
+@PhdThesis{Atanassova2012These,
+  author   = {Atanassova, Iana},
+  title    = {Exploitation informatique des annotations sémantiques automatiques d'Excom pour la recherche d'informations et la navigation},
+  year     = {2012},
+  month    = {janvier},
+  address  = {Paris, France},
+  keywords = {Information retrieval, Semantic annotation, Contextual exploration, Information extraction, Ranking algorithm},
+  school   = {Universit\'{e} Paris-Sorbonne (Paris-IV), sous la direction de Pr. Jean-Pierre Desclés},
+  title-en = {Information Retrieval and Text Navigation through the Exploitation of the Automatic Semantic Annotation of the Excom Engine},
+}
+
+@InProceedings{2012-RISE-atanassova,
+  author    = {Atanassova, Iana and Bertin, Marc and Descl{\'e}s, Jean-Pierre},
+  title     = {{Ordonnancement des r{\'e}ponses pour une recherche d'information s{\'e}mantique {\`a} partir d'une ontologie discursive}},
+  booktitle = {{Quatri{\`e}me Atelier Recherche d'Information SEmantique (RISE 2012) co-located with 12\textsuperscript{e} Conf{\'e}rence Internationale Francophone sur l'Extraction et la Gestion des Connaissances (EGC 2012)}},
+  year      = {2012},
+  editor    = {Roussey Catherine and Chevallet Jean-Pierre},
+  address   = {Bordeaux, France},
+  month     = {1},
+}
+
+@InProceedings{2012-WOSP-bertin,
+  author       = {Bertin, Marc and Atanassova, Iana},
+  title        = {{Semantic Enrichment of Scientific Publications and Metadata}},
+  booktitle    = {{1\textsuperscript{st} International Workshop on Mining Scientific Publications (WOSP 2012) co-located with ACM/IEEE Joint Conference on Digital Libraries (JCDL 2012)}},
+  year         = {2012},
+  address      = {Washington DC, United States},
+  month        = {6},
+  organization = {{Petr Knoth and Zdenek Zdrahal and Andreas Juffinger}},
+}
+
+@Article{bertin2012dlibsemantic,
+  author   = {Bertin, Marc and Atanassova, Iana},
+  title    = {Semantic Enrichment of Scientific Publications and Metadata: Citation Analysis Through Contextual and Cognitive Analysis},
+  journal  = {D-Lib Magazine},
+  year     = {2012},
+  volume   = {18},
+  number   = {7/8},
+  month    = {7},
+  issn     = {1082-9873},
+  abstract = {The last several years have seen the emergence of digital libraries from which documents are harvested using the OAI-PMH protocol. Considering the volume of data provided by these repositories, we are interested in the exploitation of the full text content of scientific publications. Our aim is to bring new value to scientific publications by automatic extraction and semantic analysis. The identification of bibliographic references in texts makes it possible to localize specific text segments that carry linguistic markers in order to annotate a set of semantic categories related to citations. This work uses a categorization of surface linguistic markers organized in a linguistic ontology. The semantic annotations are used to enrich the document metadata and to provide new types of visualizations in an information retrieval context. We present the system architecture as well as some experimental results},
+  doi      = {doi:10.1045/july2012-bertin},
+}
+
+@InProceedings{2012-EGC-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana and Descl{\'e}s, Jean-Pierre},
+  title     = {{Outils de fouille textuelle {\`a} partir d'annotations s{\'e}mantiques}},
+  booktitle = {{12\textsuperscript{e} Conf{\'e}rence Internationale Francophone sur l'Extraction et la Gestion des Connaissances (EGC 2012)}},
+  year      = {2012},
+  address   = {Bordeaux, France},
+  month     = {1},
+  subtitle  = {Démonstration de logiciels},
+}
+
+@InProceedings{2012-IC2012-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana and Descl{\'e}s, Jean-Pierre},
+  title     = {{Quelques applications de fouille textuelle d{\'e}di{\'e}es aux articles scientifiques (d{\'e}monstration)}},
+  booktitle = {{23\textsuperscript{es} Journ{\'e}es francophones d'ing{\'e}nierie des connaissances (IC 2012)}},
+  year      = {2012},
+  address   = {Paris, France},
+  month     = {6},
+}
+
+@Unpublished{atanassova2015lip6,
+  author    = {Atanassova, Iana},
+  title     = {Recherche d'information et fouille textuelle à partir d'annotations sémantiques de textes scientifiques},
+  year      = {2011},
+  note      = {Laboratoire LIP6, UMR 7606 UPMC - CNRS, Paris},
+  month     = {Novembre}
+}
+
+@InBook{2011-hermes-fouille,
+  pages        = {77--108},
+  title        = {{Fouille s{\'e}mantique des th{\`e}ses en ligne}},
+  publisher    = {Hermes Science Publications},
+  year         = {2011},
+  author       = {Desclés, Jean-Pierre and Le Priol, Florence and Alrahabi, Motasem and Atanassova, Iana and Bertin, Marc},
+  editor       = {Biskri, Ismaïl and Jebali, Adel},
+  series       = {Cognition et traitement de l'information},
+  isbn         = {9782746231382},
+  booksubtitle = {Recherche - Technologie - Applications (RTA)},
+  booktitle    = {Traitement automatique des langues naturelles: de l'analyse à l'application (Cognition et traitement de l'information)},
+}
+
+@InProceedings{2010-ACFAS-descles,
+  author    = {Descl{\'e}s, Jean-Pierre and Le Priol, Florence and Alrahabi, Motasem and Atanassova, Iana and Bertin, Marc},
+  title     = {{Fouille s{\'e}mantique des th{\`e}ses en ligne : un projet de Paris-Sorbonne}},
+  booktitle = {78\textsuperscript{e} Congr{\`e}s de l'ACFAS (Association francophone pour le savoir), ''Traitement automatique des langues naturelles, analyses et applications''},
+  year      = {2010},
+  address   = {Montr{\'e}al, Canada},
+  month     = {5},
+  keywords  = {semantic search ; information retrieval ; contextual exploration ; thesis on line ; fouille s{\'e}mantique ; filtrage et recherche d'information ; exploration contextuelle ; th{\`e}se en ligne},
+}
+
+@Unpublished{atanassova2009medialab,
+  Title                    = {Quels outils de mesure et de navigation en sciences humaines et sociales ? Analyse s\'emantique et automatique de r\'ef\'erences bibliographiques},
+  Author                   = {Atanassova, Iana},
+  Note                     = {M\'edialab, Sciences Po, Paris},
+  Month                    = {Novembre},
+  Year                     = {2009}
+}
+
+@InProceedings{2009-FLAIRS-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana and Descl{\'e}s, Jean-Pierre},
+  title     = {{Automatic analysis of author judgment in scientific articles based on semantic annotation}},
+  booktitle = {{The 22\textsuperscript{nd} International Florida Artificial Intelligence Research Society Conference, (FLAIRS 2009)}},
+  year      = {2009},
+  address   = {Sanibel Island, Florida, United States},
+  month     = {5},
+  publisher = {{AAAI Press}},
+}
+
+@InProceedings{2009-RANLP-bertin,
+  author    = {Bertin, Marc and Atanassova, Iana and Descl{\'e}s, Jean-Pierre},
+  title     = {{Extraction of Authors' Definitions using Indexed Reference Identification}},
+  booktitle = {{Proceedings of the 1\textsuperscript{st} Workshop on Definition Extraction co-located with Recent Advances in Natural Language Processing (RANLP 2009)}},
+  year      = {2009},
+  address   = {Borovets, Bulgaria},
+  month     = {9},
+  keywords  = {indexed references ; definition extraction ; Semantic annotation},
+}
+
+@InProceedings{Atanassova2008,
+  author    = {Atanassova, Iana and Blais, Antoine and Descl{\'e}s, Jean-Pierre},
+  title     = {{A Cross-lingual Approach to the Discourse Automatic Annotation: Application to French and Bulgarian}},
+  booktitle = {The 21\textsuperscript{st} International International Florida Artificial Intelligence Research Society Conference (FLAIRS 2008)},
+  year      = {2008},
+  publisher = {AAAI Press},
+  month     = {May},
+  abstract  = {In this paper we propose a cross-lingual approach to the discourse automatic annotation of scientific articles by the Contextual Exploration method. We present an application to French and Bulgarian as an illustration of the possibility to work with different languages that the method provides. We describe the methodology for the construction of the linguistic resources for Bulgarian based on the already existing resources for French and make an evaluation of the obtained annotations. We also discuss some of the applications of the discourse automatic annotation for automatic summarization and information retrieval.},
+  address   = {Coconut Grove, Florida, USA},
+}
+
+@InProceedings{Atanassova2008a,
+  author    = {Atanassova, Iana and Descl\'es, Jean-Pierre and Franchi, Aur\'elien and Le Priol, Florence},
+  title     = {{La plate-forme EXCOM comme outil automatique d'annotations s\'emantiques des textes pour la cat\'egorisation des informations sur le Web}},
+  booktitle = {Colloque "Internet : besoin de communiquer autrement", Universit\'e St. Cl\'ement d'Ohride},
+  year      = {2008},
+  address   = {Sofia, Bulgarie},
+  month     = {octobre},
+}
+
+@InProceedings{Blais2007,
+  author    = {Antoine Blais and Atanassova, Iana and Jean-Pierre Descl\'es and Leila Zighem and Mimi Zhang},
+  title     = {{Discourse Automatic Annotation of Texts: an Application to Summarization}},
+  booktitle = {The 20\textsuperscript{th} International Florida Artificial Intelligence Research Society Conference (FLAIRS 2007)},
+  year      = {2007},
+  publisher = {AAAI Press},
+  month     = {May},
+  abstract  = {The exploitation of the discourse structure of a text and the identification of the discourse categories are essential elements for the automatic summarization, as well as for the textual information retrieval. In this paper we will describe an automatic summarization strategy that uses these elements as the basis for the extraction of the most relevant textual segments that will constitute the summary. Certain linguistic markers allow us to annotate automatically a text according to discourse categories, in order to make visible the discourse structure and the discourse categories in the text. Our approach is domain independent and the discourse categories that we use for summarization are general for all natural languages. This makes it possible to apply our method to articles in various domains and in different languages.},
+  address   = {Key West, Florida, USA},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: saveOrderConfig:specified;year;true;author;false;month;false;}
