@@ -53,22 +53,5 @@
     <!-- JavaScripts -->
     {% include scripts.liquid %}
 
-    <!-- Iana customisation for toc of publications -->
-    {% if page.toc and page.toc.levelcustom %}
-      <script>
-      // Remove data-toc-skip from all h2 elements
-      document.querySelectorAll('h2[data-toc-skip]').forEach(el => {
-        el.removeAttribute('data-toc-skip');
-      });
-
-      // Add data-toc-skip="" to all h1 and h3 elements
-      document.querySelectorAll('h3').forEach(el => {
-        el.setAttribute('data-toc-skip', '');
-      });
-      document.querySelectorAll('h1').forEach(el => {
-        el.setAttribute('data-toc-skip', '');
-      });
-      </script>
-    {% endif %}
   </body>
 </html>

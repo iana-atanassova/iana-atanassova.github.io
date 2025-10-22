@@ -21,17 +21,17 @@ layout: default
           </a>
         {% endif %}
         {% if page.cv_pdf_french %}
-          <a
-            {% if page.cv_pdf contains '://' %}
+          <a 
+            {% if page.cv_pdf_french contains '://' %}
               href="{{ page.cv_pdf_french }}"
             {% else %}
               href="{{ page.cv_pdf_french | prepend: 'assets/pdf/' | relative_url }}"
             {% endif %}
             target="_blank"
             rel="noopener noreferrer"
-            class="float-right"
+            class="float-right" style="color:#882288;" 
           >
-            <i class="fa-solid fa-file-pdf" style="color:red"></i> [French]
+            <i class="fa-solid fa-file-pdf"></i> [French]
           </a>
         {% endif %}
       </h1>
