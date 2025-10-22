@@ -9,12 +9,12 @@ nav_order: 7
 
 {% assign sorted_outreach = site.outreach | sort: "importance" %}
 
-  <!-- Generate cards for each project -->
+<!-- Generate cards -->
 
 <div class="container">
-<div class="row row-cols-1 row-cols-md-2">
+<div class="row row-cols-1 row-cols-md-3">
 {% for project in sorted_outreach %}
-  {% include projects_horizontal.liquid %}
+  {% include projects.liquid %}
 {% endfor %}
 </div>
 </div>

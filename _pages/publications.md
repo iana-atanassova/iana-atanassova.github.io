@@ -7,6 +7,7 @@ nav: true
 nav_order: 2
 toc:
   sidebar: left
+  levelcustom: true
 ---
 
 <!-- _pages/publications.md -->
