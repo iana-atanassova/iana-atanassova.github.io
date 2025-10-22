@@ -150,18 +150,6 @@ collections:
     output: true
   projects:
     output: true
-  publications:
-    output: true
-
-
-autopages:
-  publications-by-year:
-    year: ':year'
-    permalink: '/publications/:year/'
-    collection: publications
-    paginate:
-      enabled: true
-      per_page: 1
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

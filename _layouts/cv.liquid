@@ -17,7 +17,21 @@ layout: default
             rel="noopener noreferrer"
             class="float-right"
           >
-            <i class="fa-solid fa-file-pdf"></i>
+            <i class="fa-solid fa-file-pdf"></i> [English]
+          </a>
+        {% endif %}
+        {% if page.cv_pdf_french %}
+          <a
+            {% if page.cv_pdf contains '://' %}
+              href="{{ page.cv_pdf_french }}"
+            {% else %}
+              href="{{ page.cv_pdf_french | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+          >
+            <i class="fa-solid fa-file-pdf" style="color:red"></i> [French]
           </a>
         {% endif %}
       </h1>
