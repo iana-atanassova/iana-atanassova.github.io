@@ -10,8 +10,6 @@ toc:
   levelcustom: true
 ---
 
-<!-- _pages/publications.md -->
-
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
