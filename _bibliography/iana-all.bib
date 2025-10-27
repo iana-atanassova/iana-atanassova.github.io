@@ -1,77 +1,266 @@
 % Encoding: UTF-8
 
-@InProceedings{Atanassova2024,
-  author     = {Atanassova, Iana},
-  title      = {Approches linguistiques pour la fouille d'articles scientifiques},
-  booktitle  = {Atelier TextMine'24, Conf{\'e}rence internationale sur l'extraction et la gestion des connaissances (EGC 2024)},
-  year       = {2024},
-  month      = jan,
-  address    = {Dijon, France},
-  annotation = {cat-invite},
+
+@InProceedings{Atanassova2025,
+  author      = {Iana Atanassova and Ningrum, Panggih Kusuma and Nicolas Gutehrlé and Francis Lareau and Christophe Malaterre},
+  booktitle   = {20\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2025)},
+  title       = {{Is There Life on Mars? Studying the Context of Uncertainty in Astrobiology}},
+  address     = {Yerevan, Armenia},
+  author+an   = {1=me;2=student;3=student},
+  bibtex_show = {true},
+  month       = {6},
+  annotation     = {conf-internat},
+  year        = {2025},
+  selected = {true},
+  abstract = {While science is often portrayed as producing reliable knowledge, scientists tend to express caution about their claims,
+acknowledging nuances and doubt, all the more so in novel domains of research paved with unknowns. Uncertainty is
+an intrinsic aspect of scientific inquiry, particularly in recent fields such as astrobiology, which tackles numerous hard
+questions about the origin, evolution, and distribution of life on Earth and elsewhere. Mapping uncertainty in science
+matters for achieving a more accurate understanding of scientific knowledge. It also helps identify research domains
+at the frontiers of knowledge where unknowns are the most salient. In this article, we investigate the presence,
+distribution and context of uncertainty in the field of astrobiology. We analyze a comprehensive corpus of 3,698
+research articles published in three major journals in the domain from 1968 to 2020. We use a linguistically motivated
+approach to identify expression of uncertainty in article full text. The corpus was further segmented into research topics
+using Latent Dirichlet Allocation (LDA) to investigate variations in uncertainty across subfields and over time. Our
+findings show that, while uncertainty has remained relatively stable over the 50 years covered by the corpus,
+constituting 20–25\% of sentences on average, it varies significantly across research fields, highlighting areas where
+unknowns, doubts and speculations are more prevalent. The analysis also highlights relationships between expression
+of uncertainty and rhetorical structure. Indeed, higher uncertainty levels were observed in the beginning (introductions)
+and towards the end (conclusions) of research articles, while middle sections contained less uncertainty. Abstracts also
+tended to express a slightly higher level of uncertainty compared to main texts, especially with greater variability,
+suggesting their role in summarizing research and highlighting unknowns. To investigate the context of uncertainty, a
+lexical analysis was conducted to identify nouns most frequently associated with uncertainty within each topic. Terms
+such as “life,” “planet,” and “Mars” were found to be strongly associated with uncertainty. Conversely, terms related
+to experimentation and measurement, such as “sample” and “spectrum,” were linked to an absence of uncertainty,
+pointing at a dichotomy between speculative and evidence-based lines of inquiry. The findings contribute to a better
+understanding of the field of astrobiology and exemplify the relevance of the proposed method to identify uncertainty-
+related concepts in corpora of full text publications. They also offer a foundation for future comparative studies across
+disciplines.},
 }
 
+@Dataset{Ningrum2025,
+  author      = {Ningrum, Panggih Kusuma and Atanassova, Iana},
+  title       = {AURORA-MESS: Annotated Uncertainty and Reference in Open Research Articles for Multidisciplinary and Empirical Social Science},
+  doi         = {10.5281/zenodo.15001250},
+  url         = {https://doi.org/10.5281/zenodo.15001250},
+  version     = {ver1},
+  author+an   = {2=me;1=student},
+  bibtex_show = {true},
+  month       = mar,
+  publisher   = {Zenodo},
+  annotation     = {dataset},
+  year        = {2025},
+  abstract = {The AURORA-MESS dataset offers valuable insights into the representation of uncertainty in scientific literature across various domains, along with associated authorial references. Researchers and practitioners can use this dataset to study and analyze the variations of uncertainty expressions in scholarly discourse. This dataset contains sentences extracted from articles in a wide range of fields, covering both Science, Technology, and Medicine (STM); and Social Sciences and Humanities (SSH) and annotated with respect to uncertainty in science. The dataset is derived from PubMed, Scopus, Web of Science (WoS) and Social Science Open Access Repository (SSOAR). It has been produced as part of the ANR InSciM (Modelling Uncertainty in Science) project. },
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
+}
+
+@Dataset{Ningrum2025a,
+  author      = {Ningrum, Panggih Kusuma and Atanassova, Iana and Gutehrlé, Nicolas},
+  title       = {MUSIC-OpRA: Multidimensional Uncertainty in Scientific Interdisciplinary Corpora for Open Research Article},
+  doi         = {10.5281/zenodo.15173356},
+  url         = {https://doi.org/10.5281/zenodo.15173356},
+  version     = {ver1},
+  author+an   = {2=me;1=student;3=student},
+  bibtex_show = {true},
+  month       = apr,
+  publisher   = {Zenodo},
+  annotation     = {dataset},
+  year        = {2025},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
+}
+
+@Article{Ningrum2025b,
+  author      = {Ningrum, Panggih Kusuma and Mayr, Philipp and Smirnova, Nina and Atanassova, Iana},
+  title       = {Annotating scientific uncertainty: A comprehensive model using linguistic patterns and comparison with existing approaches},
+  doi         = {10.1016/j.joi.2025.101661},
+  issn        = {1751-1577},
+  number      = {2},
+  volume      = {19},
+  author+an   = {1=student;4=me},
+  bibtex_show = {true},
+  journal     = {Journal of Informetrics},
+  month       = {5},
+  publisher   = {Elsevier BV},
+  annotation     = {revue-com-lecture},
+  year        = {2025},
+  selected = {true},
+  preview = {https://ars.els-cdn.com/content/image/X17511577.jpg},
+  abstract  = {We present UnScientify, a system
+designed to detect scientific uncertainty in scholarly full text. The system utilizes a
+weakly supervised technique to identify verbally expressed uncertainty in scientific
+texts and their authorial references. The core methodology of UnScientify is based on a
+multi-faceted pipeline that integrates span pattern matching, complex sentence
+analysis and author reference checking. This approach streamlines the labeling and
+annotation processes essential for identifying scientific uncertainty, covering a variety
+of uncertainty expression types to support diverse applications including information
+retrieval, text mining and scientific document processing. The evaluation results
+highlight the trade-offs between modern large language models (LLMs) and the
+UnScientify system. UnScientify, which employs more traditional techniques, achieved
+superior performance in the scientific uncertainty detection task, attaining an accuracy
+score of 0.808. This finding underscores the continued relevance and efficiency of
+UnScientify's simple rule-based and pattern matching strategy for this specific
+application. The results demonstrate that in scenarios where resource efficiency,
+interpretability, and domain-specific adaptability are critical, traditional methods can still
+offer significant advantages.},
+}
+
+@Article{Ningrum2025c,
+  author      = {Panggih Kusuma Ningrum and Nicolas Gutehrlé and Iana Atanassova},
+  title       = {Etudier l'incertitude dans les articles scientifiques : mise en perspective d'une méthode linguistique},
+  pages       = {111-122},
+  volume      = {Extraction et Gestion des Connaissances, RNTI-E-41},
+  author+an   = {3=me;2=student;1=student},
+  bibtex_show = {true},
+  journal     = {Revue des Nouvelles Technologies de l'Information},
+  annotation     = {revue-com-lecture},
+  year        = {2025},
+  abstract = {L’incertitude fait partie intégrante du processus de recherche scientifique et est inhérente à la construction de nouvelles connaissances. Dans cet article, nous examinons la manière dont l’incertitude est exprimée dans les articles
+scientifiques et proposons un cadre d’annotation rendant compte des différentes
+dimensions de cette notion. L’incertitude scientifique est définie ici comme l’expression d’un manque de connaissance ou d’un manque de précision dans les
+informations sur un sujet ou un concept identifié. Nous proposons un jeu de données de référence (gold standard), composé de 1 839 phrases d’articles scientifiques annotées manuellement et provenant de plusieurs disciplines. Nous proposons également une approche à base de connaissances linguistiques pour l’annotation automatique des articles et pour la détection et la catégorisation de l’incertitude scientifique. Nous comparons l’efficacité de notre approche en termes
+de scores de Précision, Rappel et F1 aux méthodes de prompts few-shot réalisées via les Grands Modèles de Langue Phi-3.5 et Llama 3 pour la même tâche
+d’annotation. Cette évaluation comparative montre des scores similaires entre
+les approches, allant jusqu’à des scores F1 de 0,858 pour notre approche.},
+}
+
+@InProceedings{Atanassova2024,
+  author      = {Atanassova, Iana},
+  booktitle   = {Atelier TextMine'24, Conf{\'e}rence internationale sur l'extraction et la gestion des connaissances (EGC 2024)},
+  date        = {2024-01},
+  title       = {Approches linguistiques pour la fouille d'articles scientifiques},
+  location    = {Dijon, France},
+  annotation  = {cat-invite},
+  author+an   = {1=me},
+  bibtex_show = {true},
+  annotation     = {conf-invitee},
+  abstract = {Dans cette présentation nous aborderons la problématique de la fouille de corpus scientifiques en
+différentes disciplines et en plein texte. Nous montrerons des résultats de l'annotation sémantique de corpus et
+l'extraction d'informations, par l'application d'approches fondées sur les ressources linguistiques qui seront mis
+en perspective avec des méthodes par apprentissage. Nous nous intéressons en particulier à la notion
+d'incertitude scientifique et à la possibilité de l'identifier et la catégoriser dans les textes des publications. Nous
+aborderons également la problématique du multilinguisme dans les articles à travers une étude de corpus.},
+}
+
+
+
+
 @InProceedings{Atanassova2024a,
-  author    = {Atanassova, Iana and Potier, Marine and Mathie, Maya and Bertin, Marc and Ningrum, Panggih Kusuma},
-  booktitle = {{Joint Workshop of the 7th Financial Technology and Natural Language Processing and the 5th Knowledge Discovery from Unstructured Data in Financial Services, and the 4th Workshop on Economics and Natural Language Processing @ LREC-COLING-2024}},
-  title     = {{CriticalMinds: Enhancing ML Models for ESG Impact Analysis Categorisation Using Linguistic Resources and Aspect-Based Sentiment Analysis}},
-  editor    = {Association for Computational Linguistics},
-  pages     = {248--253},
-  series    = {Financial Technology and Natural Language Processing (FinNLP)},
-  address   = {Torino, Italy},
-  file      = {2024.finnlp-1.26.pdf:https\://hal.science/hal-04746055v1/file/2024.finnlp-1.26.pdf:PDF},
-  keywords  = {ABSA ; ESG ; Impact level ; Impact length ; ESG taxonomy ; linguistic resources},
-  month     = May,
-  year      = {2024},
+  author      = {Iana Atanassova and Marc Bertin},
+  booktitle   = {{International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2024) co-located with the 46\textsuperscript{st} European Conference on Information Retrieval (ECIR 2024)}},
+  date        = {2024},
+  title       = {{Breaking Boundaries in Citation Parsing: A Comparative Study of Generative LLMs and Traditional Out-of-the-box Citation Parsers}},
+  location    = {Glasgow, Scotland},
+  author+an   = {1=me},
+  bibtex_show = {true},
+  url = {https://ceur-ws.org/Vol-3989/paper-04.pdf},
+  annotation     = {conf-internat},
+  abstract = {The task of citation string parsing has been the focus of many efforts. Traditional tools explicitly designed
+to parse bibliographic information, such as Bilbo, Grobid, and Parscit, have long been established in the
+academic landscape. Recently, with the emergence of general conversational LLMs (Large Language
+Models) such as OpenAI’s ChatGPT and Llama, an interesting question arises: can such language models,
+originally developed for natural language understanding (NLU), be employed to efficiently process
+bibliographies, and how would their performance for this task compare to that of dedicated bibliographic
+parsing tools? In this article, we propose an experiment to measure the ability of LLMs to analyse
+citation strings in different citation styles. We use a synthetic dataset with 12 different citation styles.
+We evaluate the output of two generative LLMs, ChatGPT 3.5 and Llama 2 7B, and two out-of-the-box
+citation parsers, CERMINE and Neural ParsCit. The results show that the LLMs tend to outperform the
+citation parsers for all citation styles and labels.},
 }
 
 @InProceedings{Atanassova2024b,
-  author    = {Iana Atanassova and Marc Bertin},
-  booktitle = {{International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2024) co-located with the 46\textsuperscript{st} European Conference on Information Retrieval (ECIR 2024)}},
-  title     = {{Breaking Boundaries in Citation Parsing: A Comparative Study of Generative LLMs and Traditional Out-of-the-box Citation Parsers}},
-  address   = {Glasgow, Scotland},
-  year      = {2024},
+  author      = {Atanassova, Iana and Potier, Marine and Mathie, Maya and Bertin, Marc and Ningrum, Panggih Kusuma},
+  booktitle   = {{Joint Workshop of the 7th Financial Technology and Natural Language Processing and the 5th Knowledge Discovery from Unstructured Data in Financial Services, and the 4th Workshop on Economics and Natural Language Processing @ LREC-COLING-2024}},
+  title       = {{CriticalMinds: Enhancing ML Models for ESG Impact Analysis Categorisation Using Linguistic Resources and Aspect-Based Sentiment Analysis}},
+  editor      = {Association for Computational Linguistics},
+  pages       = {248--253},
+  series      = {Financial Technology and Natural Language Processing (FinNLP)},
+  address     = {Torino, Italy},
+  author+an   = {1=me;2=student;3=student;5=student},
+  bibtex_show = {true},
+  keywords    = {ABSA ; ESG ; Impact level ; Impact length ; ESG taxonomy ; linguistic resources},
+  month       = May,
+  pdf         = {https://hal.science/hal-04746055v1/file/2024.finnlp-1.26.pdf},
+  annotation     = {conf-internat},
+  year        = {2024},
+  abstract = {This paper presents our method and findings for the ML-ESG-3 shared task for categorising Environmental, Social,
+and Governance (ESG) impact level and duration. We introduce a comprehensive machine learning framework
+incorporating linguistic and semantic features to predict ESG impact levels and durations in English and French. Our
+methodology uses features that are derived from FastText embeddings, TF-IDF vectors, manually crafted linguistic
+resources, the ESG taxonomy, and aspect-based sentiment analysis (ABSA). We detail our approach, feature
+engineering process, model selection via grid search, and results. The best performance for this task was achieved
+by the Random Forest and XGBoost classifiers, with micro-F1 scores of 47.06\% and 65.44\% for English Impact
+level and Impact length, and 39.04\% and 54.79\% for French Impact level and Impact length respectively.},
 }
 
-@InProceedings{Bertin2024,
-  author    = {Marc Bertin and Atanassova, Iana},
-  title     = {Le multilinguisme dans les références bibliographiques : une étude de corpus},
-  booktitle = {Conf{\'e}rence internationale sur l'extraction et la gestion des connaissances (EGC 2024)},
-  year      = {2024},
-  date      = {2024-01-24},
-  month     = {1},
-  address   = {Dijon},
+
+@Article{Bertin2024,
+  author       = {Bertin, Marc and Atanassova, Iana},
+  date         = {2024-07},
+  journaltitle = {{Scientometrics}},
+  title        = {{Linguistic perspectives in deciphering citation function classification}},
+  doi          = {10.1007/s11192-024-05082-4},
+  url = {https://link.springer.com/article/10.1007/s11192-024-05082-4},
+  author+an    = {2=me},
+  bibtex_show  = {true},
+  publisher    = {{Springer Verlag}},
+  annotation      = {revue-com-lecture},
+  preview     = {https://media.springernature.com/w88/springer-static/cover-hires/journal/11192?as=webp},
+  abstract = {Understanding citations within their context is a complex task in information science, critical for bibliometric analysis. The study of citation contexts and their types has been a central issue in recent work on citations. In this paper, we present an experiment on the semantic annotation of citation contexts using a rule-based approach. We processed articles from seven PLOS journals and performed semantic annotation of citation contexts based on linguistic resources we constructed. We built on previous work on verb form analysis, n-grams, and semantic category modeling in the form of a linguistic ontology. Based on our observations, we propose directions of work for the constitution of a semantically annotated corpora. The intermediate results obtained lead us to formulate hypotheses on the relation between the IMRaD structure and certain semantic categories. Furthermore, our results demonstrate the semantic richness of citation contexts and underscore the importance of access to full-text articles for ontology population in open science. The findings suggest that semantic categories vary across disciplines and rhetorical structures, necessitating further exploration with larger and more diverse datasets.},
 }
 
-@Article{Bertin2024a,
-  author    = {Bertin, Marc and Atanassova, Iana},
-  title     = {{Linguistic perspectives in deciphering citation function classification}},
-  doi       = {10.1007/s11192-024-05082-4},
-  hal_id    = {hal-04775540},
-  journal   = {{Scientometrics}},
-  month     = Jul,
-  publisher = {{Springer Verlag}},
-  year      = {2024},
+@Dataset{Bertin2024a,
+  author      = {Bertin, Marc and Atanassova, Iana},
+  date        = {2024-03},
+  title       = {Synthetic Dataset of Citation Strings in 12 Styles},
+  doi         = {10.5281/zenodo.10839503},
+  url         = {https://doi.org/10.5281/zenodo.10839503},
+  version     = {1.0.0},
+  author+an   = {2=me},
+  bibtex_show = {true},
+  publisher   = {Zenodo},
+  annotation     = {dataset},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
 }
 
-@Dataset{Bertin2024b,
-  author    = {Bertin, Marc and Atanassova, Iana},
-  title     = {Synthetic Dataset of Citation Strings in 12 Styles},
-  doi       = {10.5281/zenodo.10839503},
-  url       = {https://doi.org/10.5281/zenodo.10839503},
-  version   = {1.0.0},
-  month     = mar,
-  publisher = {Zenodo},
-  year      = {2024},
+@InProceedings{Bertin2024b,
+  author      = {Marc Bertin and Atanassova, Iana},
+  booktitle   = {Conf{\'e}rence internationale sur l'extraction et la gestion des connaissances (EGC 2024)},
+  date        = {2024-01-24},
+  title       = {Le multilinguisme dans les références bibliographiques : une étude de corpus},
+  location    = {Dijon},
+  author+an   = {2=me},
+  bibtex_show = {true},
+  month       = {1},
+  annotation     = {conf-internat},
+  year        = {2024},
+  preview = {https://iutdijon.u-bourgogne.fr/egc2024/wp-content/uploads/2023/02/cropped-Logo_EGC2024.png},
+  abstract = {Le statut de lingua franca de l’anglais dans la recherche est déjà bien établi. Dans quelle
+mesure les citations d’articles rédigés en anglais sont-elles prédominantes par rapport aux articles rédigés dans d’autres langues ? Dans cet article, nous abordons le problème du multilinguisme dans les publications par l’analyse de deux corpus différents : d’un côté le Semantic
+Scholar Open Research Corpus, et d’un autre côté la base de données multilingue ISTEX. Notre objectif est d’examiner les références en langues étrangères (différentes de la langue de
+publication) dans ces corpus, et d’observer leur nature et leur distribution.},
 }
 
 @InProceedings{Dalgic2024,
-  author    = {Emel Dalgic and Alexandre Lefort and Atanassova, Iana},
-  title     = {Correction automatique de réponses textuelles : une approche basée sur des schémas conceptuels},
-  booktitle = {Conf{\'e}rence internationale sur l'extraction et la gestion des connaissances (EGC 2024)},
-  year      = {2024},
-  date      = {2024-01-26},
-  month     = {1},
-  address   = {Dijon},
+  author      = {Emel Dalgic and Alexandre Lefort and Atanassova, Iana},
+  booktitle   = {Conf{\'e}rence internationale sur l'extraction et la gestion des connaissances (EGC 2024)},
+  date        = {2024-01-26},
+  title       = {Correction automatique de réponses textuelles : une approche basée sur des schémas conceptuels},
+  address     = {Dijon},
+  author+an   = {3=me;1=student},
+  bibtex_show = {true},
+  month       = {1},
+  annotation     = {conf-internat},
+  year        = {2024},
+  preview = {https://iutdijon.u-bourgogne.fr/egc2024/wp-content/uploads/2023/02/cropped-Logo_EGC2024.png},
+  abstract = {Dans cet article, nous proposons une méthode pour la correction automatique de définitions produites par les étudiants dans le domaine de la gestion
+et l’économie. Notre algorithme traite les réponses textuelles des étudiants afin
+d’y identifier les concepts et relations correctement restituées et ceux qui sont
+erronés ou manquants. Nous avons effectué une évaluation sur plusieurs corpus
+de définitions, et les résultats montrent un score de F1 d’autour de 0,91 pour
+l’identification des relations, et des scores entre 0,75 et 0,83 pour l’identification
+des groupes nominaux arguments des relations. Cette approche s’inscrit dans un
+projet plus vaste autour de la correction automatique des réponses textuelles et
+la production d’outils destinés aux enseignants et apprenants.},
 }
 
 @Dataset{Gutehrle2024,
@@ -79,10 +268,13 @@
   title       = {{Annotated Dataset for Uncertainty Mining : Gold Standard}},
   doi         = {10.5281/zenodo.14134215},
   url         = {https://doi.org/10.5281/zenodo.14134215},
-  bibtex_show = {1},
+  author+an   = {3=me;1=student;2=student},
+  bibtex_show = {true},
   month       = nov,
   publisher   = {Zenodo},
+  annotation     = {dataset},
   year        = {2024},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
 }
 
 @TechReport{Macavaney2024,
@@ -91,9 +283,19 @@
   title       = {{Report on the Collab-a-thon at ECIR 2024}},
   pages       = {Vol. 58 No. 1},
   url         = {https://hal.science/hal-04746200},
-  file        = {p10.pdf:https\://hal.science/hal-04746200v1/file/p10.pdf:PDF},
+  author+an   = {13=me},
+  bibtex_show = {true},
   month       = Mar,
+  pdf         = {https://hal.science/hal-04746200v1/file/p10.pdf},
+  annotation     = {rapport},
   year        = {2024},
+  abstract = {We present a report on the Collab-a-thon, a series of sessions at the European Conference
+on Information Retrieval (ECIR) 2024 designed to help foster new collaborations during a
+conference. This report presents the motivation and design of the Collab-a-thon, a summary
+of the discussions covered at each session, and a set of recommendations for conducting
+similar events in the future. The event is set to run again at ECIR 2025 and planning is
+underway to pilot the event in a different community at the IEEE International Conference
+on Distributed Computing Systems (ICDCS) 2025.}
 }
 
 @InProceedings{Malaterre2024,
@@ -104,6 +306,9 @@
   url          = {https://hal.science/hal-04780332},
   address      = {Montr{\'e}al (Qu{\'e}bec), Canada},
   annotation   = {cat-sansActes},
+  author+an    = {2=me;4=student},
+  bibtex_show  = {true},
+  annotation      = {comm-sans-actes},
   year         = {2024},
 }
 
@@ -195,6 +400,7 @@
   month     = jun,
   publisher = {Zenodo},
   year      = {2023},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
 }
 
 @Dataset{Potier2023,
@@ -205,6 +411,7 @@
   month     = dec,
   publisher = {Zenodo},
   year      = {2023},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
 }
 
 @Dataset{Yahiaoui2023,
@@ -216,6 +423,7 @@
   month     = sep,
   publisher = {Zenodo},
   year      = {2023},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
 }
 
 @InProceedings{Atanassova2022,
@@ -365,6 +573,7 @@
   month     = oct,
   publisher = {Zenodo},
   year      = {2021},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
 }
 
 @Article{Kauffmann2021,
@@ -524,6 +733,7 @@
   doi       = {10.5281/zenodo.1203737},
   booktitle = {{Zenodo}},
   year      = {2018},
+  preview = {https://about.zenodo.org/static/img/logos/zenodo-gradient-200.png},
 }
 
 @InProceedings{Bertin2018a,
