@@ -24,8 +24,6 @@
       <a href="https://gitlab.com/{{ social[1] }}" title="GitLab"><i class="fa-brands fa-gitlab"></i></a>
     {% when 'hal_id' %}
       <a href="https://cv.hal.science/{{ social[1] }}/" title="HAL"><i class="ai ai-hal"></i></a>
-    {% when 'iuf_url' %}
-      <a href="{{ social[1] }}" title="IUF"><img src="/assets/img/iuf-transparent.png" size="64px" alt="IUF"/></a>
     {% when 'ieee_id' %}
       <a href="https://ieeexplore.ieee.org/author/{{ social[1] }}/" title="IEEE Xplore"><i class="ai ai-ieee"></i></a>
     {% when 'inspirehep_id' %}
@@ -100,6 +98,8 @@
       <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
+    {% when 'iuf_url' %}
+      <a href="{{ social[1] }}" title="IUF"><img src="/assets/img/iuf-transparent.png" width="64px" alt="IUF"/></a>
     {% else %}
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}
