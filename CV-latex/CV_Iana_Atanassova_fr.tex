@@ -1,0 +1,210 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{libertine}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.78, bottom=2.6cm, top=2.6cm]{geometry}
+
+\usepackage[hyphens]{url}
+\urlstyle{same}
+\usepackage[colorlinks=true, allcolors=Cerulean!20!Blue]{hyperref}
+\usepackage[french]{babel}
+\usepackage{setspace}
+\usepackage{tabularx,listings,framed}
+\usepackage{csquotes}
+
+\usepackage{datetime}
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\lfoot{\small\color{Gray!50!Black} Iana Atanassova - CV - \monthyeardate\today}
+\cfoot{}
+\rfoot{\thepage\ / \pageref{LastPage}}
+\pagestyle{fancy}
+
+\usepackage{fontawesome}
+
+\setlength{\parskip}{2mm}
+\setlength{\parindent}{0pt}
+
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.text}
+\usetikzlibrary{fadings}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc,positioning}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{topaths}
+
+\usepackage{titlesec}
+\titleformat{\section}         % Customise the \section command 
+  {\Large\bfseries\scshape\raggedright \color{RedViolet}} % Make the \section headers large (\Large),
+                               % small capitals (\scshape) and left aligned (\raggedright)
+  {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
+  {}                           % Can be used to insert code before the heading
+  [\titlerule]                 % Inserts a horizontal line after the heading
+
+\titleformat{\subsection}
+  {\Large\bfseries\scshape\raggedright \color{Cerulean!30!Black}}
+  {}{0em}
+  {}
+
+\newcommand{\fr}[1]{#1}
+\newcommand{\en}[1]{#1}
+
+\newcommand{\versionEn}{
+    \renewcommand{\fr}[1]{}
+    \renewcommand{\en}[1]{##1}
+    \lfoot{\small\color{Gray!50!Black} Iana Atanassova - CV (en) - \monthyeardate\today}
+}
+
+\newcommand{\versionFr}{
+    \renewcommand{\en}[1]{}
+    \renewcommand{\fr}[1]{##1} 
+    \lfoot{\small\color{Gray!50!Black} Iana Atanassova - CV (fr) - \monthyeardate\today}
+}
+
+\newcommand{\datedline}[3]{%
+{\scshape #1}%
+\ifx#2\empty%
+\else%
+, #2%
+\fi%
+\hfill {\color{RedViolet} #3}%
+}
+
+\newcommand{\datedelement}[4]{%
+{\scshape #1}%
+\ifx#2\empty%
+\else%
+, %
+\fi%
+{#2 \hfill {\color{RedViolet} #4}}\\ %
+\ifx#3\empty%
+\else%
+#3  \\[-4mm]%
+\fi%
+}
+
+\newcommand{\datedelementdatefirst}[4]{%
+{\scshape #2}%
+\ifx#3\empty%
+\else%
+ %
+\fi%
+{#3 \hfill {\color{RedViolet} #1}}\\ %
+\ifx#4\empty%
+\else%
+#4  \\[-4mm]%
+\fi%
+}
+
+\hyphenation{InSciM}
+
+\usepackage[french]{babel}
+
+\usepackage[
+defernumbers=true,
+backend=biber,
+%style=authoryear-icomp,
+style=numeric-comp,
+%style=authoryear,
+sorting=ydnt,
+sortlocale=fr_FR,
+natbib=true,
+url=true,
+doi=true,
+eprint=false,
+maxbibnames=9,
+maxcitenames=1
+%heading=none,
+%title=none
+]{biblatex}
+\addbibresource{../_bibliography/iana-all.bib}
+
+
+% Pour faire marcher les annotations sur biblatex
+\DefineBibliographyExtras{french}{\restorecommand\mkbibnamefamily}
+
+\usepackage{substr}
+
+\DeclareBibliographyCategory{revuecomlecture}
+\DeclareBibliographyCategory{chapitre}
+\DeclareBibliographyCategory{dirnumrevue}
+\DeclareBibliographyCategory{diractes}
+\DeclareBibliographyCategory{confinvitee}
+\DeclareBibliographyCategory{confinternat}
+\DeclareBibliographyCategory{confnat}
+\DeclareBibliographyCategory{commsansactes}
+\DeclareBibliographyCategory{seminaire}
+\DeclareBibliographyCategory{vulgarisation}
+\DeclareBibliographyCategory{dataset}
+\DeclareBibliographyCategory{these}
+\DeclareBibliographyCategory{rapport}
+
+
+\DeclareIndexFieldFormat{confinternat}{%
+    \IfSubStringInString{revue-com-lecture}{#1}{\addtocategory{revuecomlecture}{\thefield{entrykey}}}{}
+    \IfSubStringInString{chapitre}{#1}{\addtocategory{chapitre}{\thefield{entrykey}}}{}
+    \IfSubStringInString{dir-num-revue}{#1}{\addtocategory{dirnumrevue}{\thefield{entrykey}}}{}
+    \IfSubStringInString{dir-actes}{#1}{\addtocategory{diractes}{\thefield{entrykey}}}{}
+    \IfSubStringInString{conf-invitee}{#1}{\addtocategory{confinvitee}{\thefield{entrykey}}}{}
+    \IfSubStringInString{conf-internat}{#1}{\addtocategory{confinternat}{\thefield{entrykey}}}{}
+    \IfSubStringInString{conf-nat}{#1}{\addtocategory{confnat}{\thefield{entrykey}}}{}
+    \IfSubStringInString{comm-sans-actes}{#1}{\addtocategory{commsansactes}{\thefield{entrykey}}}{}
+    \IfSubStringInString{seminaire}{#1}{\addtocategory{seminaire}{\thefield{entrykey}}}{}
+    \IfSubStringInString{vulgarisation}{#1}{\addtocategory{vulgarisation}{\thefield{entrykey}}}{}
+    \IfSubStringInString{dataset}{#1}{\addtocategory{dataset}{\thefield{entrykey}}}{}
+    \IfSubStringInString{these}{#1}{\addtocategory{these}{\thefield{entrykey}}}{}
+    \IfSubStringInString{rapport}{#1}{\addtocategory{rapport}{\thefield{entrykey}}}{}
+}
+
+\AtDataInput{\indexfield[confinternat]{annotation}}
+
+\defbibfilter{revuecomlecture}{category=revuecomlecture}
+\defbibfilter{chapitre}{category=chapitre}
+\defbibfilter{dirnumrevue}{category=dirnumrevue}
+\defbibfilter{diractes}{category=diractes}
+\defbibfilter{confinvitee}{category=confinvitee}
+\defbibfilter{confinternat}{category=confinternat}
+\defbibfilter{confnat}{category=confnat}
+\defbibfilter{commsansactes}{category=commsansactes}
+\defbibfilter{seminaire}{category=seminaire}
+\defbibfilter{vulgarisation}{category=vulgarisation}
+\defbibfilter{dataset}{category=dataset}
+\defbibfilter{these}{category=these}
+\defbibfilter{rapport}{category=rapport}
+
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+\ifitemannotation{me}
+    {\textbf{#1}}
+    {\ifitemannotation{student}
+       {\underline{#1}}
+       {#1}}
+       }
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+\ifitemannotation{me}
+    {\textbf{#1}}
+    {\ifitemannotation{student}
+       {\underline{#1}}
+       {#1}}
+       }
+
+
+\begin{document}
+
+\versionFr
+%\versionEn
+
+\include{content}
+
+
+
+\end{document}

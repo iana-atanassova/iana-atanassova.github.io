@@ -166,6 +166,7 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - CV-latex/
   - Gemfile
   - Gemfile.lock
   - LICENSE

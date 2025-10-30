@@ -1,0 +1,557 @@
+
+\thispagestyle{empty}
+
+\tikz[remember picture,overlay] {%
+% The -1px offset is required for the header to precisely reach the very top of the page.
+% It's not always the case and a line of white pixels is sometimes visible,
+\node[rectangle, below=-1px of current page.north, anchor=north, minimum width=\paperwidth, minimum height=7cm, fill=Apricot!20](header) at (current page.north){};%
+\node[right=2.2cm of header.west, anchor=west, text width=\textwidth](name) at (header.west) {
+\vspace{1cm}
+\\ 
+{\Huge \bfseries\sffamily \color{Black}{Iana~Atanassova, Ph.D.}}\\[4mm]
+{\sffamily\color{RedViolet}{\large 
+\en{Full Professor in Natural Language Processing} \fr{Professeur en Traitement Automatique des Langues}\\
+\en{Director of} \fr{Directrice du} Centre de Recherches Interdisciplinaires et Transculturelles\\
+Université Marie et Louis Pasteur, CRIT, F-25000 Besançon, France\\
+Institut Universitaire de France (IUF), France
+} \\[4mm]
+
+{\large \faHome } \  \url{http://iana-atanassova.github.io}
+
+{\large\bfseries @} \  \url{iana.atanassova@univ-fcomte.fr}
+
+{\normalsize ORCiD} \ \url{http://orcid.org/0000-0003-3571-4006}
+
+{\normalsize CV HAL} \ \url{https://cv.hal.science/iana-atanassova}} \\[4mm]
+};%
+\node[left=4cm of header.east, anchor=center, inner sep=0pt, line width=10pt, draw=white](picture) at (header.east) {\includegraphics[height=5cm]{iana1.jpeg}};%
+}% \tikz
+
+\vspace{4cm}
+
+
+% ====================================================================
+
+
+
+
+\section{\en{Current position}\fr{Position actuelle}}
+
+\datedelement{\en{Full Professor} \fr{Professeur}}{}
+{Université Marie et Louis Pasteur, Besançon, France\\
+Centre de Recherches Interdisciplinaires et Transculturelles (CRIT) }{\en{Since}\fr{Depuis} 09/2025}
+
+\datedelement{ \fr{Membre junior}\en{Junior member}}{}
+{Institut Universitaire de France (IUF)\\ \url{https://www.iufrance.fr/les-membres-de-liuf/membre/2288-iana-atanassova.html}}{\en{Since}\fr{Depuis} 09/2021}
+
+\datedelement{\en{Director}\fr{Directrice}}{}{Centre de Recherches Interdisciplinaires et Transculturelles (CRIT)\\ \url{https://crit.univ-fcomte.fr/}}
+{\en{Since}\fr{Depuis} 11/2023}
+
+\subsection{\en{Research Topics}\fr{Thématiques de recherche}}
+
+\en{My research is in the field of \textbf{Natural Language Processing (NLP)} and more specifically \textbf{full-text processing of scientific papers}. 
+It is part of the research theme "Languages, Knowledge and Discourse" at the CRIT laboratory, with the development of linguistic approaches in NLP for the analysis of scientific discourse.
+I study the problems of \textbf{semantic annotation, ontology population, linguistic modelling and information extraction from scientific texts}. I have used NLP methods to process scientific corpora for building applications in bibliometrics and recommender systems. I have also participated in projects on text mining for competitive intelligence and personal data identification and representation.
+
+My \textbf{recent research projects} focus on the study of the rhetorical structure of articles, and in particular the \textbf{expression of uncertainty} as part of the process of constructing new scientific knowledge (e.g. the ANR InSciM project).
+}
+
+\fr{
+J'effectue mes recherches dans le domaine du \textbf{Traitement Automatique des Langues (TAL)} et plus spécifiquement le \textbf{traitement d'articles scientifiques en texte intégral}. Elles s'inscrivent dans l'axe de recherche "Langues, savoirs, discours" du laboratoire CRIT, avec le développement d'approches linguistiques en TAL pour l'analyse du discours scientifique. J'étudie les problématiques de \textbf{l'annotation sémantique, la population d'ontologies, la modélisation linguistique et l'extraction d'information à partir de textes scientifiques}. J'ai utilisé des méthodes de TAL pour traiter des corpus scientifiques afin de développer des applications en bibliométrie et en systèmes de recommandation. J'ai également participé à des projets de fouille de texte pour l'intelligence économique et l'identification et la représentation de données personnelles.
+
+Mes \textbf{projets de recherche récents} portent sur l'étude de la structure rhétorique des articles, et en particulier sur \textbf{l'expression de l'incertitude scientifique} dans le cadre du processus de construction de nouvelles connaissances (voir par exemple, le projet ANR InSciM).
+}
+
+\section{\en{Research Projects}\fr{Projets de recherche}}
+
+\subsection{\en{Principal Investigator (PI) and Supervisor}\fr{Responsable scientifique (PI) et directrice de recherche}}
+
+\datedelement{\en{PI}\fr{Responsable scientifique}}{\en{project InSciM - "Modelling Uncertainty in Science"}\fr{projet InSciM - "Modélisation de l'incertitude en science"}}{\en{funded by French ANR JCJC grant}\fr{financé par l'ANR, JCJC, France}, ANR-21-CE38-0003-01 (270K euros). \url{https://project-inscim.github.io/}}{2021--2025}
+
+\datedelement{\en{Supervisor}\fr{Directrice de recherche}}{\en{project EMONTAL}\fr{projet EMONTAL}}{\en{"Extraction and Ontology Modeling of Subjects and Places for the Exploitation of the Documentary Funds of Bourgogne Franche-Comté": supervision of a PhD thesis, funded by Région Bourgogne Franche-Comté}\fr{"Extraction et Modélisation ONTologique des Acteurs et Lieux pour la valorisation du patrimoine de Bourgogne Franche-Comté" : contrat doctoral, financé par la Région Bourgogne Franche-Comté}.\\\url{http://tesniere.univ-fcomte.fr/projet-emontal/}}{2020--2024}
+
+\datedelement{\en{Supervisor}\fr{Directrice de recherche}}{\en{project “Researcher-entrepreneur” ICE}\fr{projet “Chercheur-entrepreneur” ICE}}{\en{"Applications of NLP for the construction of tools for language teaching": supervision of a post-doctoral fellow (Dr François-C. Rey), funded by Université de Bourgogne Franche-Comté, France, with the objective of technology transfer to a start-up.}\fr{"Applications du TAL pour la construction d'outils d'enseignement des langues" : direction d'un contrat post-doctoral (Dr François-C. Rey), financé par l'Université de Bourgogne Franche-Comté, France, avec l'objectif de transfert de technologie vers une start-up.}}{2023--2024}
+
+
+\datedelement{\en{Supervisor}\fr{Directrice de recherche}}{\en{Project “Automatic correction of text responses to exams”}\fr{Projet "Correction automatique de réponses textuelles"}}{\en{Collaboration and technology transfer to the start-up e-Cole, funded by}\fr{Collaboration et transfert technologique vers la start-up e-Cole, financé par}  Technopole de la Réunion.}{2021--2023}
+
+\datedelement{\en{PI}\fr{Responsable scientifique}}{\en{project DecRIPT - “Detection of the Representations of Personal Data in Texts”}\fr{projet DecRIPT - “Détection des Représentations des Données Personnelles dans les Textes”}. \url{http://tesniere.univ-fcomte.fr/projet-decript/}}{
+\en{funded by Interreg France-Switzerland 2014-2020 (307K euros) and Communauté du Savoir (9K euros).\\
+- Academic partners: HEG (Switzerland), HEG Arc (Switzerland)\\
+- Private partners: ERDIL (France), Global Data Excellence (Switzerland)\\
+- Objectives: Building tools for the reliable processing of personal data in texts to facilitate compliance with GDPR.}
+\fr{financé par Interreg France-Suisse 2014-2020 (307K euros) et Communauté du Savoir (9K euros).\\
+- Partenaires académiques : HEG (Suisse), HEG Arc (Suisse)\\
+- Partenaires privés : ERDIL (France), Global Data Excellence (Suisse)\\
+- Objectifs : Développer des outils pour le traitement fiable des données personnelles dans les textes afin de faciliter la conformité au RGPD.}}{2019--2023}
+
+\datedelement{\en{Supervisor}\fr{Directrice de recherche}}{\en{project “Researcher-entrepreneur” ICE}\fr{projet “Chercheur-entrepreneur” ICE}}{\en{“Linguistic analysis and automatic extraction of semantic relations in Arabic” : supervision of a PhD thesis and a post-doctoral fellow (Dr Youcef Morsi), funded by Université de Bourgogne Franche-Comté, France, with the objective of technology transfer to a start-up.}\fr{“Analyse linguistique et extraction automatique de relations sémantiques en arabe” : direction d'une thèse de doctorat et d'un chercheur post-doctoral (Dr Youcef Morsi), financé par l'Université de Bourgogne Franche-Comté, France, avec l'objectif de transfert de technologie vers une start-up.}}{2016--2021}
+
+\subsection{\en{Participation in projects}\fr{Participation à des projets}}
+
+\datedelement{\en{Participant}\fr{Participant}}{\en{project "Visial Operational Bibliography" (BIBILIOVISOP)}\fr{projet "BIBLIOgraphie VISuelle OPérationnelle" (BIBILIOVISOP)}}{\en{funded by FR-EDUC, France, PI Michaël Crevoisier}\fr{financé par FR-EDUC, France, responsable Michaël Crevoisier}}{2025--2027}
+
+\datedelement{\en{Participant}\fr{Participant}}{\en{project "Epistemic concepts in the practice of science"}\fr{projet "Concepts épistémiques dans la pratique scientifique"}}{\en{funded by CRSH, Canada, PI Pr. Christophe Malaterre}\fr{financé par le CRSH, Canada, responsable Pr. Christophe Malaterre}}{2024--2027}
+
+\datedelement{\en{Participant}\fr{Participant}}{\en{project TheoScit}\fr{projet TheoScit}}{\en{funded by French ANR JCJC grant, PI Dr Marc Bertin, ANR-20-CE38-0003}\fr{financé par une subvention ANR JCJC, France, responsable Dr Marc Bertin, ANR-20-CE38-0003}}{2020--2024}
+
+\datedelement{\en{Participant}\fr{Participant}}{\en{project SEO-ELP “Search Engine Optimization e-Learning Platform”}\fr{projet SEO-ELP “Plateforme d'apprentissage en ligne pour l'optimisation des moteurs de recherche”}}{\en{funded by }\fr{financé par l'}Université de Franche-Comté, France. \url{https://seo-elp.fr/}}{2018--2025}
+
+\datedelement{\en{Participant}\fr{Participant}}{\en{project WebSO+: Competitive Intelligence Platform}\fr{projet WebSO+: Plateforme de veille multifonctionnelle}}{\en{funded by Interreg France-Switzerland 2014-2020. Development of a platform for strategic technological and competitive intelligence and e-reputation integrating semantic processing, text classification and sentiment analysis.}\fr{financé par Interreg France-Suisse 2014-2020. Développement d'une plateforme d'intelligence technologique et compétitive stratégique et d'e-réputation intégrant le traitement sémantique, la classification de textes et l'analyse de sentiments.} \url{http://tesniere.univ-fcomte.fr/projet-webso/index.html}}{2016--2018}
+
+\datedelement{\en{Participant}\fr{Participant}}{\en{project SARS: “System for assisted scientific writing in the biomedical domain”}\fr{projet SARS : “Système d'aide à la rédaction scientifique”}}{\en{funded by Région Franche-Comté, France. Development of tools for scientific writing using lexical databases and Information Retrieval.}\fr{financé par la Région Franche-Comté, France. Développement d'outils pour la rédaction scientifique utilisant des bases de données lexicales et la recherche d'information.}}{2015--2017}
+
+\subsection{\en{Post-doctoral supervision}\fr{Encadrement postdoctoral}}
+
+\datedline{Dr Aurélie Nomblot}{\en{PostDoc researcher-entrepreneur}\fr{Chercheur post-doctoral, chercheur-entrepreneur}}{09/2025--08/2026}
+
+\datedline{Dr Nicolas Guterhlé}{\en{as part of ANR InSciM project}\fr{dans le cadre du projet ANR InSciM}}{07/2024--12/2025}
+
+\datedline{Dr François-C. Rey}{\en{PostDoc researcher-entrepreneur}\fr{Chercheur post-doctoral, chercheur-entrepreneur}}{09/2023--08/2024}
+
+\datedline{Dr Abdoulaye Guisse}{\en{as part of DecRIPT project}\fr{dans le cadre du projet DecRIPT}}{01/2021--05/2021}
+
+\datedline{Dr Youcef Morsi}{\en{PostDoc researcher-entrepreneur}\fr{Chercheur post-doctoral, chercheur-entrepreneur}}{09/2020--08/2021}
+
+\datedline{Dr François-C. Rey}{\en{as part of DecRIPT project}\fr{dans le cadre du projet DecRIPT}}{01/2020--12/2020}
+
+\subsection{\en{PhD thesis supervision}\fr{Direction de thèses de doctorat}}
+
+\datedelement{Ianis Pontier}{}{\en{"Scientific uncertainty in popular science texts: annotation and interdisciplinary analysis", funded by French Ministry for Education and Research}\fr{"L'incertitude scientifique dans les textes de vulgarisation : annotation et analyse interdisciplinaire", financé par le Ministère français de l'Éducation et de la Recherche}}{2025--}
+
+\datedelement{Panggih Kusuma Ningrum}{}{\en{"Modelling the expression of uncertainty in scientific articles", funded by project ANR InSciM}\fr{"Modélisation de l'expression de l'incertitude dans les articles scientifiques", financé par le projet ANR InSciM}}{2022--2025}
+
+\datedelement{Nicolas Guterhlé}{}{\en{"Extraction and ontological modelling of actors and places for the exploitation of the documentary funds of the Bourgogne Franche-Comté Region", Project EMONTAL, funded by Bourgogne Franche-Comté Region}\fr{"Extraction et Modélisation ONTologique des Acteurs et Lieux pour la valorisation du patrimoine de Bourgogne Franche-Comté", Projet EMONTAL, financé par la Région Bourgogne Franche-Comté}}{2020--2024}
+
+\datedelement{Salah Yahiaoui}{}{\en{"Information extraction of spatio-temporal data from scientific texts", funded by French Ministry for Education and Research}\fr{"Extraction d'informations spatio-temporelles à partir de textes scientifiques", financé par le Ministère français de l'Éducation et de la Recherche}}{2019--2023}
+
+
+%\item[Séda Ozturk (2017-):] "Analysing Scientific Papers for the Extraction and Characterization of Datasets". 
+
+\datedelement{Youcef Morsi}{}{\en{"Linguistic Analysis and Automatic Information Extraction of Semantic Relations in Arabic", funded by project researcher-entrepreneur}\fr{"Analyse linguistique et extraction automatique de relations sémantiques des textes en arabe", financé par projet chercheur-entrepreneur ICE}}{2016--2020}
+
+\datedelement{François-C. Rey}{}{\en{"Ontology of uncertainty and semantic annotation of a corpus dealing with climate change", co-directed with Dr Marc Bertin, University Lyon-1, France}\fr{"Ontologie de l’incertitude et annotation sémantique d’un corpus autour du changement climatique", co-dirigé avec Dr Marc Bertin, Université Lyon-1, France}}{2016--2022}
+
+\subsection{\en{MSc thesis supervision}\fr{Encadrement de mémoires de Master}}
+
+\en{MSc theses prepared during 2 years and defended as part of the Master's degree of Natural Language Processing of Université de Franche-Comté, Besançon, France.}%
+\fr{Mémoires de Master préparés sur une durée de 2 ans et soutenus dans le cadre du Master en Traitement Automatique des Langues de l'Université de Franche-Comté, Besançon, France.}
+
+\en{Non-exhaustive list.}%
+\fr{Liste non exhaustive.}
+
+\datedline{}{}{2025}
+
+\datedline{L. Rodrigues De Almeida, J. Tadei, M. Potier, M. Mathie, Ch. Mensch}{}{2024}
+
+\datedline{B. Fernandes de Brito, S. Popovic, J. Yang, S. Yacoubi}{}{2023}
+
+\datedline{E. Boffetti}{}{2022}
+
+\datedline{J. Bacchiocchi, C.-T. Kuo, M.A. Nguyen Thi}{}{2021}
+
+\datedline{R. Hasnaoui, J. Bergoend}{}{2020}
+
+\datedline{S. Yahiaoui, A. Calatayud}{}{2019}
+
+\datedline{N. Guterhlé, C. El Cadi, I. Hatira, L. Annebi}{}{2018}
+
+\datedline{L. Lograda, F.-C. Rey, M. Delhotal, Y. Morsi}{}{2016}
+
+
+
+\subsection{\en{Participation in PhD thesis jurys}\fr{Participation aux jurys de thèse}}
+
+\en{As thesis referee:}%
+\fr{En tant que rapporteure :}
+
+\datedelement{Mathieu Lai-King}{\fr{"Qualité des articles de recherche et
+modèles de langue neuronaux : applications au domaine biomédical"}\en{"Quality of Research Articles and Neural Language Models : Applications to the Biomedical Domain"}}{Université Paris-Saclay, France}{2025}
+
+\en{As external examiner:}%
+\fr{En tant qu'examinatrice externe :}
+
+\datedelement{Pavel Savov}{"Measuring the Novelty of Scientific Papers"}{Polish-Japanese Academy of Information Technology, Poland}{2021}
+
+\datedelement{Miloud Rouabhi}{"Analyse sémantico-cognitive de prépositions en vue d'un traitement automatique"}{\en{Paris-Sorbonne (Paris 4) University}\fr{Université Paris-Sorbonne, Paris-4}, France}{2019}
+
+\datedelement{Drahomira Herrmannova}{"Mining Scholarly Publications for Research Evaluation"}{Knowledge Media institute, The Open University, \en{United Kingdom}\fr{Royaume Uni}}{2018}
+
+\datedelement{Dory Singh}{"Extraction des relations de causalité dans les textes économiques par la méthode de l’exploration contextuelle"}{\en{Paris-Sorbonne (Paris 4) University}\fr{Université Paris-Sorbonne, Paris-4}, France}{2017}
+
+
+\subsection{\en{Participation in PhD thesis supervision committees}\fr{Participation aux comités de suivi de thèse}}
+
+\en{Non-exhaustive list.}%
+\fr{Liste non exhaustive.}
+
+\textsc{Mouaz Mikail (2024--2025); Léo Annebi (2021--2024); Ahmed Alustath (2020); Dhekra Najar (2018); Hong Liang (2017) }
+
+
+
+\section{Service}
+
+\subsection{\en{Responsibilities}\fr{Responsabilités}}
+
+\datedelementdatefirst{04/2025--}{\en{Elected member of the Research Commission}\fr{Membre élue de la Commission de Recherche}}{}{Université Marie et Louis Pasteur, France.}
+
+\datedelementdatefirst{11/2023--}{\en{Director of the CRIT laboratory}\fr{Directrice du laboratoire CRIT}}{}{Centre de Recherches Interdisciplinaires et Transculturelles (CRIT), Université Marie et Louis Pasteur, France.}
+
+\datedelementdatefirst{09/2022--10/2023}{\en{Co-director of the CRIT laboratory}\fr{Co-directrice du laboratoire CRIT}}{}{CRIT, Université de Franche-Comté\footnote{\en{Université de Franche-Comté is the name of Université Marie et Louis Pasteur before 2025.}\fr{Université de Franche-Comté est le nom de l'établissement Université Marie et Louis Pasteur avant 2025.}}, France.}
+
+\datedelementdatefirst{09/2021--}{\en{Referent for Open Science}\fr{Référente pour la Science Ouverte}}{}{CRIT, Université Marie et Louis Pasteur, France.}
+
+\datedelementdatefirst{09/2020--}{\en{Manager of the Department of Natural Language Processing}\fr{Responsable du Département de Traitement Automatique des Langues}}{}{Université Marie et Louis Pasteur, France.}
+
+
+
+\subsection{\en{Course management}\fr{Gestion des formations}}
+
+\datedelementdatefirst{09/2017--}{\en{Course manager of the specialty \textit{"Natural Language Processing (NLP)"}}\fr{Responsable du parcours \textit{"Traitement Automatique des Langues (TAL)"}}}{}{\en{Master of Science “Languages and Foreign Cultures (LLCER)”}\fr{Master Langues, Littérature et Cultures Etrangères et Régionales (LLCER)}, Université Marie et Louis Pasteur, France.}
+
+\subsection{\en{ISO/AFNOR commission}\fr{Commission ISO/AFNOR}}
+
+\datedelementdatefirst{06/2022--}{\en{Member of ISO/TC~37/SC~4 "Language resource management"}\fr{Membre de l'ISO/TC~37/SC~4 "Gestion des ressources linguistiques"}}{}{WG~2 "Semantic annotation".}
+
+\datedelementdatefirst{09/2014--}{\en{Member of work group AFNOR/X03A, ISO/TC~37/SC~4}\fr{Membre du groupe de travail AFNOR/X03A, ISO/TC~37/SC~4}}{}{\en{Terminology principles and coordination. National referent for ISO~24617 “Semantic Annotation Framework”.}\fr{Terminologie principes et coordination. Référente nationale pour la norme ISO~24617 “Cadre d'annoataion sémantique”.} \url{https://norminfo.afnor.org/membre/atanassova-iana797933}}
+
+\subsection{\en{Organisation of workshops and scientific events}\fr{Organisation d'ateliers et d'événements scientifiques}}
+
+\datedelementdatefirst{\en{Armenia}\fr{Arménie}, 2025}{Doctoral forum}{}{20th International Conference on Scientometrics and Informetrics (ISSI), Yerevan.\\ \url{https://issi2025.iiap.sci.am/}}
+
+\datedelementdatefirst{France, 2025}{\fr{Colloque annuel de l’IUF "Le temps"}\en{Annual IUF conference "Le temps"}}{}{Univesité Marie et Louis Pasteur, Besançon. \url{https://2025iuf.sciencesconf.org/}}
+
+\datedelementdatefirst{\en{China}\fr{Chine}, 2017}{Workshop CLBib }{"Mining Scientific Papers: Computational Linguistics and Bibliometrics"}{16th International Conference on Scientometrics and Informetrics (ISSI), Wuhan.\\ \url{https://easychair.org/cfp/CLBib2017}}
+
+\datedelementdatefirst{France, 2015}{\en{Workshop "Traitement Automatique des Langues Slaves ({TASLA})"}\fr{Atelier "Traitement Automatique des Langues Slaves ({TASLA})"}}{}{\en{Conference}\fr{Conférence} TALN 2015, France. \url{http://tesniere.univ-fcomte.fr/tasla/}}
+
+\datedelementdatefirst{\en{Turkey}\fr{Turquie}, 2015}{Workshop CLBib }{"Mining Scientific Papers: Computational Linguistics and Bibliometrics"}{15th International Society of Scientometrics and Informetrics Conference (ISSI), Istanbul.}
+
+\datedelementdatefirst{Canada, 2015}{\en{Workshop}\fr{Atelier} }{"Analyses logométriques des revues québécoises : traitements et visualisations"}{Colloque "Relire les revues québécoises : histoires, formes et pratiques", Montréal, Canada.}
+
+\subsection{\en{Advisory boards}\fr{Comités scientifiques}}
+
+\datedelementdatefirst{2020--}{\en{Member of the advisory board of the ECLATS journal}\fr{Membre du comité scientifique de la revue ECLATS}}{}{\en{published by doctoral candidates of LECLA Doctoral School, France.}\fr{publié par les doctorants de l'ED LECLA, France.} \url{https://preo.u-bourgogne.fr/eclats/}}
+
+\datedelementdatefirst{2019--}{\en{Member of the advisory board of the SIPS platform}\fr{Membre du comité scientifique de la plateforme SIPS}}{\en{\textit{"Information System in Philosophy of Science"}\fr{\textit{"Système d'information en philosophie des sciences"}}}}{Université Marie et Louis Pasteur, France. \url{https://sips.univ-fcomte.fr/}}
+
+\datedelementdatefirst{2018--}{\en{Member of the advisory board of the \textit{"Natural Language Processing"} series}\fr{Membre du comité scientifique de la série \textit{"Natural Language Processing"}}}{}{John Benjamins publishing. \url{https://benjamins.com/catalog/nlp}.}
+
+\datedelementdatefirst{2016--}{\en{Elected member of the advisory board of the Doctoral School LECLA}\fr{Membre élu du conseil de l'École Doctorale LECLA}}{}{Université de Bourgogne Franche-Comté (UBFC), France. \url{https://lecla.ubfc.fr/}}
+
+
+\subsection{\en{Evaluation panels}\fr{Comités d'évaluation}}
+
+\datedelementdatefirst{2025}{\en{Evaluator for the Canada Innovation Fund}\fr{Évaluateur pour le Fonds d'Innovation}}{}{Canada Foundation for Innovation, Canada.}
+
+\datedelementdatefirst{2023}{\en{Member of the ANR AAPG evaluation panel}\fr{Membre du comité d'évaluation AAPG de l'ANR}}{}{CE10 – Industry and factory of the future: People, organisations, technologies, France.}
+
+\datedelementdatefirst{2023}{\en{Reviewer for the NSERC Discovery Grants}\fr{Évaluateur pour les subventions NSERC Discovery Grants}}{}{Natural Sciences and Engineering Research Council of Canada (NSERC), Computer Science (EG 1507) / CRSNG, Canada.}
+
+\datedelementdatefirst{2020}{\en{Evaluator for John R. Evans Leaders Fund}\fr{Évaluateur pour le Fonds John R. Evans Leaders}}{}{Canada Foundation for Innovation, Canada.}
+
+\datedelementdatefirst{2015}{\en{Evaluator for the ANRT Cifre Doctoral Grants}\fr{Évaluateur pour les bourses doctorales Cifre de l'ANRT}}{}{ANRT, France.}
+
+\subsection{\en{Editorial work}\fr{Responsabilités éditoriales}}
+
+\datedelementdatefirst{\en{Since}\fr{Depuis} 2025}{\en{Member of the editorial board of Journal of Infometrics}\fr{Membre du conseil éditorial de Journal of Infometrics}}{, Elsevier}{\url{https://www.sciencedirect.com/journal/journal-of-informetrics}}
+
+\datedelementdatefirst{2022}{\en{Editor of a special issue}\fr{Éditrice d'un numéro spécial}}{}{\textit{"Languages Analysis, Comparison and Generation - Systems, Models and Applications. Homage to Peter Greenfield"} in Bulag No 40, ISBN 978-2-84867-948-8. S. Cardey, F.-C. Rey, I. Atanassova (eds.)\\ \url{https://pufc.univ-fcomte.fr/bulag-40.html}}
+
+\datedelementdatefirst{2022}{\en{Editor of a }\fr{Editrice d'un }Research Topic}{}{\textit{"Mining Scientific Papers, Volume II: Knowledge Discovery and Data Exploitation"} in {"Frontiers in Research Metrics and Analytics"}. \en{Editorial doi: }\fr{DOI du éditorial : }10.3389/frma.2022.911070.\\\url{https://www.frontiersin.org/research-topics/13388/mining-scientific-papers-volume-ii-knowledge-discovery-and-data-exploitation}}
+
+\datedelementdatefirst{2019}{\en{Editor of a }\fr{Editrice d'un }Research Topic}{}{\textit{"Mining Scientific Papers: NLP-enhanced Bibliometrics"} in \textit{"Frontiers in Research Metrics and Analytics"}. \en{Editorial doi: }\fr{DOI du éditorial : }10.3389/frma.2022.911070.\\\url{https://www.frontiersin.org/research-topics/7043/mining-scientific-papers-nlp-enhanced-bibliometrics}}
+
+
+\subsection{\en{Reviews and programme committees}\fr{Relectures et comités de programme}}
+
+\en{Non-exhaustive list.}%
+\fr{Liste non exhaustive.}
+
+{\textsc{\en{Reviewer for international journals:}\fr{Relectrice pour des revues internationales : }}}
+
+\begin{itemize}
+    \item Traitement Automatique des Langues (TAL): 2024 (2)
+    \item Scientometrics: 2023, 2022 (2), 2019 (3), 2018 (6), 2017 (3)
+    \item International Journal on Digital Libraries (IJDL): 2023, 2021, 2016
+    \item Quantitative Science Studies (QSS): 2020
+    \item Journal of Infometrics: 2017 (3), 2016, 2015
+    \item Aslib Journal of Information Management: 2016
+    \item Nature Machine Intelligence: 2020
+    \item Journal of Natural Language Engineering (JNLE): 2024, 2019
+    \item Revue Ingénierie des Systèmes d’Information, numéro spécial (ISI): 2017
+    \item Computational Intelligence: 2016
+\end{itemize}
+
+{\textsc{\en{Member of the programme committees of international workshops and conferences:}\fr{Membre des comités de programme d'ateliers et conférences internationales :}}}
+
+
+\begin{itemize}
+    \item SCOLIA 2025
+    \item International Symposium Interdisciplinary approaches to phraseological units (PUs) in world languages: Linguistics - NLP \& AI - Translation - Literature: 2025 (\url{https://aiup.sciencesconf.org})
+     \item Annual International Conference of the Institute for Bulgarian Language (ConfIBL): 2024, 2023, 2022, 2020
+     \item Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE) at JCDL: 2023
+     \item Joint Conference on Digital Libraries (JCDL): 2023, 2022
+     \item International Conference on Computational Linguistics (COLING): 2022
+    \item Bibliometrics and Information Retrieval (BIR): 2024, 2023, 2021, 2020, 2019, 2018, 2017, 2016, 2014
+    \item Bibliometric-enhanced Information Retrieval and NLP for Digital Libraries (BIRNDL): 2019, 2018, 2017, 2016
+   \item Workshop On Mining Scientific Publications (WOSP) at LREC: 2020, 2018, 2017
+   \item Workshop on Natural Language Processing for Digital Humanities (NLP4DH): 2022, 2021
+   \item Recent Advances in Natural Language Processing (RANLP): 2021, 2017 
+   \item The International Florida Artificial Intelligence Research Society Conference (FLAIRS) : 2023, 2022, 2021, 2020, 2019, 2015--2017
+    \item The American Association for the Advancement of Science (AAAS) 2015 Annual Meeting
+    \item The International ACM Conference on Management of computational and collective intElligence in Digital EcoSystems (MEDES): 2016, 2015, 2014
+    \item International Conference on Computational Collective Intelligence (ICCCI): 2022, 2021, 2020
+    \item Conférence sur le Traitement Automatique des Langues Naturelles (JEP-TALN-RECITAL): 2020
+    \item Workshop on Scholarly Web Mining (SWM): 2017
+    \item Workshop on Scholarly Document Processing (SDP): 2021, 2020
+    \item Electronic lexicography in the 21st century (eLex): 2017
+    \item Computational Linguistics in Bulgaria (CLIB): 2024, 2022, 2020, 2018
+    \item Workshop on AI + Informetrics (AII): 2021
+    \item 4th International Workshop on Detection, Representation, and Exploitation of Events in the Semantic Web (DeRiVE): 2015
+\end{itemize}
+
+\subsection{\en{Associations and Societies}\fr{Associations et Sociétés}}
+
+\datedline{ISSI (Internaltional Society of Scientometrics and Infometrics)}{}{\en{Member since 2023}\fr{Membre depuis 2023}}
+
+\datedline{ATALA (Association pour le Traitement Automatique des Langues)}{}{\en{Member since 2014}\fr{Membre depuis 2014}}
+
+
+\section{\en{Grants and prizes}\fr{Prix et distinctions}}
+
+\datedline{\en{IUF (Institut Universitaire de France) research grant, junior member}\fr{Membre junior de l'IUF (Institut Universitaire de France)}}{France}{2021--2026}
+
+\datedline{\en{Grant for doctoral supervision and research (PEDR)}\fr{Prime d'encadrement doctoral et de recherche (PEDR)}}{France}{2019--2021}
+
+\datedelementdatefirst{2017}{\en{First prize of the InovHackTion hackathon}\fr{Premier prix du hackathon InovHackTion}}{}{\en{Organised by the Air Force France on the Intelligent analysis of documents.}\fr{Organisé par l'Armée de l'Air française sur l'analyse intelligente des documents.}\\\url{http://actu.univ-fcomte.fr/article/le-traitement-automatique-des-langues-seduit-larmee-005704}}
+
+\datedelementdatefirst{2016}{Nomination}{}{Annual International Society for Scientometrics and Infometrics (ISSI) Paper of the year award: Marc Bertin, Iana Atanassova, Vincent Larivière, and Yves Gingras. The Invariant Distribution of References in Scientific Papers. JASIST, 2016.}
+
+
+\section{\en{Science Dissemination}\fr{Diffusion scientifique}}
+
+
+%{\textsc{\en{Organiser of "IUF dans le cartable"}\fr{Organisatrice de "IUF dans le cartable"}, Besançon, France}}
+
+%\fr{L'initiative "IUF dans le cartable"\footnote{Site web de l'évenement : \url{https://www.iufrance.fr/liuf-dans-le-cartable.html}, et article dans l'ACTU de l'UMLP : \url{https://actu.univ-fcomte.fr/agenda/liuf-dans-le-cartable}.} vise à offrir à des lycéens l’opportunité de rencontrer et d’échanger de manière informelle avec des chercheurs de renommée internationale, venus de toute la France et membres de l'IUF. En créant un espace d’échanges hors des cadres classiques, nous cherchons à renforcer l'intérêt des lycéens pour la science et la recherche. En juin 2025, j'organise la première édition à Besançon, en marge du colloque annuel de l'IUF sur la thématique du temps. Des groupes de lycéens venant de tous les 28 lycées généraux de l'académie de Besançon participeront à ces rencontres.}
+%\en{The initiative "IUF dans le cartable" \textit{(IUF in the Backpack)}\footnote{Event website: \url{https://www.iufrance.fr/liuf-dans-le-cartable.html}, and article in UMLP’s ACTU: \url{https://actu.univ-fcomte.fr/agenda/liuf-dans-le-cartable}.} aims to offer high school students the opportunity to meet and engage in informal conversations with internationally recognized researchers from across France, all members of the IUF (Institut Universitaire de France). By creating a space for dialogue outside of traditional academic settings, we seek to strengthen students' interest in science and research. In June 2025, I organize the first edition of the event in Besançon, collocated with the IUF’s annual conference on the theme of time. Groups of students from all 28 general high schools in the Besançon region take part in these exchanges.}
+
+%\vspace{3mm}
+
+
+{\textsc{\en{Organiser of the TEDonnées workshop series for the general public}\fr{Organisatrice de la série d'ateliers TEDonnées pour le grand public}}}
+
+\en{The TEDonnées (\url{http://tesniere.univ-fcomte.fr/tedonnees/tedonnees2024/}, "Emerging Data Processing Tools") workshops, Besançon, France, aim to promote interactions between students, researchers and firms in the field of NLP, and to inform the general public. Several editions were organised on the following topics:}%
+\fr{Les ateliers TEDonnées (\url{http://tesniere.univ-fcomte.fr/tedonnees/tedonnees2024/}, "Techniques émergentes de données"), Besançon, France, visent à promouvoir les interactions entre étudiants, chercheurs et entreprises dans le domaine du TAL, et à informer le grand public. Plusieurs éditions ont été organisées sur les thèmes suivants :}
+
+\begin{itemize}
+\item 2017, \en{Data mining and e-reputation}\fr{Fouille de données et e-réputation }%\\\url{tesniere.univ-fcomte.fr/tedonnees/tedonnees2017}
+\item 2018, \en{Smart cities and language technologies}\fr{Villes intelligentes et technologies de la langue }%\\ \url{http://tesniere.univ-fcomte.fr/tedonnees/tedonnees2018/}
+\item 2022, \en{Fake News and credibility of the public information}\fr{Fake News et crédibilité de l'information publique }%\\ \url{http://tesniere.univ-fcomte.fr/tedonnees/tedonnees2022/}
+\item 2024, \en{Exchanging and innovating: SSH at the horizon of digital technology}\fr{Échanger et innover : les SHS à l’horizon du numérique }
+\end{itemize}
+
+
+
+\vspace{3mm}
+
+
+\datedelementdatefirst{2014}{Science map "The Cognitive Context of Citations"}{}{In the \textit{Places \& Spaces 10th iteration: The Future of Science Mapping} exhibit. \url{https://scimaps.org/map/10/6}}
+
+\vspace{3mm}
+
+{\textsc{\en{Articles and interviews:}\fr{Articles et entretiens :}}}
+
+\begin{itemize}
+\item 2024, \textit{"Donner un nouveau sens aux documents historiques"}, En Direct, Université de Franche-Comté, No. 312. \url{https://endirect.univ-fcomte.fr/publication/patrimoine-ecritdonner-un-nouveau-sens-aux-documents-historiques/}
+\item 2018, \textit{"Le traitement automatique des langues séduit l'armée"}, En Direct, Université de Franche-Comté, No 274. \\ \url{https://endirect.univ-fcomte.fr/publication/le-traitement-automatique-des-langues-sduit-larme/}
+\item 2017, TDM Stories “The structure of papers“, OpenMinTeD Interview\\\url{http://openminted.eu/tdm-stories-structure-papers/}
+\item 2016, \textit{"Au commencement était le verbe"}, En Direct, Université de Franche-Comté, No. 266\\ \url{https://endirect.univ-fcomte.fr/publication/dompter-le-big-data/#commencement}
+\end{itemize}
+
+\vspace{3mm}
+
+{\textsc{\en{Participation at science dissemination events:}\fr{Participation à des événements de diffusion scientifique :}}}
+
+
+\begin{itemize}
+\item 2024, \textit{"La science : des certitudes ou des hypothèses ?"}, \fr{présentation du projet}\en{Presenting the project} ANR InSciM, Fête de la Science, Besançon, France. \url{https://bit.ly/InSciM-diffusion1}
+\item 2022 (Nancy), 2024 (Limoges), \fr{participante en tant que chercheuse en IA à}\en{participant as researcher in AI in} \textit{"IUF dans le cartable"}, France. \url{https://www.iufrance.fr/liuf-dans-le-cartable.html}
+\end{itemize}
+
+\section{\en{Teaching activity}\fr{Enseignement}}
+
+\en{Non-exhaustive list.}%
+\fr{Liste non exhaustive.}
+
+\datedelementdatefirst{2024--}{\en{In MSc specialty NLP in “Languages and Foreign Cultures” (LLCER)}\fr{Dans le Master parcours TAL, mention “Langues, Littératures et Cultures Étrangères et Régionales” (LLCER)}}{}{Université de Franche-Comté (UFC), Besançon, France\\
+\en{Courses (lectures \& tutorial classes): Methodology in NLP, Methods in Machine learning, Research methodology.}%
+\fr{CMs : Méthodologie en TAL, Approches en apprentissage automatique, Méthodologie de la recherche.}}
+
+\datedelementdatefirst{2014--2024}{\en{In MSc specialty NLP in “Languages and Foreign Cultures” (LLCER)}\fr{Dans le Master parcours TAL, mention “Langues, Littératures et Cultures Étrangères et Régionales” (LLCER)}}{}{Université de Franche-Comté (UFC), Besançon, France\\
+\en{Courses (lectures \& tutorial classes): Methodology in NLP, Computer Programming for NLP, Information extraction and IR, Etymology, Cognitive Methods and ML, Software engineering for NLP.}%
+\fr{CMs et TDs : Méthodologie en TAL, Programmation pour le TAL, Extraction d'information et RI, Étymologie, Méthodes cognitives et apprentissage automatique, Génie logiciel pour le TAL.}}
+
+\datedelementdatefirst{2014--2024}{\en{In MSc “Languages and Foreign Cultures” (LLCER), all specialties}\fr{Dans le Master “Langues, Littératures et Cultures Étrangères et Régionales” (LLCER), toutes spécialités}}{}{Université de Franche-Comté (UFC), Besançon, France\\
+\en{Courses (lectures \& tutorial classes): Collaborative work and project management, Information Retrieval}%
+\fr{CMs et TDs : Travail collaboratif et gestion de projet, Recherche d'information}}
+
+\datedelementdatefirst{2014--2019}{\en{In BSc “Languages and Foreign Cultures”, specialty NLP}\fr{Dans la Licence “Langues, Littératures et Cultures Étrangères” (LLCE), parcours TAL}}{}{Université de Franche-Comté (UFC), Besançon, France\\
+\en{Courses (lectures \& tutorial classes): Computational Linguistics, Formal linguistics and informatics, Introduction to computer programming for NLP.}%
+\fr{CMs et TDs : Linguistique computationnelle, Linguistique formelle et informatique, Introduction à la programmation informatique pour le TAL.}}
+
+\datedelementdatefirst{2019 \& 2020}{\en{In URFIST de Lyon}\fr{À l'URFIST de Lyon}, }{France}
+{\en{Courses: "Introduction to scientific writing with \LaTeX{}"}\fr{Cours : "Introduction à la rédaction scientifique avec \LaTeX{}"}}
+
+\datedelementdatefirst{2011--2012}{\en{In MSc \textit{"French Language and Applications"}}\fr{Dans le Master \textit{"Langue Française et Applications"}}}{}{Université Paris-Sorbonne, Paris, France.\\
+\en{Course: "Introduction to Informatics and Natural Language Processing" (lectures \& tutorial classes).}%
+\fr{CMs et TDs : "Introduction à l'informatique et au traitement automatique des langues".}}
+
+\datedelementdatefirst{2009--2011}{\en{In BSc \textit{"French Language and Informatics"}}\fr{Dans la Licence \textit{"Langue Française et Informatique"}}}{}{Université Paris-Sorbonne, Paris, France.\\
+\en{Courses: "Logics and Introduction to Informatics" (tutorial classes); "General Mathematics and Analysis - 1" (lectures \& tutorial classes); "Preparation for the Certificate of Informatics and Internet (C2i) - level 1" (lectures \& tutorial classes).}%
+\fr{Cours : "Logique et introduction à l'informatique" (TDs) ; "Mathématiques générales et analyse - 1" (CMs et TDs) ; "Préparation au Certificat Informatique et Internet (C2i) - niveau 1" (CMs et TDs).}}
+
+\datedelementdatefirst{2009--2011}{\en{In MSc \textit{"Informatics and Language Engineering for Information Management"}}\fr{Dans le Master \textit{"Informatique et Ingénierie Linguistique pour la Gestion de l'Information"}}}{}{Université Paris-Sorbonne, Paris, France. \\
+\en{Courses: "Methodology and scientific reasoning" (tutorial classes).}%
+\fr{TDs : "Méthodologie et raisonnement scientifique".}}
+
+\datedelementdatefirst{2006--2009}{\en{In MSc \textit{"Philosophy and Sociology"}}\fr{Dans le Master \textit{"Philosophie et Sociologie"}}}{}{Université Paris-Sorbonne, Paris, France.\\
+\en{Courses: "Informatic tools" (tutorial classes).}%
+\fr{TDs : "Outils informatiques".}}
+
+
+
+
+%--------------------------------------------------------------
+
+\section{\en{Work experience}\fr{Expérience professionnelle}}
+
+\datedelementdatefirst{09/2014--08/2015}{\en{Assistant Professor in Natural Language Processing}\fr{Maîtresse de conférences en Traitement Automatique des Langues}, }{}{Université de Franche-Comté, Besançon, France}
+
+\datedelementdatefirst{02/2017}{\en{International mobility Erasmus+ STA}\fr{Mobilité internationale Erasmus+ STA}, }{University of Wolverhampton, \en{UK}\fr{Royaume Uni}}{\en{Research and teaching stay at the Research Institute in Information and Language Processing (RIILP), Research Group in Computational Linguistics}\fr{Séjour de recherche et d'enseignement au Research Institute in Information and Language Processing (RIILP), Research Group in Computational Linguistics}}
+
+\datedelementdatefirst{01/2014--08/2014}{\en{Post-doctoral fellow}\fr{Contrat postdoctoral}, }{Concordia University, Montréal, Canada}{\en{Semantic processing of corpora in humanities and social sciences, under the direction of Prof. Jean-Philippe Warren.
+%\\Objectives: Linguistic analyses for the exploitation of the documentary collections of the Bibliothèque et Archives nationales du Québec (BAnQ); Identification of new concepts, semantic relations and definitions in journal articles; Diachronic analysis of corpora to produce data for the sociological study of ideas and the evolution of concepts.
+}%
+\fr{Traitement sémantique de corpus en sciences humaines et sociales, sous la direction du Pr. Jean-Philippe Warren.
+%\\Objectifs : Analyses linguistiques pour l'exploitation des collections documentaires de la Bibliothèque et Archives nationales du Québec (BAnQ) ; Identification de nouveaux concepts, relations sémantiques et définitions dans les articles de revues ; Analyse diachronique de corpus pour produire des données pour l'étude sociologique des idées et l'évolution des concepts.
+}}
+
+\datedelementdatefirst{03/2012--06/2013}{\en{Research and Development manager}\fr{Responsable R\&D}, }{MyScienceWork, France/Luxembourg}{\en{Implementation of a search engine for scientific papers for the MyScienceWork social network.}%
+\fr{Mise en œuvre d'un moteur de recherche pour articles scientifiques pour le réseau social MyScienceWork.}}
+
+\datedelementdatefirst{09/2009--08/2011}{\en{Teaching and Research Assistant (ATER)}\fr{Attachée temporaire d'enseignement et de recherche (ATER)}}{}{Université Paris-Sorbonne, Institut des Sciences Humaines Appliquées, Paris, France.}
+
+
+%--------------------------------------------------------------
+
+
+\section{\en{Education}\fr{Formation}}
+
+\datedelementdatefirst{12/2015}{\en{Habilitation to Direct Research (HDR)}\fr{Habilitation à Diriger des Recherches (HDR)}}{}{\en{Specialty “Natural Language Processing”}\fr{Spécialité “Traitement Automatique des Langues”}, Université de Franche-Comté, Besançon, France.\\
+\en{Title: \textit{"Qualitative and quantitative analysis of scientific discourse. Applications to Information Extraction, Information Retrieval and the Semantic Web"}}%
+\fr{Titre : \textit{"Analyse qualitative et quantitative du discours scientifique. Applications à l'extraction d'informations, la recherche d'information et le Web sémantique"}}\\
+\en{Supervisor: Pr. Sylviane Cardey (University of Franche-Comté, France)}%
+\fr{Directrice : Pr. Sylviane Cardey (Université de Franche-Comté, France)}\\
+\en{Jury: Pr. R. Mitkov (University of Wolverhampton, UK); Pr. Ch. Roche (Université de Savoie, France); Pr. B. K. Bogacki (Université de Varsovie, Pologne); Pr. L. Da Sylva (Université de Montréal, Canada); Pr. J.-P. Desclés (Paris-Sorbonne University, France); Pr. P. Pognan (INALCO, France).}%
+\fr{Jury : Pr. R. Mitkov (Université de Wolverhampton, Royaume-Uni) ; Pr. Ch. Roche (Université de Savoie, France) ; Pr. B. K. Bogacki (Université de Varsovie, Pologne) ; Pr. L. Da Sylva (Université de Montréal, Canada) ; Pr. J.-P. Desclés (Université Paris-Sorbonne, France) ; Pr. P. Pognan (INALCO, France).}}
+
+\datedelementdatefirst{01/2012}{\en{PhD in "Mathematics, Informatics and Applications to Human Sciences”}\fr{Doctorat en "Mathématiques, Informatique et Applications aux Sciences Humaines"}}{}{Université Paris-Sorbonne, Faculté des Lettres, laboratoire LaLIC-STIH, Paris, France.\\
+\en{Title: \textit{"Exploiting semantic annotations for information retrieval and text navigation"}}%
+\fr{Titre : \textit{"Exploitation informatique des annotations sémantiques automatiques d'Excom pour la recherche d'informations et la navigation"}}\\
+\en{Supervisor: Pr. J.-P. Desclés (Paris-Sorbonne University, Paris, France)}%
+\fr{Directeur : Pr. J.-P. Desclés (Université Paris-Sorbonne, Paris, France)}\\
+\en{Jury: Pr. Th. Poibeau (CNRS, LaTTiCe, France); Pr. M. Hassoun (ENSSIB, France); Dr. Ch. Harbulot (EGE, France); Dr. B. Djioua (STIH, Paris-Sorbonne, France).}%
+\fr{Jury : Pr. Th. Poibeau (CNRS, LaTTiCe, France) ; Pr. M. Hassoun (ENSSIB, France) ; Dr. Ch. Harbulot (EGE, France) ; Dr. B. Djioua (STIH, Paris-Sorbonne, France).}}
+
+\datedelementdatefirst{2005--2006}{\en{MSc "Information and Communication"}\fr{Master "Information et Communication"}}{}{Université Paris-Sorbonne, Faculté des Lettres, Paris, France.\\
+\en{MSc thesis title: \textit{"Semantic annotations of texts in French and in Bulgarian with the Excom engine. Automatic syntheses"}, supervised by Pr. J.-P. Desclés}%
+\fr{Titre du mémoire : \textit{"Annotations sémantiques de textes en français et en bulgare avec le moteur Excom. Synthèses automatiques"}, sous la direction du Pr. J.-P. Desclés}}
+
+\datedelementdatefirst{2004--2005}{\en{MSc "Computational Linguistics"}\fr{Master "Linguistique Informatique"}, }{Sofia University, Sofia, Bulgaria}{\en{Faculty of Classical and Modern Philology}\fr{Faculté de Philologies Classiques et Modernes}}
+
+\datedelementdatefirst{2002--2005}{\en{BSc in English Philology}\fr{Licence en Philologie Anglaise}, }{Sofia University, \en{Faculty of Classical and Modern Philology}\fr{Faculté de Philologies Classiques et Modernes}}{Sofia, Bulgarie}
+
+\datedelementdatefirst{2000--2004}{\en{BSc in Mathematics}\fr{Licence en Mathématiques}, }{Sofia University, Sofia, Bulgarie}{\en{Faculty of Mathematics and Informatics}\fr{Faculté de Mathématiques et Informatique}}
+
+
+
+
+% ====================================================================
+
+
+
+
+\newpage
+
+\section{\en{Publication record}\fr{Liste des publications}}
+
+\nocite{*}
+
+\fr{Dans la liste qui suit, mon nom apparaît \textbf{en gras} et les noms des étudiants encadrés sont \underline{soulignés}.}
+\en{In the following list, my name appears \textbf{in bold} and the names of the students under my supervision are \underline{underlined}.}
+
+
+\sloppy
+
+
+\subsection*{\fr{Articles publiés dans une revue à comité de lecture}\en{International peer-reviewed journals}}
+
+\printbibliography[filter=revuecomlecture, heading=none]
+
+\subsection*{\fr{Chapitres d’ouvrages}\en{Book chapters}}
+
+\printbibliography[filter=chapitre, heading=none]
+
+
+\subsection*{\fr{Directions de numéros de revue}\en{Editor of special issues of journals}}
+
+\printbibliography[filter=dirnumrevue, heading=none]
+
+\subsection*{\fr{Directions d’actes}\en{Editor of conference proceedings}}
+
+\printbibliography[filter=diractes, heading=none]
+
+
+\subsection*{\fr{Conférences sur invitation dans des colloques à comité de sélection}\en{Keynote talks}}
+
+\printbibliography[filter=confinvitee, heading=none]
+
+
+\subsection*{\fr{Communications publiées dans des actes de colloques internationaux}\en{International conferences and workshops}}
+
+\printbibliography[filter=confinternat, heading=none]
+
+\subsection*{\fr{Communications publiées dans des actes de colloques nationaux}\en{National conferences and workshops}}
+
+\printbibliography[filter=confnat, heading=none]
+
+\subsection*{\fr{Communications sans actes}\en{Communications}}
+
+\printbibliography[filter=commsansactes, heading=none]
+
+\subsection*{\fr{Conférences dans des séminaires}\en{Seminars}}
+
+\printbibliography[filter=seminaire, heading=none]
+
+\subsection*{\fr{Publications destinées à diffuser ou vulgariser l'information scientifique}\en{Dissemination of science}}
+
+\printbibliography[filter=vulgarisation, heading=none]
+
+\subsection*{\fr{Jeux de données}\en{Datasets}}
+
+\printbibliography[filter=dataset, heading=none]
+
+%\subsection*{\textbf{Thèse de doctorat}}
+
+%\printbibliography[filter=these, heading=none]
+
+\subsection*{\fr{Rapports}\en{Reports}}
+
+\printbibliography[filter=rapport, heading=none]
+
+% ===============
+
+\label{LastPage}
+
