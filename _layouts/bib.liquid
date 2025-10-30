@@ -29,7 +29,7 @@
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" style="width: 90%" src="{{ entry.preview }}">
         {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% assign entry_path = entry.preview | prepend: '/assets/img/' %}
           {%
             include figure.liquid
             loading="eager"
@@ -42,7 +42,7 @@
           %}
         {% endif %}
       {% else %}
-        <i class="fa-solid fa-file"></i>
+        <i class="fa-solid fa-file" style="font-size: 2em;></i>
       {% endif %}
     </div>
   {% endif %}
