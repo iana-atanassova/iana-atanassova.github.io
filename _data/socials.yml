@@ -54,3 +54,7 @@
  # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
  # title: Custom Social
  # url: https://www.alberteinstein.com/
+iuf_social:
+  logo: /assets/img/iuf-transparent.png
+  title: IUF
+  url: https://www.iufrance.fr/les-membres-de-liuf/membre/2288-iana-atanassova.html
