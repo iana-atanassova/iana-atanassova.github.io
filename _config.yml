@@ -16,7 +16,8 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, academic-website, Iana Atanassova, Natural Language Processing, text processing, France, NLP, computational linguistics, scholarly documents, semantics 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: iana-mini.png
+# ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://iana-atanassova.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -237,12 +238,13 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: iana-all.bib
+  bibliography: iana-all-html.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
+  html: true
 
   replace_strings: true
   join_strings: true

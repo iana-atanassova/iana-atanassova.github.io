@@ -32,6 +32,20 @@ if [ -n "$eoutput" ]; then
   	echo "====="
 else 
 	echo "No errors detected!"
-	echo "Copying files to website git project ..."
+	echo "**********"
+	echo "Copying pdf files to website git project ..."
 	cp *.pdf  ../assets/pdf/
 fi
+
+
+# convert bib to html 
+
+echo "Converting bib file to prepare for web site"
+
+sed 's/\\textsuperscript{\([^}]*\)}/<sup>\1<\/sup>/g' "iana-all.bib" > "iana-all-html.bib"
+
+echo "Copynig bib file to web site folder"
+
+cp iana-all-html.bib  ../_bibliography/
+
+echo "Done"
