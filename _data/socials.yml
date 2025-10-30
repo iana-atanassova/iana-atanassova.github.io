@@ -19,6 +19,7 @@
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
+iuf_url: https://www.iufrance.fr/les-membres-de-liuf/membre/2288-iana-atanassova.html
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
@@ -54,7 +55,3 @@
  # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
  # title: Custom Social
  # url: https://www.alberteinstein.com/
-iuf_social:
-  logo: /assets/img/iuf-transparent.png
-  title: IUF
-  url: https://www.iufrance.fr/les-membres-de-liuf/membre/2288-iana-atanassova.html
