@@ -19,6 +19,47 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{Atanassova2025inist}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
+           family={Atanassova},
+           familyi={A\bibinitperiod},
+           given={Iana},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nancy, France}%
+      }
+      \list{organization}{1}{%
+        {INIST}%
+      }
+      \strng{namehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{fullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{bibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La plateforme ISTEX est l’une des rares ressources pour l’exploration de la diversité linguistique dans la littérature scientifique, grâce à son corpus multilingue en plein texte. L’analyse des références bibliographiques issues du corpus ISTEX nous a permis de mettre en évidence la prédominance de l’anglais comme lingua franca, mais aussi la mobilisation de connaissances issues d’articles dans plus de cinquante autres langues. Grâce à la détection automatique de la langue des références, il devient possible d’analyser finement les pratiques de citation et les flux d’information entre langues et disciplines, offrant ainsi des perspectives concrètes en linguistique de corpus, bibliométrie et traitement automatique des langues. Cette présentation vise à montrer, à partir de cas pratiques, comment exploiter ISTEX pour mener des analyses de corpus scientifiques et en particulier étudier le multilinguisme des références scientifiques, avec des résultats directement mobilisables pour la formation et la recherche.}
+      \field{annotation}{vulgarisation}
+      \field{booktitle}{ANF Corpus ISTEX - L’infrastructure ISTEX au service de la constitution et de l’analyse de corpus textuels}
+      \field{subtitle}{Retours d'expérience sur l’usage des données Istex en pédagogie et en recherche}
+      \field{title}{Explorer le multilinguisme dans les références scientifiques avec ISTEX : méthodes et perspectives pour la fouille textuelle}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://istex25-renatis.sciencesconf.org/
+      \endverb
+      \verb{url}
+      \verb https://istex25-renatis.sciencesconf.org/
+      \endverb
+      \annotation{item}{author}{default}{1}{}{0}{me}
+      \warn{\item misc entry 'Atanassova2025inist' (iana-all.bib): Invalid format '5 nov 2025' of date field 'date' - ignoring}
+    \endentry
     \entry{Atanassova2025}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
@@ -281,7 +322,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -923,7 +964,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2110,7 +2151,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2520,7 +2561,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2752,7 +2793,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2785,7 +2826,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3235,7 +3276,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3261,7 +3302,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3739,7 +3780,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -4673,7 +4714,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -4920,7 +4961,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -5067,7 +5108,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{12}
+      \field{extraname}{13}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
