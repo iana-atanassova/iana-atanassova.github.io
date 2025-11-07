@@ -1,0 +1,7 @@
+PWD /home/iana/CLOUDS/travail/10-Espace-de-travail-perso/sites-web/iana-atanassova.github.io/_projects
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/iana/CLOUDS/travail/10-Espace-de-travail-perso/sites-web/iana-atanassova.github.io/_projects/2020-emontal.md
+OUTPUT 2020-emontal.log
