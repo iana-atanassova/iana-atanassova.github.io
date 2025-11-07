@@ -3,9 +3,9 @@
     "name": "Iana Atanassova",
     "title": "Full Professor in Natural Language Processing",
     "image": "iana.jpg",
-    "email": "iana.atanassova@univ-fcomte.fr",
+    "email": "iana.atanassova@umlp.fr",
     "url": "https://iana-atanassova.github.io/",
-    "summary": "Director of the CRIT laboratory at the Universit Marie et Louis Pasteur, France.<br>Member of Institut Universitaire de France (IUF).",
+    "summary": "Director of the CRIT laboratory at the Université Marie et Louis Pasteur, France.<br>Member of Institut Universitaire de France (IUF).",
     "location": {
       "address": "30 rue Megevand",
       "postalCode": "F-25000",
@@ -75,40 +75,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "InSciM - Modelling Uncertainty in Science",
-      "startDate": "2021-01",
-      "endDate": "2025-12",
-      "url": "https://project-inscim.github.io/",
-      "summary": "ANR JCJC funded research project addressing linguistic modeling of scientific uncertainty. French ANR grant number ANR-21-CE38-0003-01.",
-      "highlights": []
-    },
-
-    {
-      "name": "Automatic correction of text responses to exams",
-      "startDate": "2021-01",
-      "endDate": "2023-06",
-      "summary": "Collaboration and technology transfer to the start-up e-Cole, funded by Technopole de la Réunion.",
-      "highlights": []
-    },
-
-    {
-      "name": "EMONTAL - Extraction and Ontology Modeling of Subjects and Places for the Exploitation of the Documentary Funds of Bourgogne Franche-Comté",
-      "startDate": "2020-10",
-      "endDate": "2024-09",
-      "url": "http://tesniere.univ-fcomte.fr/projet-emontal/",
-      "summary": "Project for documentary fund exploitation, funded by Région Bourgogne Franche-Comté.",
-      "highlights": []
-    },
-    {
-      "name": "DecRIPT - Detection of the Representations of Personal Data in Texts",
-      "startDate": "2020-01",
-      "endDate": "2022-06",
-      "url": "http://tesniere.univ-fcomte.fr/projet-decript/",
-      "summary": "Project funded by Interreg France-Switzerland 2014-2020 and Communauté du Savoir, Switzerland.",
-      "highlights": ["Developing tools for GDPR compliance via text processing", "Academic partners : HEG (Switzerland), HEG Arc (Switzerland)", 
-        "Private partners : ERDIL (France), Global Data Excellence (Switzerland)"]
-    }
   ],
 
   "volunteer": [
