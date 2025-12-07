@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{Atanassova2025a}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
+           family={Atanassova},
+           familyi={A\bibinitperiod},
+           given={Iana},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Besançon, France}%
+      }
+      \strng{namehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{fullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{bibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Face aux profondes transformations qui traversent notre société, la perception de l’incertitude dans le discours scientifique constitue un enjeu majeur pour toutes les activités de recherche. La production de nouvelles connaissances repose sur des démarches méthodologiques rigoureuses qui comportent nécessairement une part d’incomplétude ou d’erreur, et suppose ainsi la conceptualisation et la formulation des zones de limite du savoir ou d’incertitude. Nous proposons d’explorer la façon dont les chercheurs expriment l’incertitude dans leurs publications, afin de mieux comprendre comment le discours scientifique construit et négocie ses propres frontières. En mobilisant des méthodes du Traitement Automatique des Langues, il est possible d’analyser les corpus scientifiques pour identifier les marqueurs linguistiques d’incertitude, cartographier les incertitudes dans des différentes disciplines et les comparer entre elles. Les résultats présentés s’appuient sur les avancées du projet ANR InSciM (2021-2025), montrant comment l’incertitude peut enrichir notre compréhension des dynamiques épistémiques et ouvrir un dialogue interdisciplinaire sur les limites du savoir.}
+      \field{annotation}{comm-sans-actes}
+      \field{booktitle}{TimeWorld Limite}
+      \field{title}{Comment l’incertitude scientifique révèle-t-elle les limites du savoir  ?}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://timeworldevent.com/8/?page_id=840&entry=664
+      \endverb
+      \verb{url}
+      \verb https://timeworldevent.com/8/?page_id=840&entry=664
+      \endverb
+      \annotation{item}{author}{default}{1}{}{0}{me}
+    \endentry
     \entry{Atanassova2025inist}{misc}{}
       \name{author}{1}{}{%
         {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
@@ -39,7 +76,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -322,7 +359,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -964,7 +1001,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2151,7 +2188,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2561,7 +2598,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2793,7 +2830,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2826,7 +2863,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3276,7 +3313,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3302,7 +3339,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3780,7 +3817,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -4714,7 +4751,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -4961,7 +4998,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{12}
+      \field{extraname}{13}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -5108,7 +5145,7 @@
       \strng{authorbibnamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authornamehash}{de8dcb7ae98765f0cf884691a8a01e4b}
       \strng{authorfullhash}{de8dcb7ae98765f0cf884691a8a01e4b}
-      \field{extraname}{13}
+      \field{extraname}{14}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
