@@ -5,38 +5,35 @@
 ## Structure
 
 - _config.yml : general settings
-
 - _pages/about.md : biography (short)
 - _pages/cv.md : config. of the CV, points to the pdf cv file
 - assets/pdf/CV_Iana_Atanassova_main.pdf : cv in pdf
 - assets/resume.json : contents of the CV
-
 - _data/socials.yml : websites ids (orcid etc)
-
 - _bibliography/iana-all.bib  : bibliography file
 
-
-
-
-
-## Modifications
-
-
-### Add publications
+## Add publications
 
 Add to _bibliography/iana-all.bib
 
 
 Bibtex fields :
 
-preview = {link to image file}
-abstract = {abstract}
-bibtex_show = {true}
-selected = {true}
-poster = {link to poster}
-slides = {link to presentation}
+**For web :**
+- preview = {link to image file}
+- abstract = {abstract}
+- bibtex_show = {true}
+- selected = {true}
+- poster = {link to poster}
+- slides = {link to presentation}
 
-### Add news 
+**For CV PDF (latex) :**
+- annotation = {...} Valeurs possibles : revue-com-lecture, chapitre, dir-num-revue, dir-actes, conf-invitee, conf-internat, conf-nat, comm-sans-actes, seminaire, vulgarisation, dataset, these, rapport
+- author+an   = {2=me;1=student} : pour souligner les etudiants etc.
+
+**Attention** : the "year" field should be present in all bibtex entries. Sometimes jabref uses "date" instead of year, should be corrected.
+
+## Add news 
  
 - Add file to _news 
 Structure: 
@@ -86,13 +83,13 @@ Jean shorts raw denim ... brunch. <a href="https://www.pinterest.com">Pinterest<
 ```
 
 
-### Modify CV
+## Modify CV
 
 - in assets/pdf: place the new PDF file
 - in assets/resume.json
 
 
-### Add identified (HAL etc.)
+## Add identified (HAL etc.)
 
 _data/socials.yml
 

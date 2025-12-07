@@ -281,6 +281,7 @@ filtered_bibtex_keywords:
     additional_info,
     altmetric,
     annotation,
+    author+an,
     arxiv,
     award,
     award_name,
