@@ -19,7 +19,60 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
-    \entry{Atanassova2025a}{inproceedings}{}
+    \entry{Gutehrle2026}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dab3c0d7f4dcb30dff6b180436fc6997}{%
+           family={Gutehrlé},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=decafeadfb00f8575a698e9024d8291b}{%
+           family={Ningrum},
+           familyi={N\bibinitperiod},
+           given={Panggih\bibnamedelima Kusuma},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
+           family={Atanassova},
+           familyi={A\bibinitperiod},
+           given={Iana},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{50fb1fa497af76a9ade99b31dcf60270}
+      \strng{fullhash}{040347d1d8f8a49374cc985169daea13}
+      \strng{bibnamehash}{040347d1d8f8a49374cc985169daea13}
+      \strng{authorbibnamehash}{040347d1d8f8a49374cc985169daea13}
+      \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
+      \strng{authorfullhash}{040347d1d8f8a49374cc985169daea13}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scientific uncertainty is inherent to the research process and to the production of new knowledge. In this paper, we present a large-scale analysis of how scientific uncertainty is expressed in research articles. To perform this study, we analyze the Const-L dataset, which consists in 31,849 research articles across 16 disciplines published over more than two decades. To identify and categorize uncertainty expressions, we employ the UnScientify annotation system, a linguistically informed, rule-based approach. We examine the distribution of uncertainty across disciplines, over time, and within the structure of articles, and we analyze its contexts and objects. The results show that the Social Sciences and Humanities (SSH) tend to have a higher frequency of uncertainty expressions than other fields. Overall, uncertainty tends to decrease over time, though this trend varies across disciplines. Moreover, correlations can be observed between the uncertainty expressions and both article structure and length. Finally, our findings provide new insights into scientific communication, by indicating distinctive disciplinary patterns in the ways uncertainty is expressed, as well as shared and field-specific research objects associated with uncertainty.}
+      \field{annotation}{revue-com-lecture}
+      \field{issn}{0169-023X}
+      \field{journaltitle}{Data \& Knowledge Engineering}
+      \field{title}{A large-scale multi-disciplinary analysis of uncertainty in research articles}
+      \field{volume}{163}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{102561}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.datak.2026.102561
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169023X2600008X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169023X2600008X
+      \endverb
+      \keyw{Uncertainty,Research article,Multi-disciplinary analysis,Semantic annotation,Full text}
+      \annotation{item}{author}{default}{1}{}{0}{student}
+      \annotation{item}{author}{default}{2}{}{0}{student}
+      \annotation{item}{author}{default}{3}{}{0}{me}
+    \endentry
+    \entry{Atanassova2025a}{misc}{}
       \name{author}{1}{}{%
         {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
            family={Atanassova},
@@ -41,18 +94,17 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Face aux profondes transformations qui traversent notre société, la perception de l’incertitude dans le discours scientifique constitue un enjeu majeur pour toutes les activités de recherche. La production de nouvelles connaissances repose sur des démarches méthodologiques rigoureuses qui comportent nécessairement une part d’incomplétude ou d’erreur, et suppose ainsi la conceptualisation et la formulation des zones de limite du savoir ou d’incertitude. Nous proposons d’explorer la façon dont les chercheurs expriment l’incertitude dans leurs publications, afin de mieux comprendre comment le discours scientifique construit et négocie ses propres frontières. En mobilisant des méthodes du Traitement Automatique des Langues, il est possible d’analyser les corpus scientifiques pour identifier les marqueurs linguistiques d’incertitude, cartographier les incertitudes dans des différentes disciplines et les comparer entre elles. Les résultats présentés s’appuient sur les avancées du projet ANR InSciM (2021-2025), montrant comment l’incertitude peut enrichir notre compréhension des dynamiques épistémiques et ouvrir un dialogue interdisciplinaire sur les limites du savoir.}
-      \field{annotation}{comm-sans-actes}
+      \field{abstract}{Face aux profondes transformations qui traversent notre société, la perception de l'incertitude dans le discours scientifique constitue un enjeu majeur pour toutes les activités de recherche. La production de nouvelles connaissances repose sur des démarches méthodologiques rigoureuses qui comportent nécessairement une part d'incomplétude ou d'erreur, et suppose ainsi la conceptualisation et la formulation des zones de limite du savoir ou d'incertitude. Nous proposons d'explorer la façon dont les chercheurs expriment l'incertitude dans leurs publications, afin de mieux comprendre comment le discours scientifique construit et négocie ses propres frontières. En mobilisant des méthodes du Traitement Automatique des Langues, il est possible d'analyser les corpus scientifiques pour identifier les marqueurs linguistiques d'incertitude, cartographier les incertitudes dans des différentes disciplines et les comparer entre elles. Les résultats présentés s'appuient sur les avancées du projet ANR InSciM (2021-2025), montrant comment l'incertitude peut enrichir notre compréhension des dynamiques épistémiques et ouvrir un dialogue interdisciplinaire sur les limites du savoir.}
+      \field{annotation}{vulgarisation}
       \field{booktitle}{TimeWorld Limite}
-      \field{title}{Comment l’incertitude scientifique révèle-t-elle les limites du savoir  ?}
+      \field{title}{Comment l'incertitude scientifique révèle-t-elle les limites du savoir ?}
       \field{year}{2025}
-      \field{dateera}{ce}
       \true{nocite}
       \verb{urlraw}
-      \verb https://timeworldevent.com/8/?page_id=840&entry=664
+      \verb https://www.youtube.com/watch?v=zvV-p8kmHvk
       \endverb
       \verb{url}
-      \verb https://timeworldevent.com/8/?page_id=840&entry=664
+      \verb https://www.youtube.com/watch?v=zvV-p8kmHvk
       \endverb
       \annotation{item}{author}{default}{1}{}{0}{me}
     \endentry
@@ -81,10 +133,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{La plateforme ISTEX est l’une des rares ressources pour l’exploration de la diversité linguistique dans la littérature scientifique, grâce à son corpus multilingue en plein texte. L’analyse des références bibliographiques issues du corpus ISTEX nous a permis de mettre en évidence la prédominance de l’anglais comme lingua franca, mais aussi la mobilisation de connaissances issues d’articles dans plus de cinquante autres langues. Grâce à la détection automatique de la langue des références, il devient possible d’analyser finement les pratiques de citation et les flux d’information entre langues et disciplines, offrant ainsi des perspectives concrètes en linguistique de corpus, bibliométrie et traitement automatique des langues. Cette présentation vise à montrer, à partir de cas pratiques, comment exploiter ISTEX pour mener des analyses de corpus scientifiques et en particulier étudier le multilinguisme des références scientifiques, avec des résultats directement mobilisables pour la formation et la recherche.}
+      \field{abstract}{La plateforme ISTEX est l'une des rares ressources pour l'exploration de la diversité linguistique dans la littérature scientifique, grâce à son corpus multilingue en plein texte. L'analyse des références bibliographiques issues du corpus ISTEX nous a permis de mettre en évidence la prédominance de l'anglais comme lingua franca, mais aussi la mobilisation de connaissances issues d'articles dans plus de cinquante autres langues. Grâce à la détection automatique de la langue des références, il devient possible d'analyser finement les pratiques de citation et les flux d'information entre langues et disciplines, offrant ainsi des perspectives concrètes en linguistique de corpus, bibliométrie et traitement automatique des langues. Cette présentation vise à montrer, à partir de cas pratiques, comment exploiter ISTEX pour mener des analyses de corpus scientifiques et en particulier étudier le multilinguisme des références scientifiques, avec des résultats directement mobilisables pour la formation et la recherche.}
       \field{annotation}{vulgarisation}
-      \field{booktitle}{ANF Corpus ISTEX - L’infrastructure ISTEX au service de la constitution et de l’analyse de corpus textuels}
-      \field{subtitle}{Retours d'expérience sur l’usage des données Istex en pédagogie et en recherche}
+      \field{booktitle}{ANF Corpus ISTEX - L'infrastructure ISTEX au service de la constitution et de l'analyse de corpus textuels}
+      \field{subtitle}{Retours d'expérience sur l'usage des données Istex en pédagogie et en recherche}
       \field{title}{Explorer le multilinguisme dans les références scientifiques avec ISTEX : méthodes et perspectives pour la fouille textuelle}
       \field{year}{2025}
       \true{nocite}
@@ -95,7 +147,6 @@
       \verb https://istex25-renatis.sciencesconf.org/
       \endverb
       \annotation{item}{author}{default}{1}{}{0}{me}
-      \warn{\item misc entry 'Atanassova2025inist' (iana-all.bib): Invalid format '5 nov 2025' of date field 'date' - ignoring}
     \endentry
     \entry{Atanassova2025}{inproceedings}{}
       \name{author}{5}{}{%
@@ -276,7 +327,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{L’incertitude fait partie intégrante du processus de recherche scientifique et est inhérente à la construction de nouvelles connaissances. Dans cet article, nous examinons la manière dont l’incertitude est exprimée dans les articles scientifiques et proposons un cadre d’annotation rendant compte des différentes dimensions de cette notion. L’incertitude scientifique est définie ici comme l’expression d’un manque de connaissance ou d’un manque de précision dans les informations sur un sujet ou un concept identifié. Nous proposons un jeu de données de référence (gold standard), composé de 1 839 phrases d’articles scientifiques annotées manuellement et provenant de plusieurs disciplines. Nous proposons également une approche à base de connaissances linguistiques pour l’annotation automatique des articles et pour la détection et la catégorisation de l’incertitude scientifique. Nous comparons l’efficacité de notre approche en termes de scores de Précision, Rappel et F1 aux méthodes de prompts few-shot réalisées via les Grands Modèles de Langue Phi-3.5 et Llama 3 pour la même tâche d’annotation. Cette évaluation comparative montre des scores similaires entre les approches, allant jusqu’à des scores F1 de 0,858 pour notre approche.}
+      \field{abstract}{L'incertitude fait partie intégrante du processus de recherche scientifique et est inhérente à la construction de nouvelles connaissances. Dans cet article, nous examinons la manière dont l'incertitude est exprimée dans les articles scientifiques et proposons un cadre d'annotation rendant compte des différentes dimensions de cette notion. L'incertitude scientifique est définie ici comme l'expression d'un manque de connaissance ou d'un manque de précision dans les informations sur un sujet ou un concept identifié. Nous proposons un jeu de données de référence (gold standard), composé de 1 839 phrases d'articles scientifiques annotées manuellement et provenant de plusieurs disciplines. Nous proposons également une approche à base de connaissances linguistiques pour l'annotation automatique des articles et pour la détection et la catégorisation de l'incertitude scientifique. Nous comparons l'efficacité de notre approche en termes de scores de Précision, Rappel et F1 aux méthodes de prompts few-shot réalisées via les Grands Modèles de Langue Phi-3.5 et Llama 3 pour la même tâche d'annotation. Cette évaluation comparative montre des scores similaires entre les approches, allant jusqu'à des scores F1 de 0,858 pour notre approche.}
       \field{annotation}{revue-com-lecture}
       \field{journaltitle}{Revue des Nouvelles Technologies de l'Information}
       \field{title}{Etudier l'incertitude dans les articles scientifiques : mise en perspective d'une méthode linguistique}
@@ -399,7 +450,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The task of citation string parsing has been the focus of many efforts. Traditional tools explicitly designed to parse bibliographic information, such as Bilbo, Grobid, and Parscit, have long been established in the academic landscape. Recently, with the emergence of general conversational LLMs (Large Language Models) such as OpenAI’s ChatGPT and Llama, an interesting question arises: can such language models, originally developed for natural language understanding (NLU), be employed to efficiently process bibliographies, and how would their performance for this task compare to that of dedicated bibliographic parsing tools? In this article, we propose an experiment to measure the ability of LLMs to analyse citation strings in different citation styles. We use a synthetic dataset with 12 different citation styles. We evaluate the output of two generative LLMs, ChatGPT 3.5 and Llama 2 7B, and two out-of-the-box citation parsers, CERMINE and Neural ParsCit. The results show that the LLMs tend to outperform the citation parsers for all citation styles and labels.}
+      \field{abstract}{The task of citation string parsing has been the focus of many efforts. Traditional tools explicitly designed to parse bibliographic information, such as Bilbo, Grobid, and Parscit, have long been established in the academic landscape. Recently, with the emergence of general conversational LLMs (Large Language Models) such as OpenAI's ChatGPT and Llama, an interesting question arises: can such language models, originally developed for natural language understanding (NLU), be employed to efficiently process bibliographies, and how would their performance for this task compare to that of dedicated bibliographic parsing tools? In this article, we propose an experiment to measure the ability of LLMs to analyse citation strings in different citation styles. We use a synthetic dataset with 12 different citation styles. We evaluate the output of two generative LLMs, ChatGPT 3.5 and Llama 2 7B, and two out-of-the-box citation parsers, CERMINE and Neural ParsCit. The results show that the LLMs tend to outperform the citation parsers for all citation styles and labels.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2024) co-located with the 46\textsuperscript{st} European Conference on Information Retrieval (ECIR 2024)}}
       \field{title}{{Breaking Boundaries in Citation Parsing: A Comparative Study of Generative LLMs and Traditional Out-of-the-box Citation Parsers}}
@@ -513,7 +564,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Le statut de lingua franca de l’anglais dans la recherche est déjà bien établi. Dans quelle mesure les citations d’articles rédigés en anglais sont-elles prédominantes par rapport aux articles rédigés dans d’autres langues ? Dans cet article, nous abordons le problème du multilinguisme dans les publications par l’analyse de deux corpus différents : d’un côté le Semantic Scholar Open Research Corpus, et d’un autre côté la base de données multilingue ISTEX. Notre objectif est d’examiner les références en langues étrangères (différentes de la langue de publication) dans ces corpus, et d’observer leur nature et leur distribution.}
+      \field{abstract}{Le statut de lingua franca de l'anglais dans la recherche est déjà bien établi. Dans quelle mesure les citations d'articles rédigés en anglais sont-elles prédominantes par rapport aux articles rédigés dans d'autres langues ? Dans cet article, nous abordons le problème du multilinguisme dans les publications par l'analyse de deux corpus différents : d'un côté le Semantic Scholar Open Research Corpus, et d'un autre côté la base de données multilingue ISTEX. Notre objectif est d'examiner les références en langues étrangères (différentes de la langue de publication) dans ces corpus, et d'observer leur nature et leur distribution.}
       \field{annotation}{conf-internat}
       \field{booktitle}{Conférence internationale sur l'extraction et la gestion des connaissances (EGC 2024)}
       \field{month}{1}
@@ -642,7 +693,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Dans cet article, nous proposons une méthode pour la correction automatique de définitions produites par les étudiants dans le domaine de la gestion et l’économie. Notre algorithme traite les réponses textuelles des étudiants afin d’y identifier les concepts et relations correctement restituées et ceux qui sont erronés ou manquants. Nous avons effectué une évaluation sur plusieurs corpus de définitions, et les résultats montrent un score de F1 d’autour de 0,91 pour l’identification des relations, et des scores entre 0,75 et 0,83 pour l’identification des groupes nominaux arguments des relations. Cette approche s’inscrit dans un projet plus vaste autour de la correction automatique des réponses textuelles et la production d’outils destinés aux enseignants et apprenants.}
+      \field{abstract}{Dans cet article, nous proposons une méthode pour la correction automatique de définitions produites par les étudiants dans le domaine de la gestion et l'économie. Notre algorithme traite les réponses textuelles des étudiants afin d'y identifier les concepts et relations correctement restituées et ceux qui sont erronés ou manquants. Nous avons effectué une évaluation sur plusieurs corpus de définitions, et les résultats montrent un score de F1 d'autour de 0,91 pour l'identification des relations, et des scores entre 0,75 et 0,83 pour l'identification des groupes nominaux arguments des relations. Cette approche s'inscrit dans un projet plus vaste autour de la correction automatique des réponses textuelles et la production d'outils destinés aux enseignants et apprenants.}
       \field{annotation}{conf-internat}
       \field{booktitle}{Conférence internationale sur l'extraction et la gestion des connaissances (EGC 2024)}
       \field{month}{1}
@@ -679,7 +730,7 @@
       \strng{authorbibnamehash}{040347d1d8f8a49374cc985169daea13}
       \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
       \strng{authorfullhash}{040347d1d8f8a49374cc985169daea13}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1142,12 +1193,12 @@
       \strng{authorbibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
       \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
       \strng{authorfullhash}{fa049e95ff56dbfb791cfabdada0a393}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Les campagnes de numérisation menées ces dernières années par les bibliothèques et archives ont facilité l'accès aux documents de leurs collections. Cependant, explorer et exploiter ces contenus restent des tâches difficiles en raison de la quantité de documents consultables. Dans cet article, nous montrons comment l’annotation sémantique du contenu textuel de corpus d’études issus de documents d'archives permet d'en faciliter l'exploitation et la valorisation. Nous présentons d’abord un cadre méthodologique pour la construction de nouvelles interfaces qui reposent sur la sémantique textuelle, puis abordons les verrous technologiques actuels, et leurs potentielles solutions. Nous terminons par la présentation d’un cas pratique de l’application de ce cadre.}
+      \field{abstract}{Les campagnes de numérisation menées ces dernières années par les bibliothèques et archives ont facilité l'accès aux documents de leurs collections. Cependant, explorer et exploiter ces contenus restent des tâches difficiles en raison de la quantité de documents consultables. Dans cet article, nous montrons comment l'annotation sémantique du contenu textuel de corpus d'études issus de documents d'archives permet d'en faciliter l'exploitation et la valorisation. Nous présentons d'abord un cadre méthodologique pour la construction de nouvelles interfaces qui reposent sur la sémantique textuelle, puis abordons les verrous technologiques actuels, et leurs potentielles solutions. Nous terminons par la présentation d'un cas pratique de l'application de ce cadre.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{CiDE.23 : 23ème édition du Colloque International sur le Document Electronique "Document et archivage : pratiques formelles et informelles dans les organisations"}}
       \field{title}{{Comprendre les archives : vers de nouvelles interfaces de recherche reposant sur l'annotation sémantique des documents}}
@@ -1546,7 +1597,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The role of preprints in the scientific production and their part in citations have been growing over the past 10 years. In this paper we study preprint citations in several different aspects: the progression of preprint citations over time, their relative frequencies in relation to the IMRaD structure of articles, their distributions over time, per preprint database and per PLOS journal. We have processed the PLOS corpus that covers 7 journals and a total of about 240,000 articles up to January 2021, and produced a dataset of 8,460 preprint citation contexts that cite 12 different preprint databases. Our results show that preprint citations are found with the highest frequency in the Method section of articles, though small variations exist with respect to journals. The PLOS Computational Biology journal stands out as it contains more than three times more preprint citations than any other PLOS journal. The relative parts of the different preprint databases are also examined. While ArXiv and bioRxiv are the most frequent citation sources, bioRxiv’s disciplinary nature can be observed as it is the source of more than 70\% of preprint citations in PLOS Biology, PLOS Genetics and PLOS Pathogens. We have also compared the lexical content of preprint citation contexts to the citation content to peer-reviewed publications. Finally, by performing a lexicometric analysis, we have shown that preprint citation contexts differ significantly from citation contexts of peer-reviewed publications. This confirms that authors make use of different lexical content when citing preprints compared to the rest of citations.}
+      \field{abstract}{The role of preprints in the scientific production and their part in citations have been growing over the past 10 years. In this paper we study preprint citations in several different aspects: the progression of preprint citations over time, their relative frequencies in relation to the IMRaD structure of articles, their distributions over time, per preprint database and per PLOS journal. We have processed the PLOS corpus that covers 7 journals and a total of about 240,000 articles up to January 2021, and produced a dataset of 8,460 preprint citation contexts that cite 12 different preprint databases. Our results show that preprint citations are found with the highest frequency in the Method section of articles, though small variations exist with respect to journals. The PLOS Computational Biology journal stands out as it contains more than three times more preprint citations than any other PLOS journal. The relative parts of the different preprint databases are also examined. While ArXiv and bioRxiv are the most frequent citation sources, bioRxiv's disciplinary nature can be observed as it is the source of more than 70\% of preprint citations in PLOS Biology, PLOS Genetics and PLOS Pathogens. We have also compared the lexical content of preprint citation contexts to the citation content to peer-reviewed publications. Finally, by performing a lexicometric analysis, we have shown that preprint citation contexts differ significantly from citation contexts of peer-reviewed publications. This confirms that authors make use of different lexical content when citing preprints compared to the rest of citations.}
       \field{annotation}{revue-com-lecture}
       \field{journaltitle}{Scientometrics}
       \field{number}{12}
@@ -1731,7 +1782,7 @@
       \strng{authorbibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
       \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
       \strng{authorfullhash}{fa049e95ff56dbfb791cfabdada0a393}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1827,7 +1878,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{La protection des données de valeur, comme celles relatives aux personnes, est aujourd'hui un enjeu majeur pour les entreprises. Nous proposons de traiter automatiquement la sémantique des textes en langage naturel en vue d'identifier les données des personnes pour leur sécurité, leur offuscation et leur gouvernance. Notre approche s’appuie sur une modélisation sémantique-linguistique qui permet d’assurer la traçabilité complète de l’analyse. La mise en cohérence (mapping) entre la sémantique des données textuelles et la sémantique des données structurées de l’entreprise rend possible la gouvernance des données textuelles. Nous présentons la méthodologie générale pour l’identification de données personnelles dans des textes, ainsi que les concepts qui ont été modélisés pour la gouvernance des données personnelles.}
+      \field{abstract}{La protection des données de valeur, comme celles relatives aux personnes, est aujourd'hui un enjeu majeur pour les entreprises. Nous proposons de traiter automatiquement la sémantique des textes en langage naturel en vue d'identifier les données des personnes pour leur sécurité, leur offuscation et leur gouvernance. Notre approche s'appuie sur une modélisation sémantique-linguistique qui permet d'assurer la traçabilité complète de l'analyse. La mise en cohérence (mapping) entre la sémantique des données textuelles et la sémantique des données structurées de l'entreprise rend possible la gouvernance des données textuelles. Nous présentons la méthodologie générale pour l'identification de données personnelles dans des textes, ainsi que les concepts qui ont été modélisés pour la gouvernance des données personnelles.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{CiDE.22 : 22éme édition du Colloque International sur le Document Electronique Données Documents Connaissances : Perspectives de recherche et d'enseignement}}
       \field{title}{{Identification et gestion des données personnelles dans les textes}}
@@ -1898,7 +1949,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{La compréhension des actes de citation est une étape nécessaire à la catégorisation des relations sémantiques entre les oeuvres. Le traitement des phénomènes sémantico-pragmatiques tels que l'anaphore, la cataphore et la deixis est central dans l'analyse et la catégorisation des actes de citation. Dans cet articles que nous avons proposé une définition de bloc de citation, afin de poser la base d’une réflexion autour de la taille des segments textuels qui doivent être considérés pour les analyses automatisées des contextes de citation. Nous avons mené une première expérimentation afin de déterminer les tailles des blocs de citation dans différentes sections de la structure IMRaD des articles.}
+      \field{abstract}{La compréhension des actes de citation est une étape nécessaire à la catégorisation des relations sémantiques entre les oeuvres. Le traitement des phénomènes sémantico-pragmatiques tels que l'anaphore, la cataphore et la deixis est central dans l'analyse et la catégorisation des actes de citation. Dans cet articles que nous avons proposé une définition de bloc de citation, afin de poser la base d'une réflexion autour de la taille des segments textuels qui doivent être considérés pour les analyses automatisées des contextes de citation. Nous avons mené une première expérimentation afin de déterminer les tailles des blocs de citation dans différentes sections de la structure IMRaD des articles.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{CiDE.22 : 22éme édition du Colloque International sur le Document Electronique Données Documents Connaissances : Perspectives de recherche et d'enseignement}}
       \field{title}{{Enjeux de l'étude des contextes citationnels dans le cadre des études bibliométriques : contextes de citation et blocs citationnels}}
@@ -1933,7 +1984,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The role of preprints in the scientific production and their part in citations have been growing over the past 10 years. In this paper we propose to study the citations of preprints in several different aspects: the progression of these citations over time, the sections of the articles in which they are most likely to appear and the percentage of such citations with respect to all citations in articles. We have processed the PLOS dataset that covers 7 journals and a total of about 240000 articles up to January 2021. The results show that preprint citations are found with the highest frequency in the Method section of articles, though small variations exist with respect to journals. The PLOS Computational Biology journal stands out as it contains more than three times more preprint citations than any other PLOS journal. The relative parts of the different preprint databases are also examined. While ArXiv and bioRxiv are the most frequent citation sources, bioRxiv’s disciplinary nature can be observed as it is the source of more than 70\% of preprint citations in PLOS Biology, PLOS Genetics and PLOS Pathogens.}
+      \field{abstract}{The role of preprints in the scientific production and their part in citations have been growing over the past 10 years. In this paper we propose to study the citations of preprints in several different aspects: the progression of these citations over time, the sections of the articles in which they are most likely to appear and the percentage of such citations with respect to all citations in articles. We have processed the PLOS dataset that covers 7 journals and a total of about 240000 articles up to January 2021. The results show that preprint citations are found with the highest frequency in the Method section of articles, though small variations exist with respect to journals. The PLOS Computational Biology journal stands out as it contains more than three times more preprint citations than any other PLOS journal. The relative parts of the different preprint databases are also examined. While ArXiv and bioRxiv are the most frequent citation sources, bioRxiv's disciplinary nature can be observed as it is the source of more than 70\% of preprint citations in PLOS Biology, PLOS Genetics and PLOS Pathogens.}
       \field{annotation}{conf-internat}
       \field{booktitle}{18\textsuperscript{th} International Conference of the International Society for Scientometrics and Informetrics (ISSI 2021)}
       \field{title}{{The Place of Preprint Citations in the IMRaD Structure: a Study of PLOS Journals}}
@@ -1963,7 +2014,7 @@
       \strng{authorbibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
       \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
       \strng{authorfullhash}{fa049e95ff56dbfb791cfabdada0a393}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2004,7 +2055,7 @@
       \strng{authorbibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
       \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
       \strng{authorfullhash}{fa049e95ff56dbfb791cfabdada0a393}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2124,7 +2175,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Les data papers s’intègrent comme un élément indispensable de l’écosystème de la Science Ouverte. Notre objectif est de répondre aux questions suivantes : quelles sont les différences disciplinaires qui existent quant à l’appropriation des data papers par les chercheurs ? Quelle est la place des data papers en tant qu’outil de dissémination des données de la recherche dans les SHS ? Notre proposition s’appuie sur l’analyse de trois corpus pour décrire les pratiques autour des data papers et de la dissémination des données en SHS à différentes échelles : les données sur un panel de participants aux formations courtes dispensées sur la rédaction et la publication de data papers en France ; les réponses de 1089 membres des communautés scientifiques en France à un questionnaire diffusé en ligne en 2020 ; et les métadonnées de 10 000 jeux de données et 10 000 publications disponibles sur l’entrepôt généraliste Zenodo. Les résultats de notre étude montrent que la publication de data papers et l’usage des entrepôts en SHS ne sont pas encore des pratiques établies mais émergentes pour la dissémination des données de la recherche.}
+      \field{abstract}{Les data papers s'intègrent comme un élément indispensable de l'écosystème de la Science Ouverte. Notre objectif est de répondre aux questions suivantes : quelles sont les différences disciplinaires qui existent quant à l'appropriation des data papers par les chercheurs ? Quelle est la place des data papers en tant qu'outil de dissémination des données de la recherche dans les SHS ? Notre proposition s'appuie sur l'analyse de trois corpus pour décrire les pratiques autour des data papers et de la dissémination des données en SHS à différentes échelles : les données sur un panel de participants aux formations courtes dispensées sur la rédaction et la publication de data papers en France ; les réponses de 1089 membres des communautés scientifiques en France à un questionnaire diffusé en ligne en 2020 ; et les métadonnées de 10 000 jeux de données et 10 000 publications disponibles sur l'entrepôt généraliste Zenodo. Les résultats de notre étude montrent que la publication de data papers et l'usage des entrepôts en SHS ne sont pas encore des pratiques établies mais émergentes pour la dissémination des données de la recherche.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{Colloque DHNord2021 : Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux}}
       \field{month}{11}
@@ -2230,7 +2281,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Depuis l’entrée en vigueur en mai 2018 du Règlement général sur la protection des données (RGPD), la protection des données personnelles est une obligation pour toutes les entreprises de l’Union européenne. Comment faire face à cet enjeu majeur, difficile à traiter ? Plusieurs mesures techniques sont prévues, en particulier l’anonymisation et la pseudonymisation.}
+      \field{abstract}{Depuis l'entrée en vigueur en mai 2018 du Règlement général sur la protection des données (RGPD), la protection des données personnelles est une obligation pour toutes les entreprises de l'Union européenne. Comment faire face à cet enjeu majeur, difficile à traiter ? Plusieurs mesures techniques sont prévues, en particulier l'anonymisation et la pseudonymisation.}
       \field{annotation}{revue-com-lecture}
       \field{issn}{2428-2111}
       \field{journaltitle}{I2D – Information, données \& documents}
@@ -2520,7 +2571,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Nous proposons un outil d’analyse morphosyntaxique de l’arabe standard moderne qui est basé sur l’étude linguistique des schèmes. Notre premier objectif est de proposer des règles linguistiques pour l’analyse morphosyntaxique et évaluer notre méthode sur le corpus annoté Arabic-PADT UD Treebank. Ce dernier, destiné au développement d’outils par apprentissage automatique, comporte de nombreuses occurrences de mots annotés avec une étiquette X, signalant une classe inconnue. Le deuxième objectif de notre étude est de proposer une méthode pour améliorer cette ressource en annotant ces occurrences inconnues avec les classes adéquates. Ainsi notre méthode vise à optimiser ce corpus annoté. Les deux évaluations montrent une F-mesure de 0,92 et 0,90 pour les analyses morphosyntaxiques.}
+      \field{abstract}{Nous proposons un outil d'analyse morphosyntaxique de l'arabe standard moderne qui est basé sur l'étude linguistique des schèmes. Notre premier objectif est de proposer des règles linguistiques pour l'analyse morphosyntaxique et évaluer notre méthode sur le corpus annoté Arabic-PADT UD Treebank. Ce dernier, destiné au développement d'outils par apprentissage automatique, comporte de nombreuses occurrences de mots annotés avec une étiquette X, signalant une classe inconnue. Le deuxième objectif de notre étude est de proposer une méthode pour améliorer cette ressource en annotant ces occurrences inconnues avec les classes adéquates. Ainsi notre méthode vise à optimiser ce corpus annoté. Les deux évaluations montrent une F-mesure de 0,92 et 0,90 pour les analyses morphosyntaxiques.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{Terminology \& Ontology: Théories and applications (TOTh 2019)}}
       \field{month}{6}
@@ -2800,7 +2851,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{L’incertitude en sciences est une problématique de nature disciplinaire, liée à l’objet de l’étude et aux méthodologies mises en oeuvre. Cependant, l’enjeu de traiter l’incertitude est essentiel sur le plan sociétal, rappelant la nécessité de disposer d’outils permettant l’analyse du discours scientifique, afin de répondre aux problématiques actuelles. La problématique que nous abordons ici est celle de la compréhension interdisciplinaire et conceptuelle de la notion d’incertitude à travers la constitution et l’étude d’un corpus d’articles scientifiques traitant du changement climatique.}
+      \field{abstract}{L'incertitude en sciences est une problématique de nature disciplinaire, liée à l'objet de l'étude et aux méthodologies mises en oeuvre. Cependant, l'enjeu de traiter l'incertitude est essentiel sur le plan sociétal, rappelant la nécessité de disposer d'outils permettant l'analyse du discours scientifique, afin de répondre aux problématiques actuelles. La problématique que nous abordons ici est celle de la compréhension interdisciplinaire et conceptuelle de la notion d'incertitude à travers la constitution et l'étude d'un corpus d'articles scientifiques traitant du changement climatique.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{Terminology \& Ontology: Theories and applications (TOTh 2018)}}
       \field{month}{6}
@@ -3230,7 +3281,7 @@
       \strng{authorbibnamehash}{b45174c2239bb7d616073ac51fa839e6}
       \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
       \strng{authorfullhash}{b45174c2239bb7d616073ac51fa839e6}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3283,7 +3334,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{La recherche présentée dans cet article s’inscrit dans le cadre du projet WebSO+ dont l’un des objectifs est de créer un module multilingue d’analyse des opinions et de sentiments dans un système de veille automatique. Ce système vise à contribuer à renforcer l’écosystème des acteurs économiques de l’Arc jurassien franco-suisse, en soutenant les capacités d’innovation, la création de valeur ajoutée et la compétitivité des activités entrepreneuriales, dans un environnement international compétitif, ainsi que dans un contexte général de changements technologiques accélérés et de surcharge informationnelle généralisée. Ainsi, le projet webSO+ a pour objectif de mettre à disposition des entreprises un outil d’intelligence économique performant, qui offre des fonctionnalités de veille (technologique, de marchés, concurrentielle, réglementaire, e-réputation) visant à renforcer la capacité des organisations à agir dans un contexte complexe. En passant par le développement de la veille et de l’intelligence économique, les méthodes et outils permettent aux entreprises qui les maîtrisent de tirer parti des informations stratégiques, afin d’obtenir un avantage concurrentiel, qu’il s’agisse de détecter de nouveaux marchés, de nouveaux produits ou services, d’innover, d’identifier les nouveaux concurrents ainsi que de suivre les faits et gestes des concurrents, et plus généralement, de saisir les opportunités et d’anticiper les risques pour les contourner. Les cantons frontaliers de Suisse occidentale (Jura, Berne, Neuchâtel, Vaud et Genève), ainsi que, les départements frontaliers de la région Bourgogne Franche-Comté (Territoire de Belfort, Doubs et Jura) sont concernés.}
+      \field{abstract}{La recherche présentée dans cet article s'inscrit dans le cadre du projet WebSO+ dont l'un des objectifs est de créer un module multilingue d'analyse des opinions et de sentiments dans un système de veille automatique. Ce système vise à contribuer à renforcer l'écosystème des acteurs économiques de l'Arc jurassien franco-suisse, en soutenant les capacités d'innovation, la création de valeur ajoutée et la compétitivité des activités entrepreneuriales, dans un environnement international compétitif, ainsi que dans un contexte général de changements technologiques accélérés et de surcharge informationnelle généralisée. Ainsi, le projet webSO+ a pour objectif de mettre à disposition des entreprises un outil d'intelligence économique performant, qui offre des fonctionnalités de veille (technologique, de marchés, concurrentielle, réglementaire, e-réputation) visant à renforcer la capacité des organisations à agir dans un contexte complexe. En passant par le développement de la veille et de l'intelligence économique, les méthodes et outils permettent aux entreprises qui les maîtrisent de tirer parti des informations stratégiques, afin d'obtenir un avantage concurrentiel, qu'il s'agisse de détecter de nouveaux marchés, de nouveaux produits ou services, d'innover, d'identifier les nouveaux concurrents ainsi que de suivre les faits et gestes des concurrents, et plus généralement, de saisir les opportunités et d'anticiper les risques pour les contourner. Les cantons frontaliers de Suisse occidentale (Jura, Berne, Neuchâtel, Vaud et Genève), ainsi que, les départements frontaliers de la région Bourgogne Franche-Comté (Territoire de Belfort, Doubs et Jura) sont concernés.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{Terminology \& Ontology : Théories and applications (TOTh 2017)}}
       \field{month}{6}
@@ -3481,7 +3532,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Purpose – Scientific abstracts reproduce only part of the information and the complexity of argumentation in a scientific article. The purpose of this paper provides a first analysis of the similarity between the text of scientific abstracts and the body of articles, using sentences as the basic textual unit. It contributes to the understanding of the structure of abstracts. Design/methodology/approach – Using sentence-based similarity metrics, the authors quantify the phenomenon of text re-use in abstracts and examine the positions of the sentences that are similar to sentences in abstracts in the introduction, methods, results and discussion structure, using a corpus of over 85,000 research articles published in the seven Public Library of Science journals. Findings – The authors provide evidence that 84 percent of abstract have at least one sentence in common with the body of the paper. Studying the distributions of sentences in the body of the articles that are re-used in abstracts, the authors show that there exists a strong relation between the rhetorical structure of articles and the zones that authors re-use when writing abstracts, with sentences mainly coming from the beginning of the introduction and the end of the conclusion. Originality/value – Scientific abstracts contain what is considered by the author(s) as information that best describe documents’ content. This is a first study that examines the relation between the contents of abstracts and the rhetorical structure of scientific articles. The work might provide new insight for improving automatic abstracting tools as well as information retrieval approaches, in which text organization and structure are important features.}
+      \field{abstract}{Purpose – Scientific abstracts reproduce only part of the information and the complexity of argumentation in a scientific article. The purpose of this paper provides a first analysis of the similarity between the text of scientific abstracts and the body of articles, using sentences as the basic textual unit. It contributes to the understanding of the structure of abstracts. Design/methodology/approach – Using sentence-based similarity metrics, the authors quantify the phenomenon of text re-use in abstracts and examine the positions of the sentences that are similar to sentences in abstracts in the introduction, methods, results and discussion structure, using a corpus of over 85,000 research articles published in the seven Public Library of Science journals. Findings – The authors provide evidence that 84 percent of abstract have at least one sentence in common with the body of the paper. Studying the distributions of sentences in the body of the articles that are re-used in abstracts, the authors show that there exists a strong relation between the rhetorical structure of articles and the zones that authors re-use when writing abstracts, with sentences mainly coming from the beginning of the introduction and the end of the conclusion. Originality/value – Scientific abstracts contain what is considered by the author(s) as information that best describe documents' content. This is a first study that examines the relation between the contents of abstracts and the rhetorical structure of scientific articles. The work might provide new insight for improving automatic abstracting tools as well as information retrieval approaches, in which text organization and structure are important features.}
       \field{annotation}{revue-com-lecture}
       \field{issn}{0022-0418}
       \field{journaltitle}{Journal of Documentation}
@@ -3746,7 +3797,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Nous proposons une méthode pour évaluer la complexité du vocabulaire des textes en langue arabe en utilisant les résultats d'une analyse lexicale d'un corpus littéraire composé de 40 textes. Cette approche a été proposée par Yves Bordet dans le projet Doxilog appliqué à plusieurs langues, dont le français, l’anglais, l'espagnol, le russe et le chinois. La présence du vocabulaire arabe pérenne dans un texte en arabe est un élément clé permettant de déterminer la complexité du texte et notamment l'âge et le niveau d'études pour les apprenants natifs et le niveau de maîtrise de la langue pour les apprenants de langues étrangères.}
+      \field{abstract}{Nous proposons une méthode pour évaluer la complexité du vocabulaire des textes en langue arabe en utilisant les résultats d'une analyse lexicale d'un corpus littéraire composé de 40 textes. Cette approche a été proposée par Yves Bordet dans le projet Doxilog appliqué à plusieurs langues, dont le français, l'anglais, l'espagnol, le russe et le chinois. La présence du vocabulaire arabe pérenne dans un texte en arabe est un élément clé permettant de déterminer la complexité du texte et notamment l'âge et le niveau d'études pour les apprenants natifs et le niveau de maîtrise de la langue pour les apprenants de langues étrangères.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{7\textsuperscript{e} Colloque International en Traductologie et TAL (TRADETAL 2016)}}
       \field{month}{5}
@@ -3876,7 +3927,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Nous nous intéressons à la représentation des informations géographiques extraites d’articles scientifiques. En utilisant des outils de Traitement Automatique des Langues et de géo-codage, nous avons traité la revue PLOS Neglected Tropical Diseases afin de produire des données spatiales liées aux articles sous forme de Linked Data. Les résultats montrent une exploitation spatiale et temporelle des données représentant les zones du monde concernées par les maladies tropicales à différentes échelles.}
+      \field{abstract}{Nous nous intéressons à la représentation des informations géographiques extraites d'articles scientifiques. En utilisant des outils de Traitement Automatique des Langues et de géo-codage, nous avons traité la revue PLOS Neglected Tropical Diseases afin de produire des données spatiales liées aux articles sous forme de Linked Data. Les résultats montrent une exploitation spatiale et temporelle des données représentant les zones du monde concernées par les maladies tropicales à différentes échelles.}
       \field{annotation}{conf-internat}
       \field{booktitle}{{Gestion et Analyse des données Spatiales et Temporelles (GAST'2015), 15\textsuperscript{e} conférence internationale sur l'extraction et la gestion des connaissances (EGC 2015)}}
       \field{month}{1}
