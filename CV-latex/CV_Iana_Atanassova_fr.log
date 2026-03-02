@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.12)  3 FEB 2026 15:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.12)  2 MAR 2026 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1416,6 +1416,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
+[6]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 265.
 
@@ -1423,7 +1424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-[6]
+
 Overfull \hbox (11.3033pt too wide) in paragraph at lines 267--268
 [][]$\T1/LinuxLibertineT-TLF/m/n/10.95 https : / / www . frontiersin . org / re
 search -[] topics / 13388 / mining -[] scienti^^[c -[] papers -[] volume -[] ii
@@ -1450,11 +1451,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
+[8]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 348.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 348.
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
@@ -1466,12 +1468,12 @@ mte . fr / publication / patrimoine -[] ecritdonner -[] un -[] nouveau -[] sens
  -[] aux -[] documents -[]
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
@@ -1516,7 +1518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--442
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
@@ -1526,7 +1528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
@@ -1616,7 +1618,7 @@ sr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on CV_Iana_Atanassova_fr.pdf (22 pages, 622528 bytes).
+Output written on CV_Iana_Atanassova_fr.pdf (22 pages, 622481 bytes).
 PDF statistics:
  576 PDF objects out of 1000 (max. 8388607)
  514 compressed objects within 6 object streams
