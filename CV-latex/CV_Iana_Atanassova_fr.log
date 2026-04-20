@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.12)  2 MAR 2026 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  20 APR 2026 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -251,9 +251,9 @@ Package: babel 2024/01/07 v24.1 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
 Language: french 2023-12-19 v3.5r French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language5). Reported on input line 91.
+(babel)             (\language8). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language5). Reported on input line 92.
+(babel)             (\language8). Reported on input line 92.
 \FB@stdchar=\count279
 Package babel Info: Making : an active character on input line 420.
 Package babel Info: Making ; an active character on input line 421.
@@ -1285,14 +1285,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/scit' will be
-(Font)              scaled to size 10.95pt on input line 200.
 
 Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 [4]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/scit' will be
+(Font)              scaled to size 10.95pt on input line 202.
+
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
@@ -1302,15 +1303,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 206.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 206.
 
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 208.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 208.
 
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
@@ -1322,7 +1323,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--211
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
@@ -1332,17 +1338,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
@@ -1367,12 +1368,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
@@ -1387,12 +1388,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--247
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
@@ -1412,144 +1413,148 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-[6]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 265.
 
 Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
-Overfull \hbox (11.3033pt too wide) in paragraph at lines 267--268
+ []
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 271.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Overfull \hbox (11.3033pt too wide) in paragraph at lines 273--274
 [][]$\T1/LinuxLibertineT-TLF/m/n/10.95 https : / / www . frontiersin . org / re
 search -[] topics / 13388 / mining -[] scienti^^[c -[] papers -[] volume -[] ii
  -[] knowledge -[] discovery -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
 [7{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 [8]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 348.
+(Font)              <9> on input line 354.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 348.
+(Font)              <5> on input line 354.
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
 
  []
 
 
-Overfull \hbox (28.90216pt too wide) in paragraph at lines 378--379
+Overfull \hbox (28.90216pt too wide) in paragraph at lines 384--385
 \T1/LinuxLibertineT-TLF/m/n/10.95 312. [][]$https : / / endirect . univ -[] fco
 mte . fr / publication / patrimoine -[] ecritdonner -[] un -[] nouveau -[] sens
  -[] aux -[] documents -[]
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
@@ -1559,33 +1564,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 483--484
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
-[11] [12] [13]
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+[11] [12] [13] [14]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 530.
-[14] [15]
-Underfull \hbox (badness 2401) in paragraph at lines 535--535
+(Font)              scaled to size 8.0pt on input line 536.
+[15] [16]
+Underfull \hbox (badness 2401) in paragraph at lines 541--541
 []\T1/LinuxLibertineT-TLF/m/n/10.95 Walid El Abed, Hé-lène Ma-di-nier, Syl-vian
 e Car-dey, Thierry Bre-gnard et \T1/LinuxLibertineT-TLF/b/n/10.95 Iana Ata-nas-
 sova\T1/LinuxLibertineT-TLF/m/n/10.95 .
  []
 
-[16]
-Underfull \hbox (badness 1221) in paragraph at lines 535--535
+[17]
+Underfull \hbox (badness 1221) in paragraph at lines 541--541
 []\T1/LinuxLibertineT-TLF/m/n/10.95 Marc Ber-tin et \T1/LinuxLibertineT-TLF/b/n
 /10.95 Iana Ata-nas-sova\T1/LinuxLibertineT-TLF/m/n/10.95 . ^^S   Re-com-men-di
 ng Scien-ti-fic Pa-pers : The Role of Ci-ta-tion
  []
 
-[17] [18] [19] [20] [21]) [22] (./CV_Iana_Atanassova_fr.aux (./content.aux))
+[18] [19] [20] [21] [22]) [23] (./CV_Iana_Atanassova_fr.aux (./content.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1597,10 +1612,10 @@ Package logreq Info: Writing requests to 'CV_Iana_Atanassova_fr.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37073 strings out of 476112
- 720953 string characters out of 5793311
+ 37080 strings out of 476112
+ 721206 string characters out of 5793312
  1946975 words of memory out of 5000000
- 58356 multiletter control sequences out of 15000+600000
+ 58361 multiletter control sequences out of 15000+600000
  652228 words of font info for 81 fonts, out of 8000000 for 9000
  37 hyphenation exceptions out of 8191
  84i,12n,87p,2864b,1722s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1618,10 +1633,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on CV_Iana_Atanassova_fr.pdf (22 pages, 622481 bytes).
+Output written on CV_Iana_Atanassova_fr.pdf (23 pages, 623128 bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 514 compressed objects within 6 object streams
- 168 named destinations out of 1000 (max. 500000)
+ 581 PDF objects out of 1000 (max. 8388607)
+ 518 compressed objects within 6 object streams
+ 170 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
