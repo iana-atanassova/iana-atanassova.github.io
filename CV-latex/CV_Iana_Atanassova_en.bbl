@@ -51,6 +51,50 @@
       \true{nocite}
       \annotation{item}{author}{default}{1}{}{0}{me}
     \endentry
+    \entry{ypunudataset2026}{dataset}{}
+      \name{author}{2}{}{%
+        {{hash=b2d2ccd185bd39c46416c115f650d006}{%
+           family={Ma-Bike\bibnamedelima Mundung},
+           familyi={M\bibinithyphendelim B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Hingryd},
+           giveni={H\bibinitperiod}}}%
+        {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
+           family={Atanassova},
+           familyi={A\bibinitperiod},
+           given={Iana},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{8351a46e5d99d8363690aaf349a9eefb}
+      \strng{fullhash}{dc233530402ab618da6d330ee8d5ed72}
+      \strng{bibnamehash}{dc233530402ab618da6d330ee8d5ed72}
+      \strng{authorbibnamehash}{dc233530402ab618da6d330ee8d5ed72}
+      \strng{authornamehash}{8351a46e5d99d8363690aaf349a9eefb}
+      \strng{authorfullhash}{dc233530402ab618da6d330ee8d5ed72}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{dataset}
+      \field{month}{5}
+      \field{title}{Ypunu Personal Names Lexical Dataset}
+      \field{version}{1.0}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.5281/zenodo.20114397
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.20114397
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.20114397
+      \endverb
+      \annotation{item}{author}{default}{1}{}{0}{student}
+      \annotation{item}{author}{default}{2}{}{0}{me}
+    \endentry
     \entry{Gutehrle2026}{article}{}
       \name{author}{3}{}{%
         {{hash=dab3c0d7f4dcb30dff6b180436fc6997}{%
