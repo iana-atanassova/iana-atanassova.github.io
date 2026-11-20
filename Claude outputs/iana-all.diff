@@ -1,0 +1,158 @@
+--- iana-all.orig.bib	2026-11-20 13:30:53.907930790 +0100
++++ iana-all.bib	2026-11-20 13:31:29.074243148 +0100
+@@ -1,5 +1,34 @@
+ % Encoding: UTF-8
+ 
++@Article{Atanassova2026a,
++  author      = {Iana Atanassova and Panggih Kusuma Ningrum and Nicolas Gutehrlé and Francis Lareau and Christophe Malaterre},
++  title       = {{Patterns of uncertainty in astrobiology publications}},
++  journal     = {Scientometrics},
++  volume      = {131},
++  pages       = {5713--5737},
++  year        = {2026},
++  url         = {https://hal.science/hal-05738512},
++  annotation  = {revue-com-lecture},
++  author+an   = {1=me;2=student;3=student},
++  bibtex_show = {true},
++  preview     = {scientometrics.png},
++}
++% A COMPLETER pour Atanassova2026a : doi, number, month (absents de la notice HAL consultee)
++
++@Misc{Pontier2026,
++  author       = {Ianis Pontier and Iana Atanassova},
++  title        = {{Linguistic tools to annotate uncertainty in medicine articles}},
++  howpublished = {Semmelweis Medical Linguistics Conference 2026},
++  address      = {Budapest, Hungary},
++  month        = jun,
++  year         = {2026},
++  note         = {Poster},
++  url          = {https://hal.science/hal-05672956},
++  annotation   = {comm-sans-actes},
++  author+an    = {1=student;2=me},
++  bibtex_show  = {true},
++}
++
+ @dataset{ypunudataset2026,
+   author       = {Ma-Bike Mundung, Hingryd and
+                   Atanassova, Iana},
+@@ -24,7 +53,7 @@
+   pages = {102561},
+   year = {2026},
+   issn = {0169-023X},
+-  doi = {https://doi.org/10.1016/j.datak.2026.102561},
++  doi = {10.1016/j.datak.2026.102561},
+   url = {https://www.sciencedirect.com/science/article/pii/S0169023X2600008X},
+   author = {Nicolas Gutehrlé and Panggih Kusuma Ningrum and Iana Atanassova},
+   keywords = {Uncertainty, Research article, Multi-disciplinary analysis, Semantic annotation, Full text},
+@@ -211,6 +240,9 @@
+   author      = {Ningrum, Panggih Kusuma and Atanassova, Iana},
+   title       = {{Annotation of scientific uncertainty using linguistic patterns}},
+   doi         = {10.1007/s11192-024-05009-z},
++  volume      = {129},
++  number      = {10},
++  pages       = {6261--6285},
+   abstract    = {Scientific uncertainty is an integral part of the research process and inherent to the construction of new knowledge. In this paper, we investigate the ways in which uncertainty is expressed in articles and propose a new interdisciplinary annotation framework to categorize sentences containing uncertainty expressions along five dimensions. We propose a method for the automatic annotation of sentences based on linguistic patterns for identifying the expressions of scientific uncertainty that have been derived from a corpus study. We processed a corpus of 5956 articles from 22 journals in three different discipline groups, which were annotated using our automatic annotation method. We evaluate our annotation method and study the distribution of uncertainty expressions across the different journals and categories. The results show a predominant concentration of the distribution of the scientific uncertainty expressions in the Results and Discussion section (71.4\%), followed by 12.5\% of expressions in the Background section, and the largest proportion of uncertainty expressions, approximately 70.3\%, are formed as author(s) statements. Our research contributes methodological advances and insights into the diverse manifestations of scientific uncertainty across disciplinary domains and provides a basis for ongoing exploration and refinement of the understanding of scientific uncertainty communication.},
+   annotation  = {revue-com-lecture},
+   author+an   = {2=me;1=student},
+@@ -258,7 +290,7 @@
+ 
+ @InProceedings{Atanassova2024a,
+   author      = {Iana Atanassova and Marc Bertin},
+-  booktitle   = {{International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2024) co-located with the 46\textsuperscript{st} European Conference on Information Retrieval (ECIR 2024)}},
++  booktitle   = {{International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2024) co-located with the 46\textsuperscript{th} European Conference on Information Retrieval (ECIR 2024)}},
+   year        = {2024},
+   title       = {{Breaking Boundaries in Citation Parsing: A Comparative Study of Generative LLMs and Traditional Out-of-the-box Citation Parsers}},
+   location    = {Glasgow, Scotland},
+@@ -346,7 +378,8 @@
+ 
+ @Article{Bertin2024,
+   author       = {Bertin, Marc and Atanassova, Iana},
+-  journaltitle = {{Scientometrics}},
++  journal      = {{Scientometrics}},
++  volume       = {129},
+   title        = {{Linguistic perspectives in deciphering citation function classification}},
+   doi          = {10.1007/s11192-024-05082-4},
+   url          = {https://link.springer.com/article/10.1007/s11192-024-05082-4},
+@@ -426,7 +459,7 @@
+ @InProceedings{Bertin2023a,
+   author    = {Bertin, Marc and Atanassova, Iana},
+   title     = {{Citing Foreign Language Sources: an Analysis of the S2ORC Dataset}},
+-  booktitle = {{10\textsuperscript{th} International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2023) co-located with the European Conference on Information Retrieval (ECIR 2023)}},
++  booktitle = {{13\textsuperscript{th} International Workshop on Bibliometric-enhanced Information Retrieval (BIR 2023) co-located with the European Conference on Information Retrieval (ECIR 2023)}},
+   year      = {2023},
+   address   = {Dublin, Ireland},
+   author+an   = {2=me},
+@@ -558,7 +591,7 @@
+ @InProceedings{Ningrum2023a,
+   author      = {Ningrum, Panggih Kusuma and Mayr, Philipp and Atanassova, Iana},
+   booktitle   = {Proceedings of Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) and the 3rd AI + Informetrics (AII2023) co-located with the JCDL 2023},
+-  title       = {UnScientify: Detecting Scientific Uncertainty in Scholarly},
++  title       = {UnScientify: Detecting Scientific Uncertainty in Scholarly Full Text},
+   abstract    = {This demo paper presents UnScientify (https://bit.ly/unscientify-demo), an interactive system designed to detect scientific
+ uncertainty in scholarly full text. The system utilizes a weakly supervised technique that employs a fine-grained annotation
+ scheme to identify verbally formulated uncertainty at the sentence level in scientific texts. The pipeline for the system
+@@ -617,7 +650,7 @@
+ 
+ @Article{Guisse2022,
+   author       = {Abdoulaye Guisse and Iana Atanassova},
+-  title        = {{Noyau Informatique CripTex pour le Traitement de Données Personelles dans les Textes}},
++  title        = {{Noyau Informatique CripTex pour le Traitement de Données Personnelles dans les Textes}},
+   journal      = {BULAG},
+   journaltitle = {Bulletin de Linguistique Appliquée et Générale, Presses Universitaires de Franche-Comté PUFC},
+   editor       = {Sylviane Cardey and François-C Rey and Iana Atanassova},
+@@ -656,7 +689,7 @@
+ 
+ @Article{Bertin2022,
+   author   = {Bertin, Marc and Atanassova, Iana},
+-  title    = {{Preprint Citation Pratice in PLOS}},
++  title    = {{Preprint Citation Practice in PLOS}},
+   doi      = {10.1007/s11192-022-04388-5},
+   number   = {12},
+   pages    = {6895--6912},
+@@ -745,7 +778,7 @@
+ @InProceedings{Yahiaoui2022,
+   author    = {Salah Yahiaoui and Iana Atanassova},
+   title     = {{TimeInfo : a Semantic Annotation Framework for Temporal Information in Scientific Papers}},
+-  booktitle = {{Terminology \& Ontology: Th\'eories and applications (TOTh 2022)}},
++  booktitle = {{Terminology \& Ontology: Theories and applications (TOTh 2022)}},
+   author+an   = {2=me;1=student},
+   bibtex_show = {true},
+   annotation     = {conf-internat},
+@@ -757,8 +790,9 @@
+   author       = {Atanassova, Iana and Rey, Fran{\c c}ois-C.},
+   title        = {{Categorising Scientific Uncertainty in Papers}},
+   note         = {Poster},
+-  organization = {{SciNLP 2021 at Virtual conference hosted at Automated Knowledge Base Construction (ABKC) 2021}},
+-  annotation   = {cat-sansActes},
++  organization = {{SciNLP 2021 at Virtual conference hosted at Automated Knowledge Base Construction (AKBC) 2021}},
++  address      = {Irvine, United States},
++  url          = {https://hal.science/hal-03476393},
+   author+an    = {1=me;2=student},
+   bibtex_show  = {true},
+   keywords     = {Epistemic uncertainty ; Incertitude Epist{\'e}mique ; Incertidumbre epistemol{\'o}gica ; Incertidumbre epist{\'e}mica},
+@@ -797,6 +831,7 @@
+   doi       = {10.5281/zenodo.5752440},
+   url       = {https://doi.org/10.5281/zenodo.5752440},
+   version   = {1.0},
++  annotation  = {dataset},
+   author+an   = {2=me;1=student},
+   bibtex_show = {true},
+   month     = oct,
+@@ -936,7 +971,7 @@
+ 
+ @InProceedings{Morsi2019,
+   author      = {Morsi, Youcef Ihab and Atanassova, Iana},
+-  booktitle   = {{Terminology \& Ontology: Th\'eories and applications (TOTh 2019)}},
++  booktitle   = {{Terminology \& Ontology: Theories and applications (TOTh 2019)}},
+   title       = {{Analyse morphosyntaxique de l'arabe par une approche linguistique}},
+   abstract    = {Nous proposons un outil d'analyse morphosyntaxique de l'arabe
+ standard moderne qui est basé sur l'étude linguistique des schèmes. Notre
+@@ -1280,7 +1315,7 @@
+ 
+ @InProceedings{Jin2017,
+   author       = {Jin, Gan and Atanassova, Iana and Soumana, Ibrahim and Cardey-Greenfield, Sylviane},
+-  booktitle    = {{Terminology \& Ontology : Th\'eories and applications (TOTh 2017)}},
++  booktitle    = {{Terminology \& Ontology : Theories and applications (TOTh 2017)}},
+   title        = {{Mod{\`e}le pour un syst{\`e}me multilingue d'analyse des opinons et de sentiment}},
+   organization = {{University of Savoie}},
+   abstract     = {La recherche présentée dans cet article s'inscrit dans le cadre du projet WebSO+ dont l'un des objectifs est de créer un module multilingue d'analyse des opinions et de sentiments dans un système de veille automatique. Ce système vise à contribuer à renforcer l'écosystème des acteurs économiques de l'Arc jurassien franco-suisse, en soutenant les capacités d'innovation, la création de valeur ajoutée et la compétitivité des activités entrepreneuriales, dans un environnement international compétitif, ainsi que dans un contexte général de changements technologiques accélérés et de surcharge informationnelle généralisée. Ainsi, le projet webSO+ a pour objectif de mettre à disposition des entreprises un outil d'intelligence économique performant, qui offre des fonctionnalités de veille (technologique, de marchés, concurrentielle, réglementaire, e-réputation) visant à renforcer la capacité des organisations à agir dans un contexte complexe. En passant par le développement de la veille et de l'intelligence économique, les méthodes et outils permettent aux entreprises qui les maîtrisent de tirer parti des informations stratégiques, afin d'obtenir un avantage concurrentiel, qu'il s'agisse de détecter de nouveaux marchés, de nouveaux produits ou services, d'innover, d'identifier les nouveaux concurrents ainsi que de suivre les faits et gestes des concurrents, et plus généralement, de saisir les opportunités et d'anticiper les risques pour les contourner. Les cantons frontaliers de Suisse occidentale (Jura, Berne, Neuchâtel, Vaud et Genève), ainsi que, les départements frontaliers de la région Bourgogne Franche-Comté (Territoire de Belfort, Doubs et Jura) sont concernés.},
