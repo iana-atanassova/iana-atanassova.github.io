@@ -1,11 +1,11 @@
 ---
-start_date: 2025-01-01
+start_date: 2025-12-30
 layout: page
 title: UnScientify - Scientific Uncertainty Extractor
 description: Open-source tool for the detection and categorisation of scientific uncertainty
 github: https://github.com/Project-InSciM/Scientific-Uncertainty-Extractor
 img: assets/img/unscientify.png
-pinned: true   # shown first on the Outreach page
+# pinned: true   # shown first on the Outreach page
 related_publications: false
 ---
 
