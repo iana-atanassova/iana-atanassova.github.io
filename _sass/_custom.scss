@@ -9,6 +9,8 @@
   border-top: 1px solid var(--global-divider-color);
 }
 
+// Note: the theme sets `.projects .card img { width: 100% }`; the selectors
+// below are made more specific so that logos keep their natural proportions.
 .funder-logos {
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +22,8 @@
     display: contents;
   }
 
-  img {
+  img,
+  .projects .card & img {
     // Aspect ratio is always preserved (width/height auto).
     // A logo uses at most 70% of the card width and 80px of height.
     width: auto;
@@ -85,5 +88,14 @@
     float: none;
     width: 100%;
     margin: 0 0 1rem 0;
+  }
+}
+
+// ---- Outreach cards (same layout as project cards, different accent) ---
+.card-outreach {
+  border-top: 4px solid #2a9d8f !important;
+
+  .card-title {
+    color: #2a9d8f;
   }
 }

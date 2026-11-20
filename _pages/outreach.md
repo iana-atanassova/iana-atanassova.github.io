@@ -14,10 +14,12 @@ nav_order: 4
 
 <!-- Generate cards -->
 
+<div class="projects">
 <div class="container">
-<div class="row row-cols-1 row-cols-md-3">
+<div class="row row-cols-1 row-cols-md-2">
 {% for project in sorted_outreach %}
-  {% include projects.liquid %}
+  {% include projects_horizontal.liquid variant="outreach" %}
 {% endfor %}
+</div>
 </div>
 </div>

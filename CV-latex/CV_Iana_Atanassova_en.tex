@@ -71,7 +71,7 @@
 
 \newcommand{\datedline}[3]{%
 {\scshape #1}%
-\ifx#2\empty%
+\if\relax\detokenize{#2}\relax% test robuste d'argument vide
 \else%
 , #2%
 \fi%
@@ -80,12 +80,12 @@
 
 \newcommand{\datedelement}[4]{%
 {\scshape #1}%
-\ifx#2\empty%
+\if\relax\detokenize{#2}\relax% test robuste d'argument vide
 \else%
 , %
 \fi%
 {#2 \hfill {\color{RedViolet} #4}}\\ %
-\ifx#3\empty%
+\if\relax\detokenize{#3}\relax% test robuste d'argument vide
 \else%
 #3  \\[-4mm]%
 \fi%
@@ -93,12 +93,12 @@
 
 \newcommand{\datedelementdatefirst}[4]{%
 {\scshape #2}%
-\ifx#3\empty%
+\if\relax\detokenize{#3}\relax% test robuste d'argument vide
 \else%
  %
 \fi%
 {#3 \hfill {\color{RedViolet} #1}}\\ %
-\ifx#4\empty%
+\if\relax\detokenize{#4}\relax% test robuste d'argument vide
 \else%
 #4  \\[-4mm]%
 \fi%
