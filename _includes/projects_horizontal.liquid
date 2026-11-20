@@ -6,8 +6,8 @@
         <h3 class="card-title">{{ project.title }}</h3>
         <p class="card-text"><em>{{ project.description }}</em></p>
         <div class="card-participant-content">{{ project.content }}</div>
-        {% include funders.liquid links=true %}
       </div>
+      {% if project.funders %}<div class="card-funders">{% include funders.liquid links=true %}</div>{% endif %}
     </div>
   </div>
 {% else %}
@@ -24,7 +24,6 @@
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
-            {% include funders.liquid %}
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
@@ -43,6 +42,7 @@
           </div>
         </div>
       </div>
+      {% if project.funders %}<div class="card-funders">{% include funders.liquid %}</div>{% endif %}
     </div>
   </a>
 </div>

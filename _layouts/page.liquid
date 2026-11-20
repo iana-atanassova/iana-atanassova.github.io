@@ -15,7 +15,20 @@ layout: default
   </header>
 
   <article>
+    {% if page.collection == 'projects' or page.collection == 'outreach' %}
+      {% if page.img %}
+        <div class="project-page-img">
+          {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" alt=page.title %}
+        </div>
+      {% endif %}
+    {% endif %}
     {{ content }}
+    {% if page.collection == 'projects' and page.funders %}
+      <div class="clearfix"></div>
+      <h4 class="mt-4">Funding</h4>
+      <div class="card-funders card-funders-page">{% include funders.liquid item=page links=true %}</div>
+    {% endif %}
+    <div class="clearfix"></div>
   </article>
 
   {% if page.related_publications %}

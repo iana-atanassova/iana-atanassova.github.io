@@ -4,6 +4,7 @@ layout: page
 title: Articles and Interviews
 description: Press articles and interviews about my research, 2016-2024
 related_publications: false
+position: last   # shown at the end of the Outreach page
 ---
 
 - 2024 - « Donner un nouveau sens aux documents historiques », *En Direct*, Université de Franche-Comté, No. 312. <a href="https://endirect.univ-fcomte.fr/publication/patrimoine-ecritdonner-un-nouveau-sens-aux-documents-historiques/" target="_blank">Read</a>

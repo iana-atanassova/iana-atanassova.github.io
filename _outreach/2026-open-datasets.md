@@ -4,6 +4,7 @@ layout: page
 title: Open Datasets on Zenodo
 description: Annotated corpora and datasets on scientific uncertainty, citations, temporal information and personal names
 related_publications: false
+position: last   # shown at the end of the Outreach page
 ---
 
 Datasets produced with my students and colleagues, openly available on Zenodo:

@@ -8,8 +8,9 @@ nav_order: 4
 ---
 
 {% assign pinned_outreach = site.outreach | where: "pinned", true %}
-{% assign other_outreach = site.outreach | where_exp: "item", "item.pinned != true" | sort: "start_date" | reverse %}
-{% assign sorted_outreach = pinned_outreach | concat: other_outreach %}
+{% assign other_outreach = site.outreach | where_exp: "item", "item.pinned != true" | where_exp: "item", "item.position != 'last'" | sort: "start_date" | reverse %}
+{% assign last_outreach = site.outreach | where: "position", "last" | sort: "start_date" | reverse %}
+{% assign sorted_outreach = pinned_outreach | concat: other_outreach | concat: last_outreach %}
 
 <!-- Generate cards -->
 
