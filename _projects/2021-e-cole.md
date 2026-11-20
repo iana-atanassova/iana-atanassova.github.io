@@ -5,6 +5,7 @@ title: Automatic correction of text responses to exams
 description: Collaboration and technology transfer with e-Cole start-up, 2021-2023
 category: PI of Funded Projects
 related_publications: false
+funders: [technopole-reunion]
 ---
 
 

@@ -5,12 +5,11 @@ title: WebSO+ - Competitive Intelligence Platform
 description: Interreg France-Switzerland project, 2016-2018
 category: Participant in Funded Projects
 related_publications: false
+card_only: true
+sitemap: false
+funders: [interreg-fr-ch]
 ---
 
-Development of a platform for strategic technological and competitive intelligence and e-reputation, integrating semantic processing, text classification and sentiment analysis.
+Platform for strategic technological and competitive intelligence and e-reputation, integrating semantic processing, text classification and sentiment analysis.
 
-**Duration:** 2016 - 2018
-
-**Funding:** Interreg France-Switzerland 2014-2020.
-
-Website: <a href="http://tesniere.univ-fcomte.fr/projet-webso/index.html" target="_blank">http://tesniere.univ-fcomte.fr/projet-webso/</a>
+<a href="http://tesniere.univ-fcomte.fr/projet-webso/index.html" target="_blank">Project website</a>

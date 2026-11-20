@@ -5,12 +5,11 @@ title: SEO-ELP
 description: Search Engine Optimization e-Learning Platform, 2018-2025
 category: Participant in Funded Projects
 related_publications: false
+card_only: true
+sitemap: false
+funders: [ufc]
 ---
 
-**Duration:** 2018 - 2025
+**Funding:** Université de Franche-Comté, France
 
-**Funding:** Université de Franche-Comté, France.
-
-Website: <a href="https://seo-elp.fr/" target="_blank">https://seo-elp.fr/</a>
-
-<!-- À compléter : objectifs, rôle. -->
+<a href="https://seo-elp.fr/" target="_blank">seo-elp.fr</a>

@@ -5,6 +5,8 @@ title: INSCAPE - Scientific Uncertainty and Mapping of Epistemic Practices
 description: Incertitude Scientifique et Cartographie des Pratiques Épistémiques, 2026-2028
 category: PI of Funded Projects
 related_publications: false
+img: assets/img/inscape.png
+funders: [region-bfc]
 ---
 
 INSCAPE develops tools to explore, quantify and map the construction of new knowledge across scientific disciplines. Scientific uncertainty, as expressed in publications, is analysed as a discursive trace of exploration: the project identifies the concepts and objects most strongly associated with uncertainty in each discipline, in order to map research fronts, areas of structured speculation and open questions.

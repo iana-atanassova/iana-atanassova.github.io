@@ -5,6 +5,7 @@ title: SAFARI - Semantic Audit for Figures and Accessible Research Inclusion
 description: STARS-EU project, 2026-2027
 category: PI of Funded Projects
 related_publications: false
+funders: [stars-eu]
 ---
 
 Scientific figures often remain inaccessible "black boxes" for blind and low-vision (BLV) readers when they lack meaningful textual alternatives. SAFARI develops a computational framework to audit whether a figure is functionally accessible, by:

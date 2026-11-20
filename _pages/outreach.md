@@ -7,7 +7,9 @@ nav: true
 nav_order: 4
 ---
 
-{% assign sorted_outreach = site.outreach | sort: "start_date" | reverse %}
+{% assign pinned_outreach = site.outreach | where: "pinned", true %}
+{% assign other_outreach = site.outreach | where_exp: "item", "item.pinned != true" | sort: "start_date" | reverse %}
+{% assign sorted_outreach = pinned_outreach | concat: other_outreach %}
 
 <!-- Generate cards -->
 

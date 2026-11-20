@@ -1,0 +1,17 @@
+{% comment %} Funder logos or badges for a project card. include.links: true to make them clickable. {% endcomment %}
+{% if project.funders %}
+  <div class="funder-logos">
+    {% for key in project.funders %}
+      {% assign f = site.data.funders[key] %}
+      {% if f %}
+        {% if include.links and f.url %}<a href="{{ f.url }}" target="_blank" rel="noopener" title="{{ f.name }}">{% endif %}
+        {% if f.logo %}
+          <img src="{{ f.logo | relative_url }}" alt="{{ f.name }}" title="{{ f.name }}">
+        {% else %}
+          <span class="funder-badge">{{ f.name }}</span>
+        {% endif %}
+        {% if include.links and f.url %}</a>{% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

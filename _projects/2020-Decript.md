@@ -6,6 +6,7 @@ description: Detection of the Representations of Personal Data in Texts, 2020-20
 img: assets/img/decript.png
 category: PI of Funded Projects
 related_publications: false
+funders: [interreg-fr-ch]
 ---
 
 Project for developing tools to detect representations of personal data in texts.

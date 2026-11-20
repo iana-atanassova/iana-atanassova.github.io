@@ -6,6 +6,7 @@ description: Extraction and Ontology Modeling of Subjects and Places for Documen
 img: assets/img/emontal.jpg
 category: PI of Funded Projects
 related_publications: false
+funders: [region-bfc]
 ---
 
 

@@ -5,6 +5,7 @@ title: MED-IA-LANG - AI, Language Learning and Intercultural Communication
 description: Digital mediations, AI and NLP for professional integration and international business communication, 2026-2029
 category: PI of Funded Projects
 related_publications: false
+funders: [region-bfc]
 ---
 
 **MED-IA-LANG** — *MÉDiations numériques, Intelligence Artificielle et traitement des LANGues pour l'insertion professionnelle et la communication internationale des entreprises en contexte régional* — studies how to improve language learning and action in intercultural contexts from authentic situations, while taking advantage of artificial intelligence.

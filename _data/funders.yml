@@ -1,0 +1,32 @@
+# Funders displayed on project cards (field "funders" in _projects/*.md).
+# logo: path of an image in assets/img/logos/ (optional; without logo, the name is shown as a badge).
+anr:
+  name: Agence Nationale de la Recherche (ANR)
+  url: https://anr.fr
+  logo: assets/img/logos/anr.png
+region-bfc:
+  name: Région Bourgogne-Franche-Comté
+  url: https://www.bourgognefranchecomte.fr
+  logo: assets/img/logos/region-bfc.svg
+stars-eu:
+  name: STARS EU - European University Alliance
+  url: https://starseu.org
+  logo: assets/img/logos/stars-eu.png
+interreg-fr-ch:
+  name: Interreg France-Suisse
+  url: https://www.interreg-francesuisse.eu
+  logo: assets/img/logos/interreg-france-suisse.svg
+ritm-bfc:
+  name: RITM-BFC (ANR-17-NCUN-0003)
+  url: https://www.ubfc.fr/excellence/ritm-bfc/
+technopole-reunion:
+  name: Technopole de La Réunion
+region-fc:
+  name: Région Franche-Comté
+ufc:
+  name: Université de Franche-Comté
+sshrc:
+  name: SSHRC / CRSH (Canada)
+  url: https://www.sshrc-crsh.gc.ca
+fr-educ:
+  name: FR-EDUC

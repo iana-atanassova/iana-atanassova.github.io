@@ -1,3 +1,16 @@
+{% if project.card_only %}
+  {% comment %} Non-clickable card: all the information is shown on the card itself. {% endcomment %}
+  <div class="col mb-4">
+    <div class="card h-100 card-participant">
+      <div class="card-body">
+        <h3 class="card-title">{{ project.title }}</h3>
+        <p class="card-text"><em>{{ project.description }}</em></p>
+        <div class="card-participant-content">{{ project.content }}</div>
+        {% include funders.liquid links=true %}
+      </div>
+    </div>
+  </div>
+{% else %}
 <div class="col mb-4">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
@@ -11,6 +24,7 @@
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            {% include funders.liquid %}
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
@@ -32,3 +46,4 @@
     </div>
   </a>
 </div>
+{% endif %}

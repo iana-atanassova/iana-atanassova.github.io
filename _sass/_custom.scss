@@ -1,0 +1,41 @@
+// Custom styles for project cards (funder logos, non-clickable participant cards)
+
+.funder-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+
+  img {
+    max-height: 38px;
+    max-width: 140px;
+    background-color: #fff; // keeps logos readable in dark mode
+    padding: 3px 5px;
+    border-radius: 4px;
+  }
+}
+
+.funder-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  color: var(--global-text-color-light);
+}
+
+// Cards of projects in which I participate: not clickable, different colour
+.card-participant {
+  border-left: 5px solid var(--global-theme-color) !important;
+  background-color: var(--global-code-bg-color) !important;
+
+  .card-title {
+    font-size: 1.15rem;
+  }
+
+  .card-participant-content p {
+    margin-bottom: 0.35rem;
+    font-size: 0.9rem;
+  }
+}
