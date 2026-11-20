@@ -1,8 +1,8 @@
 ---
+start_date: 2026-10-01   # used to order cards (most recent first)
 layout: page
 title: MED-IA-LANG - AI, Language Learning and Intercultural Communication
 description: Digital mediations, AI and NLP for professional integration and international business communication, 2026-2029
-importance: 4
 category: PI of Funded Projects
 related_publications: false
 ---

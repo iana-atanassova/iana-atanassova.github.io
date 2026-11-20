@@ -15,7 +15,7 @@ Déploiement automatique sur GitHub Pages à chaque `git push` sur `main` (workf
 | Présentation (page d'accueil) | `_pages/about.md` | Sous-titre (affiliations) dans le front matter `subtitle`. |
 | Actualités | `_news/AAAA-MM-JJ-slug.md` | Visibles sur `/news/` uniquement (rubrique retirée de l'accueil, réactivable par `announcements: enabled: true` dans `about.md`). |
 | Projets | `_projects/AAAA-slug.md` | Catégories : voir §4. |
-| Diffusion scientifique | `_outreach/AAAA-slug.md` | Page en construction (cartes d'exemple). |
+| Diffusion scientifique | `_outreach/AAAA-slug.md` | Mêmes champs que les projets (`start_date` pour l'ordre, `img`, `github` facultatifs), sans `category`. |
 | Identifiants (HAL, ORCID, Scholar…) | `_data/socials.yml` | |
 | Réglages généraux | `_config.yml` | Titre, description, regroupement des publications (`scholar:`). |
 | Images | `assets/img/` | Converties automatiquement en webp (imagemagick). |
@@ -108,7 +108,7 @@ layout: page
 title: ACRONYME - Titre court
 description: Sous-titre, AAAA-AAAA
 img: assets/img/acronyme.png
-importance: 1            # ordre d'affichage dans la catégorie (1 = en premier)
+start_date: 2026-11-01   # date de début : les cartes sont triées de la plus récente à la plus ancienne
 category: PI of Funded Projects
 related_publications: false
 ---

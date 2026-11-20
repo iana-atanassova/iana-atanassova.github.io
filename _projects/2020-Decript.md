@@ -1,9 +1,9 @@
 ---
+start_date: 2020-01-01   # used to order cards (most recent first)
 layout: page
 title: DecRIPT - Detection of Personal Data Representations
 description: Detection of the Representations of Personal Data in Texts, 2020-2022
 img: assets/img/decript.png
-importance: 2
 category: PI of Funded Projects
 related_publications: false
 ---

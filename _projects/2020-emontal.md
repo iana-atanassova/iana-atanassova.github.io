@@ -1,9 +1,9 @@
 ---
+start_date: 2020-10-01   # used to order cards (most recent first)
 layout: page
 title: EMONTAL - Extraction and Ontology Modeling
 description: Extraction and Ontology Modeling of Subjects and Places for Documentary Funds Exploitation, 2020-2024
 img: assets/img/emontal.jpg
-importance: 2
 category: PI of Funded Projects
 related_publications: false
 ---

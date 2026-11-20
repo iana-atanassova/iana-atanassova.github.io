@@ -1,8 +1,8 @@
 ---
+start_date: 2026-09-01   # used to order cards (most recent first)
 layout: page
 title: SAFARI - Semantic Audit for Figures and Accessible Research Inclusion
 description: STARS-EU project, 2026-2027
-importance: 2
 category: PI of Funded Projects
 related_publications: false
 ---

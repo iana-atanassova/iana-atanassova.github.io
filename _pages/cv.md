@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 description: Curriculum vitae (PDF, generated from LaTeX).
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <div class="card mt-3 p-3">

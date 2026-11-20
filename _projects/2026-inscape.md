@@ -1,8 +1,8 @@
 ---
+start_date: 2026-11-01   # used to order cards (most recent first)
 layout: page
 title: INSCAPE - Scientific Uncertainty and Mapping of Epistemic Practices
 description: Incertitude Scientifique et Cartographie des Pratiques Épistémiques, 2026-2028
-importance: 1
 category: PI of Funded Projects
 related_publications: false
 ---
