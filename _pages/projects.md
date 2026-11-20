@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [PI of Funded Projects, Participant in Funded Projects, Other Projects]
+display_categories: [PI of Funded Projects, Participant in Funded Projects]
 horizontal: true
 ---
 

@@ -85,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Iana Atanassova # blog_name will be displayed in your blog page
+blog_description: News and posts
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -171,7 +171,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - modifs.md
+  - HELP_modifs.md
+  - README.md
+  - requirements.txt
   - package.json
   - package-lock.json
   - purgecss.config.js
@@ -256,7 +258,7 @@ scholar:
   #group_by: year, type
   group_order: descending
   group_by: year, type  # <-- Option de groupement principal
-  type_order: [unpublished, misc, techreport, dataset, inbook, incollection, book, inproceedings, article]
+  type_order: [unpublished, misc, techreport, dataset, proceedings, inbook, incollection, book, phdthesis, inproceedings, article]
   type_names:
     article: "Journal Articles"
     inproceedings: "Conference Papers"
@@ -264,6 +266,11 @@ scholar:
     inbook: "Book Chapters"
     dataset: "Datasets"
     unpublished: "Preprints"
+    misc: "Talks, Posters and Other Communications"
+    techreport: "Reports"
+    proceedings: "Edited Proceedings"
+    book: "Books"
+    phdthesis: "PhD Thesis"
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -603,21 +610,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# The web CV page now only links to the LaTeX PDF CVs (assets/pdf/);
+# assets/resume.json has been removed.
+jekyll_get_json: []
 

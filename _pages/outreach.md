@@ -4,7 +4,7 @@ permalink: /outreach/
 title: Outreach
 description: Outreach to society and science dissemination activities.
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
 {% assign sorted_outreach = site.outreach | sort: "importance" %}

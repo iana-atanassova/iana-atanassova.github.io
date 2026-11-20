@@ -1,2 +1,23 @@
 cv-iana/*
 _site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+.bundle/
+
+# LaTeX build files (CV)
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.synctex.gz
+*.out
+*.toc
+
+# Intermediate files in CV-latex (the published copies are in assets/pdf/ and _bibliography/)
+CV-latex/*.pdf
+CV-latex/iana-all-html.bib
