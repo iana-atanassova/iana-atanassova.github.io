@@ -5,7 +5,7 @@ permalink: /
 subtitle: >
   <p><a href="https://www.umlp.fr" target="_blank">Université Marie et Louis Pasteur</a><br>
   <a href='https://crit.univ-fcomte.fr' target="_blank">Centre de Recherches Interdisciplinaires et Transculturelles (CRIT)</a><br>
-  <a href="https://www.iufrance.fr/" target="_blank">Institut Universitaire de France (IUF), France</a></p>
+  Honorary member of the <a href="https://www.iufrance.fr/" target="_blank">Institut Universitaire de France (IUF)</a></p>
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Iana Atanassova, Ph.D., is a Full Professor of Natural Language Processing at Université Marie et Louis Pasteur, Besançon, and Director of the Centre de Recherches Interdisciplinaires et Transculturelles (CRIT). As a junior member of the Institut Universitaire de France (IUF), she leads interdisciplinary research at the forefront of computational linguistics and scientific discourse analysis.
+Iana Atanassova, Ph.D., is a Full Professor of Natural Language Processing at Université Marie et Louis Pasteur, Besançon, and Director of the Centre de Recherches Interdisciplinaires et Transculturelles (CRIT). A junior member of the Institut Universitaire de France (IUF) from 2021 to 2026 and now an honorary member, she leads interdisciplinary research at the forefront of computational linguistics and scientific discourse analysis.
 
 Her expertise lies in advanced Natural Language Processing (NLP) techniques applied to full-text scientific papers, including semantic annotation, ontology population, and information extraction. Dr. Atanassova’s work focuses on modeling scientific uncertainty, exploring the rhetorical structure of research articles, as well as developing innovative NLP applications for bibliometrics, competitive intelligence, and personal data processing.
 
